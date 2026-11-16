@@ -2,7 +2,7 @@
 
 Research code, technical reports, complete experiment outputs, and verification records for combining a feature-only distilled student with a limited cache of offline graph-teacher predictions.
 
-**Read the [technical report](FAITH_CACHE_STUDY.md).** It contains the architecture, Amazon products walkthrough, teacher/student comparisons, the three cache policies, actual cache use, and separate results with and without FAITH.
+**Read the [technical report](reports/Cache_Aware_GNN_Distillation_Technical_Report.md) or [PDF copy](reports/Cache_Aware_GNN_Distillation_Technical_Report.pdf).** It contains the architecture, Amazon products walkthrough, teacher/student comparisons, the three cache policies, actual cache use, and separate results with and without FAITH.
 
 This is a separate project from [ld-walklm](https://github.com/mshanthappa-hub/ld-walklm). The repository and its research-snapshot release are private backups.
 
