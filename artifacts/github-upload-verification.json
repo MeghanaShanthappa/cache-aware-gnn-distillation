@@ -1,0 +1,10 @@
+{
+  "repository": "MeghanaShanthappa/cache-aware-gnn-distillation",
+  "commit": "62c5dac79294b4991a4fbc5485f9365a2f22c600",
+  "repository_private": true,
+  "archive_assets": 26,
+  "archive_bytes": 36202567549,
+  "github_server_sha256_matches_all_archive_parts": true,
+  "remote_commit_matches": true,
+  "verified_utc": "2026-11-16T23:12:40.751444+00:00"
+}
