@@ -5,7 +5,7 @@
 Clone the repository with its pinned dependencies:
 
 ```bash
-git clone --recurse-submodules https://github.com/mshanthappa-hub/cache-aware-gnn-distillation.git
+git clone --recurse-submodules https://github.com/MeghanaShanthappa/cache-aware-gnn-distillation.git
 cd cache-aware-gnn-distillation
 ```
 
@@ -13,7 +13,7 @@ The release is private like the repository. Authenticate GitHub CLI with an acco
 
 ```bash
 gh release download research-snapshot-2026-11-16 \
-  --repo mshanthappa-hub/cache-aware-gnn-distillation \
+  --repo MeghanaShanthappa/cache-aware-gnn-distillation \
   --dir ../gnn-distillation-assets
 python3 tools/restore_artifacts.py --assets ../gnn-distillation-assets
 python3 tools/verify_archive.py --results
