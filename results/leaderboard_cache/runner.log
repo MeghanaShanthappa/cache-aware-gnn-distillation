@@ -1,0 +1,6 @@
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "log": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/ogbn-arxiv-seed-42-teacher.log"}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "distillation_cache", "log": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/ogbn-arxiv-seed-42-distillation_cache.log"}
+{"rows": 13, "checked_values": 65}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "log": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/ogbn-products-seed-42-teacher.log"}
+{"dataset": "ogbn-products", "seed": 42, "phase": "distillation_cache", "log": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/ogbn-products-seed-42-distillation_cache.log"}
+{"rows": 26, "checked_values": 130}

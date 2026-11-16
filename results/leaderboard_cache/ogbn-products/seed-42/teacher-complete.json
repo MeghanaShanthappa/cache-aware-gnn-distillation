@@ -1,0 +1,12 @@
+{
+  "accuracy": {
+    "train": 0.9501106142997742,
+    "valid": 0.9358136653900146,
+    "test": 0.864331841468811,
+    "model_valid": 0.9379005432128906,
+    "calibration": 0.9337266683578491
+  },
+  "epoch": 160,
+  "teacher_sha256": "17f10e6f1bbf40fcb40339bd9d69a72eaae4f2a96e02888c62c1fafbbe31ff0c",
+  "parameters": 1154654
+}

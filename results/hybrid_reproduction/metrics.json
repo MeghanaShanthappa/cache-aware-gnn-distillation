@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "cora",
+    "seed": 42,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8109999895095825,
+    "teacher_individual_unfairness": 127.246796875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8340000510215759,
+        "individual_unfairness": 10.65449609375,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8300000429153442,
+        "individual_unfairness": 172.529125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 36.480611790990224,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "cora",
+    "seed": 43,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8289999961853027,
+    "teacher_individual_unfairness": 299.851875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8440000414848328,
+        "individual_unfairness": 13.2351259765625,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8370000123977661,
+        "individual_unfairness": 273.23196875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 32.40979781400529,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "cora",
+    "seed": 45,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8199999928474426,
+    "teacher_individual_unfairness": 122.0401875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8180000185966492,
+        "individual_unfairness": 10.436515625,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8390000462532043,
+        "individual_unfairness": 178.84146875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 25.918544977001147,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "cora",
+    "seed": 48,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8149999976158142,
+    "teacher_individual_unfairness": 119.44234375,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8240000605583191,
+        "individual_unfairness": 10.2611943359375,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8280000686645508,
+        "individual_unfairness": 190.78040625,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 39.979444272001274,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "cora",
+    "seed": 52,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8069999814033508,
+    "teacher_individual_unfairness": 179.586296875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8340000510215759,
+        "individual_unfairness": 11.104478515625,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8170000314712524,
+        "individual_unfairness": 208.079796875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 35.87470842599578,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 42,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7170000076293945,
+    "teacher_individual_unfairness": 9.678671875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.7420000433921814,
+        "individual_unfairness": 5.4295947265625,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7440000176429749,
+        "individual_unfairness": 13.6418349609375,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 42.323458501006826,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 43,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7139999866485596,
+    "teacher_individual_unfairness": 10.084453125,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.7440000176429749,
+        "individual_unfairness": 5.6448212890625,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7310000061988831,
+        "individual_unfairness": 14.505388671875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 41.367391594001674,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 45,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7269999980926514,
+    "teacher_individual_unfairness": 0.006737497329711914,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.2580000162124634,
+        "individual_unfairness": 0.0006496443152427673,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.320000022649765,
+        "individual_unfairness": 7.406570366583764e-07,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 21.414477486992837,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 48,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.6990000009536743,
+    "teacher_individual_unfairness": 4.0829541015625,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.7280000448226929,
+        "individual_unfairness": 2.30737109375,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7020000219345093,
+        "individual_unfairness": 6.6377705078125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 37.037712146004196,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 52,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7089999914169312,
+    "teacher_individual_unfairness": 1.06675,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.718000054359436,
+        "individual_unfairness": 0.35997940063476563,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7270000576972961,
+        "individual_unfairness": 1.527597412109375,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 26.19944685799419,
+    "validation_nodes": 500,
+    "device": "cpu_dgl_cuda_dropout_and_student"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "rows": 46,
+  "teacher_accuracy": 0.7079809904098511,
+  "checkpoints_sha256": {
+    "teacher.pt": "f7a50d58f1addc5f81b8f36835a5bade2ce453fdb97774c9a164e9a7b78de2bd",
+    "FAITH.pt": "af4c19b001d88cbf369b3dec76bfc2212b96fbd11a4195942b5f81b78c49b199",
+    "continued.pt": "9f75f189727979bba1f15604d01c7c807f62caf78adf5016ec5144c81573de88",
+    "joint_0.01.pt": "ce445cc6f9027ed2d9c232d7fb34b9e2c3ac48a20993af8469bc1a82991ab291",
+    "joint_0.05.pt": "ecfa3d2377176a7e418ec7a57b76f5fc97ea6331ca0ff1d7be20678ca1e96611",
+    "joint_0.1.pt": "e58f5c12afc0e75b44f13493bb05d6385ac102c5ec1475ad0974d411e06477d3",
+    "joint_0.2.pt": "367359dcf9cdd45badcbf52240804cabcaf34b1e9ee6e1d568f2852af42cb0e1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "report": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/REPORT.md",
+  "evaluations": 26,
+  "checkpoint_verification": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/checkpoint_verification.json",
+  "quality_verification": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/independent_verification.json",
+  "figure": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/cache-accuracy.png",
+  "updated_utc": "2026-11-16T19:52:16.510743+00:00"
+}

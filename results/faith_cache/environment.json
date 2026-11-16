@@ -1,0 +1,35 @@
+{
+  "torch": "2.1.2+cu118",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "source_reproduction": "/var/tmp/work-mshanthappa/faith-cache-research/results/cuda_reproduction",
+  "source_reproduction_verified": {
+    "completed_dataset_seed_runs": 15,
+    "seed_schedule": [
+      42,
+      43,
+      45,
+      48,
+      52
+    ],
+    "source_files_unchanged": true,
+    "full_validation_masks": true,
+    "published_faith_configurations": true,
+    "coefficient_checks": true,
+    "launcher_hash": true,
+    "loss_gradient_optimizer_equivalence": true,
+    "comparability": "released full FAITH models and loops on CUDA with a forward/gradient-verified message-sum adapter",
+    "published_glnn_row_reproduced": false,
+    "cuda_loss_gradient_optimizer_equivalence": true,
+    "cpu_rng_preserved_through_teacher_training": true,
+    "message_sum_forward_and_gradient_equivalence": true
+  },
+  "launcher_sha256": "e5b46642fde2f3e4874546e73967da7f55af16a43e4f55da7f778d24b39bba30",
+  "steps_per_phase": 50,
+  "phases": 3,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ]
+}

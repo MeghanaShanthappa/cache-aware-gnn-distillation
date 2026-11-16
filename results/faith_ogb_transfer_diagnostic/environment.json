@@ -1,0 +1,20 @@
+{
+  "torch": "2.1.2+cu118",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "implementation_sha256": "dd9af6e281970728bdb3581c628127aa4247a53a056ffa4d2216ec9bd875431a",
+  "seeds": [
+    42,
+    43,
+    45,
+    48,
+    52
+  ],
+  "datasets": [
+    "ogbn-arxiv",
+    "ogbn-products"
+  ],
+  "max_epochs": 500,
+  "steps_per_phase": 50,
+  "phases": 3,
+  "study": "FAITH-based scalable adaptation; not published OGB reproduction"
+}

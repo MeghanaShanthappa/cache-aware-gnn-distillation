@@ -1,0 +1,25 @@
+{
+  "source": "https://ogb.stanford.edu/docs/leader_nodeprop/",
+  "checked_date": "2026-11-16",
+  "selection_scope": "One model from the top ten per dataset",
+  "reason": "Author implementations and public precomputed GIANT embeddings; full model sizes fit the available A100; avoids rerunning language-model pretraining",
+  "selected": {
+    "ogbn-arxiv": {
+      "rank": 7,
+      "method": "GIANT-XRT+AGDN+BoT+self-KD",
+      "published_test_accuracy": 0.7637,
+      "published_test_std": 0.0011,
+      "external_data": true,
+      "code": "https://github.com/skepsun/Adaptive-Graph-Diffusion-Networks"
+    },
+    "ogbn-products": {
+      "rank": 7,
+      "method": "GIANT-XRT+SAGN+SCR",
+      "published_test_accuracy": 0.8667,
+      "published_test_std": 0.0009,
+      "external_data": true,
+      "code": "https://github.com/THUDM/SCR"
+    }
+  },
+  "official_embeddings": "https://github.com/amzn/pecos/tree/mainline/examples/giant-xrt"
+}

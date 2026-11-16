@@ -1,0 +1,25 @@
+{
+  "optimizer_step_equivalence": true,
+  "gradient_equivalence": true,
+  "diagnostic_fairness_equivalence": true,
+  "released_dgl_forward_equivalence": true,
+  "released_dgl_parameter_gradient_equivalence": true,
+  "input_gradient_equivalence": true,
+  "directed_edges": true,
+  "duplicate_edges": true,
+  "isolated_nodes": true,
+  "cases": [
+    {
+      "inputs": 3,
+      "hidden": 8,
+      "outputs": 2,
+      "layers": 2
+    },
+    {
+      "inputs": 8,
+      "hidden": 3,
+      "outputs": 2,
+      "layers": 3
+    }
+  ]
+}

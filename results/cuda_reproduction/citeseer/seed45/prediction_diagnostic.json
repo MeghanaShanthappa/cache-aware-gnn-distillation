@@ -1,0 +1,72 @@
+{
+  "FAITH": {
+    "train": {
+      "predicted_class_counts": [
+        0,
+        0,
+        100,
+        20,
+        0,
+        0
+      ],
+      "mean_logit_std": 0.0020757520105689764
+    },
+    "validation": {
+      "predicted_class_counts": [
+        0,
+        0,
+        390,
+        110,
+        0,
+        0
+      ],
+      "mean_logit_std": 0.0020221529994159937
+    },
+    "test": {
+      "predicted_class_counts": [
+        0,
+        0,
+        802,
+        198,
+        0,
+        0
+      ],
+      "mean_logit_std": 0.0018046246841549873
+    }
+  },
+  "KL_ablation": {
+    "train": {
+      "predicted_class_counts": [
+        0,
+        0,
+        58,
+        62,
+        0,
+        0
+      ],
+      "mean_logit_std": 3.6378016375238076e-05
+    },
+    "validation": {
+      "predicted_class_counts": [
+        0,
+        0,
+        255,
+        245,
+        0,
+        0
+      ],
+      "mean_logit_std": 3.5245615435997024e-05
+    },
+    "test": {
+      "predicted_class_counts": [
+        0,
+        0,
+        481,
+        519,
+        0,
+        0
+      ],
+      "mean_logit_std": 3.510895840008743e-05
+    }
+  }
+}

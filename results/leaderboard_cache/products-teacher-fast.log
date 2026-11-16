@@ -1,0 +1,62 @@
+{"dataset": "ogbn-products", "seed": 42, "epoch": 1, "validation_accuracy": 0.12984436750411987, "best_validation_accuracy": 0.12984436750411987, "seconds": 0.5135792689980008}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 10, "validation_accuracy": 0.889889121055603, "best_validation_accuracy": 0.889889121055603, "seconds": 3.2395457749953493}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 20, "validation_accuracy": 0.9169464111328125, "best_validation_accuracy": 0.9169464111328125, "seconds": 6.2078184190322645}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 30, "validation_accuracy": 0.921879768371582, "best_validation_accuracy": 0.921879768371582, "seconds": 9.153205921989866}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 40, "validation_accuracy": 0.9260502457618713, "best_validation_accuracy": 0.9260502457618713, "seconds": 12.116067690018099}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 50, "validation_accuracy": 0.92732173204422, "best_validation_accuracy": 0.92732173204422, "seconds": 15.041243308980484}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 60, "validation_accuracy": 0.928644061088562, "best_validation_accuracy": 0.928644061088562, "seconds": 17.971846714033745}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 70, "validation_accuracy": 0.9305258989334106, "best_validation_accuracy": 0.9305258989334106, "seconds": 20.944734678021632}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 80, "validation_accuracy": 0.9309327602386475, "best_validation_accuracy": 0.9309327602386475, "seconds": 23.908399740990717}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 90, "validation_accuracy": 0.9328145384788513, "best_validation_accuracy": 0.9328145384788513, "seconds": 26.828718040022068}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 100, "validation_accuracy": 0.9334248900413513, "best_validation_accuracy": 0.9334248900413513, "seconds": 29.78730639599962}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 101, "confident_nodes": 1660499}
+/var/tmp/work-mshanthappa/faith-cache-research/leaderboard-upstream/SCR/ogbn-products/utils.py:357: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1519.)
+  mean_param.data.mul_(alpha).add_(1 - alpha, param.data)
+{"dataset": "ogbn-products", "seed": 42, "epoch": 110, "validation_accuracy": 0.9359170198440552, "best_validation_accuracy": 0.9359170198440552, "seconds": 74.3510263999924}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 120, "validation_accuracy": 0.9374427795410156, "best_validation_accuracy": 0.9374427795410156, "seconds": 115.84450274001574}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 121, "confident_nodes": 1922753}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 130, "validation_accuracy": 0.9369850754737854, "best_validation_accuracy": 0.9374427795410156, "seconds": 167.51475849101553}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 140, "validation_accuracy": 0.9377479553222656, "best_validation_accuracy": 0.9377479553222656, "seconds": 216.47030632500537}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 141, "confident_nodes": 2024522}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 150, "validation_accuracy": 0.937798798084259, "best_validation_accuracy": 0.937798798084259, "seconds": 270.474055321014}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 160, "validation_accuracy": 0.9379005432128906, "best_validation_accuracy": 0.9379005432128906, "seconds": 321.8444258979871}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 161, "confident_nodes": 2062859}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 170, "validation_accuracy": 0.9379005432128906, "best_validation_accuracy": 0.9379005432128906, "seconds": 376.7823053270113}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 180, "validation_accuracy": 0.937341034412384, "best_validation_accuracy": 0.9379005432128906, "seconds": 427.5875999110285}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 181, "confident_nodes": 2095303}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 190, "validation_accuracy": 0.9369850754737854, "best_validation_accuracy": 0.9379005432128906, "seconds": 483.0826124360319}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 200, "validation_accuracy": 0.9370867609977722, "best_validation_accuracy": 0.9379005432128906, "seconds": 535.9404715340352}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 201, "confident_nodes": 2109143}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 210, "validation_accuracy": 0.9361204504966736, "best_validation_accuracy": 0.9379005432128906, "seconds": 591.9626996860025}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 220, "validation_accuracy": 0.9362730383872986, "best_validation_accuracy": 0.9379005432128906, "seconds": 645.0175497989985}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 221, "confident_nodes": 2120387}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 230, "validation_accuracy": 0.9357644319534302, "best_validation_accuracy": 0.9379005432128906, "seconds": 700.8775243249838}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 240, "validation_accuracy": 0.936171293258667, "best_validation_accuracy": 0.9379005432128906, "seconds": 753.9335205340176}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 241, "confident_nodes": 2131288}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 250, "validation_accuracy": 0.9357644319534302, "best_validation_accuracy": 0.9379005432128906, "seconds": 809.9427001849981}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 260, "validation_accuracy": 0.9358152747154236, "best_validation_accuracy": 0.9379005432128906, "seconds": 863.0000257309875}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 261, "confident_nodes": 2144061}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 270, "validation_accuracy": 0.9351032376289368, "best_validation_accuracy": 0.9379005432128906, "seconds": 919.2393192970194}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 280, "validation_accuracy": 0.9351032376289368, "best_validation_accuracy": 0.9379005432128906, "seconds": 972.6626265679952}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 281, "confident_nodes": 2146577}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 290, "validation_accuracy": 0.9354592561721802, "best_validation_accuracy": 0.9379005432128906, "seconds": 1028.678526173986}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 300, "validation_accuracy": 0.9357644319534302, "best_validation_accuracy": 0.9379005432128906, "seconds": 1082.3625305509777}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 301, "confident_nodes": 2153692}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 310, "validation_accuracy": 0.9348998069763184, "best_validation_accuracy": 0.9379005432128906, "seconds": 1138.829226611997}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 320, "validation_accuracy": 0.9350523948669434, "best_validation_accuracy": 0.9379005432128906, "seconds": 1192.6617491479847}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 321, "confident_nodes": 2161866}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 330, "validation_accuracy": 0.9348998069763184, "best_validation_accuracy": 0.9379005432128906, "seconds": 1249.6049263449968}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 340, "validation_accuracy": 0.935713529586792, "best_validation_accuracy": 0.9379005432128906, "seconds": 1303.9717981800204}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 341, "confident_nodes": 2157658}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 350, "validation_accuracy": 0.9349506497383118, "best_validation_accuracy": 0.9379005432128906, "seconds": 1361.0925829040352}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 360, "validation_accuracy": 0.9358152747154236, "best_validation_accuracy": 0.9379005432128906, "seconds": 1415.637300433009}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 361, "confident_nodes": 2157493}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 370, "validation_accuracy": 0.9350523948669434, "best_validation_accuracy": 0.9379005432128906, "seconds": 1472.6067094029859}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 380, "validation_accuracy": 0.93439120054245, "best_validation_accuracy": 0.9379005432128906, "seconds": 1526.7366344560287}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 381, "confident_nodes": 2159394}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 390, "validation_accuracy": 0.934238612651825, "best_validation_accuracy": 0.9379005432128906, "seconds": 1583.849864710006}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 400, "validation_accuracy": 0.9356626868247986, "best_validation_accuracy": 0.9379005432128906, "seconds": 1638.1066222600057}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher_complete", "train": 0.9501106142997742, "valid": 0.9358136653900146, "test": 0.864331841468811, "model_valid": 0.9379005432128906, "calibration": 0.9337266683578491}

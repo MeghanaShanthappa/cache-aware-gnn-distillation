@@ -1,0 +1,63 @@
+{
+  "dataset": "ogbn-products",
+  "seed": 52,
+  "config": {
+    "dataset": "ogbn-products",
+    "teacher": "SAGE",
+    "student": "MLP",
+    "exp_setting": "tran",
+    "split_rate": 0.1,
+    "num_layers": 3,
+    "hidden_dim": 256,
+    "dropout_t": 0.5,
+    "dropout_s": 0.1,
+    "lamb": 0.2,
+    "tau": 1.0,
+    "init_power": 1.0,
+    "momentum": 0.9,
+    "bins_num": 50,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0,
+    "max_epoch": 500,
+    "seed": 52,
+    "save_mode": 1,
+    "data_mode": 7,
+    "ablation_mode": 0,
+    "norm_type": "batch",
+    "feat_dim": 100,
+    "label_dim": 47,
+    "beta": 0.02,
+    "gamma": 6.914699662600975e-13,
+    "validation_every": 5,
+    "patience": 50,
+    "min_epochs": 50,
+    "gamma_reference": 6.914699662600974e-10,
+    "gamma_selection_sha256": "c48f4bcc68e208b32c06449eef26012fa1fd10a4f96b07942e619162903d34c7"
+  },
+  "steps_per_phase": 50,
+  "phases": 3,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "cached_weight": 0.1,
+  "implementation_sha256": "9477f49f332e58c28b1ab5018fac2dd93bc51df69c080d85eb8bf629b9ea56e2",
+  "cache_implementation_sha256": "e5b46642fde2f3e4874546e73967da7f55af16a43e4f55da7f778d24b39bba30",
+  "upstream_models_sha256": "d8bb8590f868428c28a1b0a57c9b1616638d9ce95a94f9196232847f3638a944",
+  "source_energy_sha256": "fbcdf6dd4d0712e7a4cf414e09fcad056f11569ae1464cbb4b90cbab141657e8",
+  "selected_coefficient_sha256": "c48f4bcc68e208b32c06449eef26012fa1fd10a4f96b07942e619162903d34c7",
+  "reused_teacher_sha256": null,
+  "data_sha256": {
+    "features.npy": "749da176b3d53fdb7fe5664028628e6fd49070df4e247e1b5e9125a2aed1d366",
+    "labels.npy": "557ebf326f8435462120d1105653036f677b00a66cfd229fea6884323cd898d9",
+    "adjacency.npz": "08e3772a8ca8c4b4e6de5628af5167333e7639912506b489e1caee1971d94a35",
+    "splits.npz": "b1a0a7b8e3d489583706970ef67e433a26c0f4bbfb2f472d20024d2f27bf34f2"
+  },
+  "split_sha256": "522b98968723c0a5abd79f20ded2c533ef74a9bb853950d2f08a532d10bdc40d",
+  "similarity_sha256": {
+    "similarity_train_pairs.npz": "878bb85a7955d032631cfd443f1715c80405abcba17bdba42ee2da7747ae9f08",
+    "similarity_eval_pairs.npz": "2b309abab5bf05cec94df8ae1283c9381b2be9723b350e98637c2f31ab6c77a9"
+  }
+}

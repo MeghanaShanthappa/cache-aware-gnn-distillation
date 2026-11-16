@@ -1,0 +1,59 @@
+{
+  "dataset": "ogbn-arxiv",
+  "seed": 43,
+  "config": {
+    "dataset": "ogbn-arxiv",
+    "teacher": "SAGE",
+    "student": "MLP",
+    "exp_setting": "tran",
+    "split_rate": 0.1,
+    "num_layers": 3,
+    "hidden_dim": 256,
+    "dropout_t": 0.5,
+    "dropout_s": 0.1,
+    "lamb": 0.2,
+    "tau": 1.0,
+    "init_power": 1.0,
+    "momentum": 0.9,
+    "bins_num": 50,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0,
+    "max_epoch": 500,
+    "seed": 43,
+    "save_mode": 1,
+    "data_mode": 7,
+    "ablation_mode": 0,
+    "norm_type": "batch",
+    "feat_dim": 128,
+    "label_dim": 40,
+    "beta": 0.02,
+    "gamma": 1e-08,
+    "validation_every": 5,
+    "patience": 50,
+    "min_epochs": 50
+  },
+  "steps_per_phase": 50,
+  "phases": 3,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "cached_weight": 0.1,
+  "implementation_sha256": "dd9af6e281970728bdb3581c628127aa4247a53a056ffa4d2216ec9bd875431a",
+  "cache_implementation_sha256": "e5b46642fde2f3e4874546e73967da7f55af16a43e4f55da7f778d24b39bba30",
+  "upstream_models_sha256": "d8bb8590f868428c28a1b0a57c9b1616638d9ce95a94f9196232847f3638a944",
+  "source_energy_sha256": "fbcdf6dd4d0712e7a4cf414e09fcad056f11569ae1464cbb4b90cbab141657e8",
+  "data_sha256": {
+    "features.npy": "c0b9038809f426680cbddf03e62c1bb3bb4018b1d70454ac167eb9b72e2b856d",
+    "labels.npy": "c8dd0692e9d38bb138be13691546d3953422d93c763ff7a46c3ee7895e40fbb6",
+    "adjacency.npz": "58f6d6ff1d40e4061201004304f55cda280672984cbb99a9cc115a24e646c823",
+    "splits.npz": "3e9337a3e441f6ff6ad1be3e3ca3a101a7fa5465a59f903751787cf956ea15b3"
+  },
+  "split_sha256": "ffed9cc0b674dc017979a0a5bc9d29f0d40a092a61f37a5677c42f285b918503",
+  "similarity_sha256": {
+    "similarity_train_pairs.npz": "35a4be7aecb4c0baeb9b09f750544f8089b193367c9fef192e8a4c0ef2982cbd",
+    "similarity_eval_pairs.npz": "d98e4520a6c78cab532e582831bf9d5f3ee7bb713d7701daa11fa174772c905b"
+  }
+}

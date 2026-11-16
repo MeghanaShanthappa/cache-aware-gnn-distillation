@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "cora",
+    "seed": 42,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8110000491142273,
+    "teacher_individual_unfairness": 127.246703125,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.831000030040741,
+        "individual_unfairness": 10.251724609375,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8050000667572021,
+        "individual_unfairness": 211.656921875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 11.482822247999138,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "cora",
+    "seed": 43,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8290000557899475,
+    "teacher_individual_unfairness": 299.8520625,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.843000054359436,
+        "individual_unfairness": 12.686162109375,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8350000381469727,
+        "individual_unfairness": 251.60575,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 19.80547535000369,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "cora",
+    "seed": 45,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8200000524520874,
+    "teacher_individual_unfairness": 122.04253125,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8220000267028809,
+        "individual_unfairness": 10.9396748046875,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8370000123977661,
+        "individual_unfairness": 204.100125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 17.52540077798767,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "cora",
+    "seed": 48,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.815000057220459,
+    "teacher_individual_unfairness": 119.442265625,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8280000686645508,
+        "individual_unfairness": 10.0526494140625,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8170000314712524,
+        "individual_unfairness": 246.17765625,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 10.942048209995846,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "cora",
+    "seed": 52,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.8070000410079956,
+    "teacher_individual_unfairness": 179.587078125,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.831000030040741,
+        "individual_unfairness": 11.167037109375,
+        "beta": 0.02,
+        "gamma": 2e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.8160000443458557,
+        "individual_unfairness": 210.355953125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 15.177775293006562,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 42,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7170000076293945,
+    "teacher_individual_unfairness": 9.6786240234375,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.7440000176429749,
+        "individual_unfairness": 5.4336650390625,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7430000305175781,
+        "individual_unfairness": 13.642060546875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 9.320457071007695,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 43,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7140000462532043,
+    "teacher_individual_unfairness": 10.0844521484375,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.7320000529289246,
+        "individual_unfairness": 5.29914404296875,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7310000061988831,
+        "individual_unfairness": 14.503546875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 8.664350934996037,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 45,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7270000576972961,
+    "teacher_individual_unfairness": 0.006737496376037598,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.2580000162124634,
+        "individual_unfairness": 0.0006496211886405944,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.31300002336502075,
+        "individual_unfairness": 4.785913915839046e-08,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 6.978079495005659,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 48,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.6990000605583191,
+    "teacher_individual_unfairness": 4.0829541015625,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.734000027179718,
+        "individual_unfairness": 2.42380419921875,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7020000219345093,
+        "individual_unfairness": 6.63291845703125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 11.266517290001502,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 52,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7090000510215759,
+    "teacher_individual_unfairness": 1.0667498779296876,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.7140000462532043,
+        "individual_unfairness": 0.3631495361328125,
+        "beta": 0.02,
+        "gamma": 1e-05
+      },
+      "KL_ablation": {
+        "accuracy": 0.7260000109672546,
+        "individual_unfairness": 1.52767236328125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 7.991292703009094,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 42,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7640000581741333,
+    "teacher_individual_unfairness": 1248.98575,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8280000686645508,
+        "individual_unfairness": 48.0129609375,
+        "beta": 0.02,
+        "gamma": 2e-06
+      },
+      "KL_ablation": {
+        "accuracy": 0.8030000329017639,
+        "individual_unfairness": 503.036,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 112.75153765799769,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 43,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7620000243186951,
+    "teacher_individual_unfairness": 1255.418125,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8160000443458557,
+        "individual_unfairness": 50.3080078125,
+        "beta": 0.02,
+        "gamma": 2e-06
+      },
+      "KL_ablation": {
+        "accuracy": 0.8060000538825989,
+        "individual_unfairness": 418.74946875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 73.01020890299696,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 45,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7710000276565552,
+    "teacher_individual_unfairness": 1523.13975,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8140000104904175,
+        "individual_unfairness": 51.1565546875,
+        "beta": 0.02,
+        "gamma": 2e-06
+      },
+      "KL_ablation": {
+        "accuracy": 0.8030000329017639,
+        "individual_unfairness": 407.28596875,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 64.48952146701049,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 48,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7740000486373901,
+    "teacher_individual_unfairness": 1239.1875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8160000443458557,
+        "individual_unfairness": 46.904984375,
+        "beta": 0.02,
+        "gamma": 2e-06
+      },
+      "KL_ablation": {
+        "accuracy": 0.8030000329017639,
+        "individual_unfairness": 428.72384375,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 66.23547297700134,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 52,
+    "requested_epochs": null,
+    "teacher_accuracy": 0.7760000228881836,
+    "teacher_individual_unfairness": 1371.414875,
+    "methods": {
+      "FAITH": {
+        "accuracy": 0.8140000104904175,
+        "individual_unfairness": 46.050109375,
+        "beta": 0.02,
+        "gamma": 2e-06
+      },
+      "KL_ablation": {
+        "accuracy": 0.8040000200271606,
+        "individual_unfairness": 381.9913125,
+        "beta": 0.0,
+        "gamma": 0.0
+      }
+    },
+    "seconds": 50.79346799499763,
+    "validation_nodes": 500,
+    "device": "cuda_with_torch_sparse_message_sum"
+  }
+]

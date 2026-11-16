@@ -1,0 +1,11 @@
+[
+  {
+    "stage": "self_kd",
+    "epoch": 1,
+    "loss": 0.3075803518295288,
+    "validation_accuracy": 0.3201342281879195,
+    "validation_loss": 2.5894179344177246,
+    "best_validation_loss": 2.5894179344177246,
+    "seconds": 0.7806539579760283
+  }
+]

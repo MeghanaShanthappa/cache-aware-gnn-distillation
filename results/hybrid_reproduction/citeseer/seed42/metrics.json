@@ -1,0 +1,24 @@
+{
+  "dataset": "citeseer",
+  "seed": 42,
+  "requested_epochs": null,
+  "teacher_accuracy": 0.7170000076293945,
+  "teacher_individual_unfairness": 9.678671875,
+  "methods": {
+    "FAITH": {
+      "accuracy": 0.7420000433921814,
+      "individual_unfairness": 5.4295947265625,
+      "beta": 0.02,
+      "gamma": 1e-05
+    },
+    "KL_ablation": {
+      "accuracy": 0.7440000176429749,
+      "individual_unfairness": 13.6418349609375,
+      "beta": 0.0,
+      "gamma": 0.0
+    }
+  },
+  "seconds": 42.323458501006826,
+  "validation_nodes": 500,
+  "device": "cpu_dgl_cuda_dropout_and_student"
+}

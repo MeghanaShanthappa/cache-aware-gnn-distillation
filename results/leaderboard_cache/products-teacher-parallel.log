@@ -1,0 +1,29 @@
+{"dataset": "ogbn-products", "seed": 42, "epoch": 1, "validation_accuracy": 0.12984436750411987, "best_validation_accuracy": 0.12984436750411987, "seconds": 1.1698643999989145}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 10, "validation_accuracy": 0.889889121055603, "best_validation_accuracy": 0.889889121055603, "seconds": 9.363505483022891}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 20, "validation_accuracy": 0.9169464111328125, "best_validation_accuracy": 0.9169464111328125, "seconds": 18.368850596016273}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 30, "validation_accuracy": 0.921879768371582, "best_validation_accuracy": 0.921879768371582, "seconds": 27.453004454029724}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 40, "validation_accuracy": 0.9260502457618713, "best_validation_accuracy": 0.9260502457618713, "seconds": 36.634868195978925}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 50, "validation_accuracy": 0.92732173204422, "best_validation_accuracy": 0.92732173204422, "seconds": 45.74575066001853}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 60, "validation_accuracy": 0.928644061088562, "best_validation_accuracy": 0.928644061088562, "seconds": 54.89874454803066}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 70, "validation_accuracy": 0.9305258989334106, "best_validation_accuracy": 0.9305258989334106, "seconds": 64.06213843898149}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 80, "validation_accuracy": 0.9309327602386475, "best_validation_accuracy": 0.9309327602386475, "seconds": 73.22397639398696}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 90, "validation_accuracy": 0.9328145384788513, "best_validation_accuracy": 0.9328145384788513, "seconds": 82.36166642099852}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 100, "validation_accuracy": 0.9334248900413513, "best_validation_accuracy": 0.9334248900413513, "seconds": 91.5039789340226}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 101, "confident_nodes": 1660499}
+/var/tmp/work-mshanthappa/faith-cache-research/leaderboard-upstream/SCR/ogbn-products/utils.py:357: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1519.)
+  mean_param.data.mul_(alpha).add_(1 - alpha, param.data)
+{"dataset": "ogbn-products", "seed": 42, "epoch": 110, "validation_accuracy": 0.9359170198440552, "best_validation_accuracy": 0.9359170198440552, "seconds": 205.78752232401166}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 120, "validation_accuracy": 0.9374427795410156, "best_validation_accuracy": 0.9374427795410156, "seconds": 309.98136384098325}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 121, "confident_nodes": 1922753}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 130, "validation_accuracy": 0.9369850754737854, "best_validation_accuracy": 0.9374427795410156, "seconds": 441.49724503600737}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 140, "validation_accuracy": 0.9377479553222656, "best_validation_accuracy": 0.9377479553222656, "seconds": 561.5842047510087}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 141, "confident_nodes": 2024522}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 150, "validation_accuracy": 0.937798798084259, "best_validation_accuracy": 0.937798798084259, "seconds": 697.904112691991}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 160, "validation_accuracy": 0.9379005432128906, "best_validation_accuracy": 0.9379005432128906, "seconds": 823.4098113150103}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 161, "confident_nodes": 2062859}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 170, "validation_accuracy": 0.9379005432128906, "best_validation_accuracy": 0.9379005432128906, "seconds": 962.2943403429817}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 180, "validation_accuracy": 0.937341034412384, "best_validation_accuracy": 0.9379005432128906, "seconds": 1089.511543464032}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 181, "confident_nodes": 2095303}

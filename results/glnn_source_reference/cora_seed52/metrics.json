@@ -1,0 +1,15 @@
+{
+  "dataset": "cora",
+  "seed": 52,
+  "accuracy": 0.38600000739097595,
+  "validation_accuracy": 0.4000000059604645,
+  "epochs": 143,
+  "seconds": 5.695480189999216,
+  "source": "original GLNN student routine and released student YAML",
+  "teacher_source": "FAITH released reproduction checkpoint",
+  "data_protocol": "FAITH public DGL citation split",
+  "soft_training_nodes": 1640,
+  "original_glnn_paper_protocol": false,
+  "faithful_to_unreleased_faith_glnn_rerun_config": "unknown",
+  "teacher_checkpoint_sha256": "4a9dc890b7d0886e45372dab4567c2ca1436931e2371d66efdc0c1a9fbd7cafd"
+}

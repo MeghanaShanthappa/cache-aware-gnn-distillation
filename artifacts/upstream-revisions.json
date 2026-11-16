@@ -1,0 +1,22 @@
+[
+  {
+    "path": "upstream",
+    "url": "https://github.com/shashivipul/FAITH.git",
+    "commit": "94be4423aee12cdf4d4d098d369fe472aeedcbe7"
+  },
+  {
+    "path": "glnn-upstream",
+    "url": "https://github.com/snap-research/graphless-neural-networks.git",
+    "commit": "80d0f8ea66ad49b27336f9c02691ca16a6dc1dd2"
+  },
+  {
+    "path": "leaderboard-upstream/AGDN",
+    "url": "https://github.com/skepsun/Adaptive-Graph-Diffusion-Networks.git",
+    "commit": "996e8201d1d1729ab6ea871dea486a0a2b6d0786"
+  },
+  {
+    "path": "leaderboard-upstream/SCR",
+    "url": "https://github.com/THUDM/SCR.git",
+    "commit": "13258a8d272bb02eb99193b4e8b1fea56a850b19"
+  }
+]

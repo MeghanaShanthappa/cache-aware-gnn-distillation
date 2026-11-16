@@ -1,0 +1,7 @@
+{
+  "experiment.py": "0c03644f321931a8efa77783f485310b5693213e41e07eac9dbc9dbd20a83d0c",
+  "test_equivalence.py": "91a6c5b2b3585cf468cdc9574cab28958486d946455d3fdd7d4c5ce776256103",
+  "upstream/src_trans/train_and_eval.py": "f7f2a347f60956213e3215091ebf2d38b54fcdb2d35993d671bf7c860031a491",
+  "upstream/src_trans/utils_guide.py": "fbcdf6dd4d0712e7a4cf414e09fcad056f11569ae1464cbb4b90cbab141657e8",
+  "upstream/param/best_parameters.json": "90cfb4d60c9a08167112ab3d0ff255f1fc8762d7993a3bc1fcf2ae91152a2666"
+}

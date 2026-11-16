@@ -1,0 +1,10 @@
+{
+  "dataset": "citeseer",
+  "seed": 45,
+  "full_graph_forward_close": true,
+  "full_graph_parameter_gradients_close": true,
+  "forward_max_abs_error": 5.960464477539063e-08,
+  "forward_relative_l2_error": 1.7431314347504667e-07,
+  "maximum_parameter_gradient_abs_error": 5.122274160385132e-09,
+  "argmax_agreement": 1.0
+}

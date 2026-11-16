@@ -1,0 +1,23 @@
+{
+  "dataset": "cora",
+  "seed": 45,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "phases": 3,
+  "steps_per_phase": 50,
+  "cached_weight": 0.1,
+  "source_checkpoint_sha256": "478f2600a80073eb5732a9a6c0dc1e5f7d9c68371a104bf6d37d7df330d0273a",
+  "teacher_checkpoint_sha256": "92b09dde8d69639ed811c56e0e01b630b5370f131021328620bafce98d9ee42b",
+  "source_config_sha256": "ffd0b29bf2d7218e5853da1152a2cb5777f6099258e914d6972aae212ad8d99b",
+  "implementation_sha256": "e5b46642fde2f3e4874546e73967da7f55af16a43e4f55da7f778d24b39bba30",
+  "model_source_sha256": "d8bb8590f868428c28a1b0a57c9b1616638d9ce95a94f9196232847f3638a944",
+  "energy_source_sha256": "fbcdf6dd4d0712e7a4cf414e09fcad056f11569ae1464cbb4b90cbab141657e8",
+  "history_requests": 100000,
+  "zipf_exponent": 0.8,
+  "calibration": "all 500 validation labels, reused after checkpoint selection",
+  "version": 1
+}

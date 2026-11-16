@@ -1,0 +1,12 @@
+{
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "native_dgl_forward_and_parameter_and_input_gradient": true,
+  "csr_cuda_energy_source_value_and_gradient": true,
+  "cpu_unit_tests": 10,
+  "smoke_datasets": [
+    "ogbn-arxiv",
+    "ogbn-products"
+  ],
+  "smoke_rows": 92,
+  "exact_fairness_sparse_factorization_dense_equivalence": true
+}

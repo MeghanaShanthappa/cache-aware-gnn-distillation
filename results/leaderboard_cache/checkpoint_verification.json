@@ -1,0 +1,30 @@
+[
+  {
+    "dataset": "ogbn-arxiv",
+    "seed": 42,
+    "restored_student_weights_match_all_saved_predictions": true,
+    "teacher_checkpoint_logits_match_all_saved_predictions": true,
+    "teacher_and_student_checkpoint_hashes_match": true,
+    "upstream_sources_unchanged": true,
+    "feature_hash_matches": true,
+    "executed_source_files_or_archives_verified": {
+      "leaderboard_teacher.py": "/var/tmp/work-mshanthappa/faith-cache-research/results/leaderboard_cache/source_snapshots/5adc01145f3d0465062e6428a4f8efcf955ee2d556d725bafcf115547f940311-leaderboard_teacher.py",
+      "leaderboard_common.py": "/var/tmp/work-mshanthappa/faith-cache-research/leaderboard_common.py",
+      "leaderboard_distill.py": "/var/tmp/work-mshanthappa/faith-cache-research/leaderboard_distill.py"
+    }
+  },
+  {
+    "dataset": "ogbn-products",
+    "seed": 42,
+    "restored_student_weights_match_all_saved_predictions": true,
+    "teacher_checkpoint_logits_match_all_saved_predictions": true,
+    "teacher_and_student_checkpoint_hashes_match": true,
+    "upstream_sources_unchanged": true,
+    "feature_hash_matches": true,
+    "executed_source_files_or_archives_verified": {
+      "leaderboard_teacher.py": "/var/tmp/work-mshanthappa/faith-cache-research/leaderboard_teacher.py",
+      "leaderboard_common.py": "/var/tmp/work-mshanthappa/faith-cache-research/leaderboard_common.py",
+      "leaderboard_distill.py": "/var/tmp/work-mshanthappa/faith-cache-research/leaderboard_distill.py"
+    }
+  }
+]

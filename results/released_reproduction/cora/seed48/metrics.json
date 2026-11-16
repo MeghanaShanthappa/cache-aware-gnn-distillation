@@ -1,0 +1,24 @@
+{
+  "dataset": "cora",
+  "seed": 48,
+  "requested_epochs": null,
+  "teacher_accuracy": 0.8040000200271606,
+  "teacher_individual_unfairness": 95.0450859375,
+  "methods": {
+    "FAITH": {
+      "accuracy": 0.8450000286102295,
+      "individual_unfairness": 10.026056640625,
+      "beta": 0.02,
+      "gamma": 2e-05
+    },
+    "KL_ablation": {
+      "accuracy": 0.8330000042915344,
+      "individual_unfairness": 130.225125,
+      "beta": 0.0,
+      "gamma": 0.0
+    }
+  },
+  "seconds": 93.86486326801241,
+  "validation_nodes": 500,
+  "device": "cpu"
+}

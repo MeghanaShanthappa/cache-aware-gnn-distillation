@@ -1,0 +1,15 @@
+{
+  "rows": 690,
+  "runs": 15,
+  "unique_conditions": true,
+  "source_hashes_unchanged": true,
+  "original_baseline_metrics_match": true,
+  "cache_capacity_and_bytes": true,
+  "finite_metrics": true,
+  "query_routing_agreement": true,
+  "matched_updates": 150,
+  "full_validation_masks_disjoint_from_test": true,
+  "calibration": "validation labels reused after checkpoint selection; exploratory",
+  "failed_citeseer_seed45_retained": true,
+  "implementation_sha256": "e5b46642fde2f3e4874546e73967da7f55af16a43e4f55da7f778d24b39bba30"
+}

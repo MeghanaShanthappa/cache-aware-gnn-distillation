@@ -1,0 +1,18 @@
+{
+  "criterion": "model-validation accuracy only",
+  "seed": 42,
+  "updates_per_candidate": 150,
+  "positive_reference_gamma_multipliers": [
+    1.0,
+    0.1,
+    0.01,
+    0.001
+  ],
+  "tie_break": "larger positive gamma",
+  "beta": 0.02,
+  "calibration_labels_used": false,
+  "test_labels_used": false,
+  "preceding_trial": "Failed direct transfer; arxiv test results had been observed; follow-up is exploratory",
+  "implementation_sha256": "61ca45114c3fdad40dddba9620c607f04bd0575d97393204257375c607de5d6b",
+  "training_implementation_sha256": "9477f49f332e58c28b1ab5018fac2dd93bc51df69c080d85eb8bf629b9ea56e2"
+}

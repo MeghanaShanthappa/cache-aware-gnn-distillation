@@ -1,0 +1,272 @@
+[
+  {
+    "dataset": "cora",
+    "seed": 42,
+    "stage": "teacher",
+    "epochs": 83
+  },
+  {
+    "dataset": "cora",
+    "seed": 42,
+    "stage": "FAITH",
+    "epochs": 165
+  },
+  {
+    "dataset": "cora",
+    "seed": 42,
+    "stage": "KL_ablation",
+    "epochs": 95
+  },
+  {
+    "dataset": "cora",
+    "seed": 43,
+    "stage": "teacher",
+    "epochs": 67
+  },
+  {
+    "dataset": "cora",
+    "seed": 43,
+    "stage": "FAITH",
+    "epochs": 165
+  },
+  {
+    "dataset": "cora",
+    "seed": 43,
+    "stage": "KL_ablation",
+    "epochs": 215
+  },
+  {
+    "dataset": "cora",
+    "seed": 45,
+    "stage": "teacher",
+    "epochs": 60
+  },
+  {
+    "dataset": "cora",
+    "seed": 45,
+    "stage": "FAITH",
+    "epochs": 242
+  },
+  {
+    "dataset": "cora",
+    "seed": 45,
+    "stage": "KL_ablation",
+    "epochs": 133
+  },
+  {
+    "dataset": "cora",
+    "seed": 48,
+    "stage": "teacher",
+    "epochs": 85
+  },
+  {
+    "dataset": "cora",
+    "seed": 48,
+    "stage": "FAITH",
+    "epochs": 165
+  },
+  {
+    "dataset": "cora",
+    "seed": 48,
+    "stage": "KL_ablation",
+    "epochs": 82
+  },
+  {
+    "dataset": "cora",
+    "seed": 52,
+    "stage": "teacher",
+    "epochs": 79
+  },
+  {
+    "dataset": "cora",
+    "seed": 52,
+    "stage": "FAITH",
+    "epochs": 151
+  },
+  {
+    "dataset": "cora",
+    "seed": 52,
+    "stage": "KL_ablation",
+    "epochs": 193
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 42,
+    "stage": "teacher",
+    "epochs": 102
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 42,
+    "stage": "FAITH",
+    "epochs": 89
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 42,
+    "stage": "KL_ablation",
+    "epochs": 85
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 43,
+    "stage": "teacher",
+    "epochs": 110
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 43,
+    "stage": "FAITH",
+    "epochs": 104
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 43,
+    "stage": "KL_ablation",
+    "epochs": 83
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 45,
+    "stage": "teacher",
+    "epochs": 52
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 45,
+    "stage": "FAITH",
+    "epochs": 84
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 45,
+    "stage": "KL_ablation",
+    "epochs": 87
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 48,
+    "stage": "teacher",
+    "epochs": 69
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 48,
+    "stage": "FAITH",
+    "epochs": 109
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 48,
+    "stage": "KL_ablation",
+    "epochs": 138
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 52,
+    "stage": "teacher",
+    "epochs": 61
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 52,
+    "stage": "FAITH",
+    "epochs": 101
+  },
+  {
+    "dataset": "citeseer",
+    "seed": 52,
+    "stage": "KL_ablation",
+    "epochs": 84
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 42,
+    "stage": "teacher",
+    "epochs": 69
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 42,
+    "stage": "FAITH",
+    "epochs": 153
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 42,
+    "stage": "KL_ablation",
+    "epochs": 242
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 43,
+    "stage": "teacher",
+    "epochs": 69
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 43,
+    "stage": "FAITH",
+    "epochs": 115
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 43,
+    "stage": "KL_ablation",
+    "epochs": 152
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 45,
+    "stage": "teacher",
+    "epochs": 73
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 45,
+    "stage": "FAITH",
+    "epochs": 105
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 45,
+    "stage": "KL_ablation",
+    "epochs": 128
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 48,
+    "stage": "teacher",
+    "epochs": 71
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 48,
+    "stage": "FAITH",
+    "epochs": 80
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 48,
+    "stage": "KL_ablation",
+    "epochs": 161
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 52,
+    "stage": "teacher",
+    "epochs": 70
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 52,
+    "stage": "FAITH",
+    "epochs": 77
+  },
+  {
+    "dataset": "pubmed",
+    "seed": 52,
+    "stage": "KL_ablation",
+    "epochs": 107
+  }
+]

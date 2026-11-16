@@ -1,0 +1,234 @@
+/var/tmp/work-mshanthappa/faith-cache-research/faith_ogb.py:30: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(torch.as_tensor(a.indptr.astype(np.int64), device=device),
+{"dataset": "ogbn-arxiv", "phase": "data_ready", "nodes": 169343, "edges": 2484941, "total_wedges": 415893076.0, "gamma": 1e-08}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 25, "loss": 1.607633352279663, "validation_accuracy": 0.604362428188324, "best_epoch": 25, "seconds": 0.8900411939976038}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 50, "loss": 1.249714970588684, "validation_accuracy": 0.6601342558860779, "best_epoch": 50, "seconds": 1.5153560729959281}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 75, "loss": 1.1339460611343384, "validation_accuracy": 0.684026837348938, "best_epoch": 75, "seconds": 2.140663747995859}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 100, "loss": 1.0796363353729248, "validation_accuracy": 0.6954362392425537, "best_epoch": 100, "seconds": 2.7659863510052674}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 125, "loss": 1.0428017377853394, "validation_accuracy": 0.699396014213562, "best_epoch": 120, "seconds": 3.3895407569943927}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 150, "loss": 1.0165354013442993, "validation_accuracy": 0.7038926482200623, "best_epoch": 150, "seconds": 4.015248427007464}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 175, "loss": 0.9973685145378113, "validation_accuracy": 0.7032886147499084, "best_epoch": 170, "seconds": 4.640367214000435}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 200, "loss": 0.9811075925827026, "validation_accuracy": 0.7078523635864258, "best_epoch": 190, "seconds": 5.265304065003875}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 225, "loss": 0.9678488969802856, "validation_accuracy": 0.7043624520301819, "best_epoch": 220, "seconds": 5.889508516003843}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 250, "loss": 0.955631673336029, "validation_accuracy": 0.7120134234428406, "best_epoch": 245, "seconds": 6.514604092008085}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 275, "loss": 0.9446611404418945, "validation_accuracy": 0.7150335907936096, "best_epoch": 275, "seconds": 7.138758850996965}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 300, "loss": 0.9339035153388977, "validation_accuracy": 0.7125503420829773, "best_epoch": 275, "seconds": 7.761890192006831}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 325, "loss": 0.9232401251792908, "validation_accuracy": 0.7149664759635925, "best_epoch": 305, "seconds": 8.386596619995544}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 350, "loss": 0.9148661494255066, "validation_accuracy": 0.719664454460144, "best_epoch": 350, "seconds": 9.011154235995491}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 375, "loss": 0.9127054214477539, "validation_accuracy": 0.7186577320098877, "best_epoch": 350, "seconds": 9.635440828002174}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 400, "loss": 0.901634693145752, "validation_accuracy": 0.7212080955505371, "best_epoch": 400, "seconds": 10.259528962997138}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 425, "loss": 0.894842803478241, "validation_accuracy": 0.7191275358200073, "best_epoch": 400, "seconds": 10.883169642998837}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher", "epoch": 450, "loss": 0.8869133591651917, "validation_accuracy": 0.719597339630127, "best_epoch": 400, "seconds": 11.506967483001063}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher_complete", "epochs": 450, "best_epoch": 400, "seconds": 11.562229329996626}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 2.1671879291534424, "validation_accuracy": 0.31080538034439087, "best_epoch": 25, "seconds": 0.5904976530000567}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 2.01419734954834, "validation_accuracy": 0.3657047152519226, "best_epoch": 50, "seconds": 1.1433642000047257}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 1.9147294759750366, "validation_accuracy": 0.3830201327800751, "best_epoch": 75, "seconds": 1.6955582649970893}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 1.8211835622787476, "validation_accuracy": 0.3842281997203827, "best_epoch": 85, "seconds": 2.2411277450009948}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 1.7361977100372314, "validation_accuracy": 0.3991946280002594, "best_epoch": 125, "seconds": 2.7882944730081363}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 1.6613844633102417, "validation_accuracy": 0.4086577296257019, "best_epoch": 150, "seconds": 3.3392631000024267}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 175, "loss": 1.6046991348266602, "validation_accuracy": 0.4108053743839264, "best_epoch": 170, "seconds": 3.8889480700017884}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 200, "loss": 1.5578029155731201, "validation_accuracy": 0.41322147846221924, "best_epoch": 195, "seconds": 4.438718635996338}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 225, "loss": 1.519694447517395, "validation_accuracy": 0.42073825001716614, "best_epoch": 195, "seconds": 4.987687412998639}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 250, "loss": 1.4820258617401123, "validation_accuracy": 0.4255704879760742, "best_epoch": 250, "seconds": 5.538497677000123}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 275, "loss": 1.455744981765747, "validation_accuracy": 0.42744967341423035, "best_epoch": 275, "seconds": 6.0893659819994355}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 300, "loss": 1.4320001602172852, "validation_accuracy": 0.43214765191078186, "best_epoch": 285, "seconds": 6.640389353007777}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 325, "loss": 1.4051439762115479, "validation_accuracy": 0.4297986626625061, "best_epoch": 320, "seconds": 7.190425223001512}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 350, "loss": 1.3815584182739258, "validation_accuracy": 0.4426845610141754, "best_epoch": 350, "seconds": 7.741291997997905}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 375, "loss": 1.365405797958374, "validation_accuracy": 0.42939597368240356, "best_epoch": 350, "seconds": 8.290291081997566}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 400, "loss": 1.3491241931915283, "validation_accuracy": 0.4346979856491089, "best_epoch": 395, "seconds": 8.840265460006776}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 425, "loss": 1.3348625898361206, "validation_accuracy": 0.44436243176460266, "best_epoch": 425, "seconds": 9.390293803997338}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 450, "loss": 1.317781925201416, "validation_accuracy": 0.4455033540725708, "best_epoch": 445, "seconds": 9.940230863008765}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 475, "loss": 1.3034266233444214, "validation_accuracy": 0.438791960477829, "best_epoch": 445, "seconds": 10.489367185000447}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH_complete", "epochs": 495, "best_epoch": 445, "seconds": 10.98063423500571}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "frozen_cache_complete"}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "joint_cache_complete", "budget": 0.01}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "joint_cache_complete", "budget": 0.05}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "joint_cache_complete", "budget": 0.1}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "joint_cache_complete", "budget": 0.2}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "complete", "rows": 46}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 25, "loss": 1.5898253917694092, "validation_accuracy": 0.6088590621948242, "best_epoch": 25, "seconds": 0.6234879550029291}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 50, "loss": 1.2425411939620972, "validation_accuracy": 0.6628859043121338, "best_epoch": 50, "seconds": 1.248428895996767}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 75, "loss": 1.1328409910202026, "validation_accuracy": 0.6830872893333435, "best_epoch": 75, "seconds": 1.874587899990729}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 100, "loss": 1.0795546770095825, "validation_accuracy": 0.6934899687767029, "best_epoch": 100, "seconds": 2.5004348880029283}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 125, "loss": 1.046281337738037, "validation_accuracy": 0.7005369067192078, "best_epoch": 125, "seconds": 3.1259539000020595}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 150, "loss": 1.0213438272476196, "validation_accuracy": 0.7040939927101135, "best_epoch": 150, "seconds": 3.7503962890041294}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 175, "loss": 0.999243438243866, "validation_accuracy": 0.7081879377365112, "best_epoch": 165, "seconds": 4.375103416998172}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 200, "loss": 0.9819181561470032, "validation_accuracy": 0.7106040120124817, "best_epoch": 200, "seconds": 5.000156219000928}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 225, "loss": 0.9658791422843933, "validation_accuracy": 0.7089262008666992, "best_epoch": 215, "seconds": 5.623935051000444}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 250, "loss": 0.9561837315559387, "validation_accuracy": 0.71456378698349, "best_epoch": 250, "seconds": 6.248718971997732}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 275, "loss": 0.9397025108337402, "validation_accuracy": 0.7130201458930969, "best_epoch": 270, "seconds": 6.872503492995747}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 300, "loss": 0.9326208829879761, "validation_accuracy": 0.7159731388092041, "best_epoch": 300, "seconds": 7.496862144995248}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 325, "loss": 0.9230226278305054, "validation_accuracy": 0.7200000286102295, "best_epoch": 325, "seconds": 8.121558159997221}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 350, "loss": 0.9149468541145325, "validation_accuracy": 0.7165100574493408, "best_epoch": 325, "seconds": 8.744438177003758}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher", "epoch": 375, "loss": 0.9043341875076294, "validation_accuracy": 0.7187248468399048, "best_epoch": 325, "seconds": 9.367072813998675}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "teacher_complete", "epochs": 375, "best_epoch": 325, "seconds": 9.402934484998696}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 25, "loss": 2.154526948928833, "validation_accuracy": 0.30818793177604675, "best_epoch": 5, "seconds": 0.5483563160087215}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 50, "loss": 2.003141403198242, "validation_accuracy": 0.36812081933021545, "best_epoch": 50, "seconds": 1.101309947000118}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 75, "loss": 1.8962223529815674, "validation_accuracy": 0.3836241662502289, "best_epoch": 75, "seconds": 1.6542912910081213}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 100, "loss": 1.7999495267868042, "validation_accuracy": 0.3888590633869171, "best_epoch": 100, "seconds": 2.205957808997482}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 125, "loss": 1.7159579992294312, "validation_accuracy": 0.38530200719833374, "best_epoch": 115, "seconds": 2.7553240270062815}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 150, "loss": 1.6449941396713257, "validation_accuracy": 0.3990603983402252, "best_epoch": 145, "seconds": 3.3057019760017283}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 175, "loss": 1.5838145017623901, "validation_accuracy": 0.4004698097705841, "best_epoch": 165, "seconds": 3.855944727009046}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 200, "loss": 1.5361266136169434, "validation_accuracy": 0.422147661447525, "best_epoch": 200, "seconds": 4.405312795002828}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 225, "loss": 1.4953755140304565, "validation_accuracy": 0.4169127643108368, "best_epoch": 210, "seconds": 4.954736587998923}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 250, "loss": 1.464953899383545, "validation_accuracy": 0.4216778576374054, "best_epoch": 240, "seconds": 5.503999331005616}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 275, "loss": 1.437434434890747, "validation_accuracy": 0.42751678824424744, "best_epoch": 240, "seconds": 6.052411506010685}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 300, "loss": 1.4109270572662354, "validation_accuracy": 0.4160402715206146, "best_epoch": 290, "seconds": 6.601802713004872}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 325, "loss": 1.3897919654846191, "validation_accuracy": 0.433758407831192, "best_epoch": 325, "seconds": 7.151205129004666}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 350, "loss": 1.3697733879089355, "validation_accuracy": 0.4351006746292114, "best_epoch": 350, "seconds": 7.701672213006532}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 375, "loss": 1.3460965156555176, "validation_accuracy": 0.43677854537963867, "best_epoch": 375, "seconds": 8.250765585005865}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 400, "loss": 1.3308496475219727, "validation_accuracy": 0.4344966411590576, "best_epoch": 390, "seconds": 8.800092547011445}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 425, "loss": 1.310492992401123, "validation_accuracy": 0.4296644330024719, "best_epoch": 415, "seconds": 9.349136589007685}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH", "epoch": 450, "loss": 1.299972653388977, "validation_accuracy": 0.4400671124458313, "best_epoch": 415, "seconds": 9.897884006000822}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "FAITH_complete", "epochs": 465, "best_epoch": 415, "seconds": 10.26038939000864}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "frozen_cache_complete"}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "joint_cache_complete", "budget": 0.01}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "joint_cache_complete", "budget": 0.05}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "joint_cache_complete", "budget": 0.1}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "joint_cache_complete", "budget": 0.2}
+{"dataset": "ogbn-arxiv", "seed": 43, "phase": "complete", "rows": 46}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 25, "loss": 1.5977510213851929, "validation_accuracy": 0.6023489832878113, "best_epoch": 25, "seconds": 0.614649980008835}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 50, "loss": 1.2368866205215454, "validation_accuracy": 0.6636912822723389, "best_epoch": 50, "seconds": 1.2310109240061138}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 75, "loss": 1.1227620840072632, "validation_accuracy": 0.6885906457901001, "best_epoch": 75, "seconds": 1.8486339619994396}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 100, "loss": 1.0715488195419312, "validation_accuracy": 0.6975839138031006, "best_epoch": 100, "seconds": 2.465042554002139}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 125, "loss": 1.036741852760315, "validation_accuracy": 0.701476514339447, "best_epoch": 125, "seconds": 3.0801023289968725}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 150, "loss": 1.0137379169464111, "validation_accuracy": 0.7033557295799255, "best_epoch": 145, "seconds": 3.696738180995453}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 175, "loss": 0.9915427565574646, "validation_accuracy": 0.7060402631759644, "best_epoch": 170, "seconds": 4.313038911001058}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 200, "loss": 0.9751150608062744, "validation_accuracy": 0.7089262008666992, "best_epoch": 195, "seconds": 4.929707542003598}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 225, "loss": 0.9604421854019165, "validation_accuracy": 0.7106040120124817, "best_epoch": 195, "seconds": 5.544468074003817}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 250, "loss": 0.9447631239891052, "validation_accuracy": 0.7127516865730286, "best_epoch": 250, "seconds": 6.161008429000503}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 275, "loss": 0.9333999752998352, "validation_accuracy": 0.7128859162330627, "best_epoch": 255, "seconds": 6.7762357860046905}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 300, "loss": 0.924930989742279, "validation_accuracy": 0.7137584090232849, "best_epoch": 290, "seconds": 7.391837311006384}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 325, "loss": 0.9145677089691162, "validation_accuracy": 0.7151678204536438, "best_epoch": 315, "seconds": 8.007683432995691}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 350, "loss": 0.9066029191017151, "validation_accuracy": 0.718120813369751, "best_epoch": 340, "seconds": 8.62288425800216}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 375, "loss": 0.8995101451873779, "validation_accuracy": 0.7202684879302979, "best_epoch": 375, "seconds": 9.238553871997283}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 400, "loss": 0.8899685740470886, "validation_accuracy": 0.7167785167694092, "best_epoch": 375, "seconds": 9.854191895006807}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher", "epoch": 425, "loss": 0.8816617131233215, "validation_accuracy": 0.7179194688796997, "best_epoch": 375, "seconds": 10.469314009009395}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "teacher_complete", "epochs": 425, "best_epoch": 375, "seconds": 10.505134966006153}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 25, "loss": 2.163017749786377, "validation_accuracy": 0.3056375980377197, "best_epoch": 25, "seconds": 0.5299991710053291}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 50, "loss": 2.015752077102661, "validation_accuracy": 0.36536914110183716, "best_epoch": 50, "seconds": 1.061454198003048}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 75, "loss": 1.9075851440429688, "validation_accuracy": 0.37912753224372864, "best_epoch": 75, "seconds": 1.593562263995409}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 100, "loss": 1.8154631853103638, "validation_accuracy": 0.3791946470737457, "best_epoch": 90, "seconds": 2.123918097000569}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 125, "loss": 1.7345942258834839, "validation_accuracy": 0.37966445088386536, "best_epoch": 120, "seconds": 2.6535882519965526}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 150, "loss": 1.6632415056228638, "validation_accuracy": 0.396375834941864, "best_epoch": 150, "seconds": 3.185007003994542}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 175, "loss": 1.6033787727355957, "validation_accuracy": 0.4046308696269989, "best_epoch": 170, "seconds": 3.717178195991437}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 200, "loss": 1.5647156238555908, "validation_accuracy": 0.4136241674423218, "best_epoch": 190, "seconds": 4.248145029996522}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 225, "loss": 1.5218579769134521, "validation_accuracy": 0.4194630980491638, "best_epoch": 220, "seconds": 4.779444407991832}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 250, "loss": 1.4841009378433228, "validation_accuracy": 0.41932886838912964, "best_epoch": 235, "seconds": 5.307767826001509}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH", "epoch": 275, "loss": 1.4563307762145996, "validation_accuracy": 0.4202013611793518, "best_epoch": 235, "seconds": 5.835910806999891}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "FAITH_complete", "epochs": 285, "best_epoch": 235, "seconds": 6.083471024991013}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "frozen_cache_complete"}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "joint_cache_complete", "budget": 0.01}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "joint_cache_complete", "budget": 0.05}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "joint_cache_complete", "budget": 0.1}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "joint_cache_complete", "budget": 0.2}
+{"dataset": "ogbn-arxiv", "seed": 45, "phase": "complete", "rows": 46}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 25, "loss": 1.5740811824798584, "validation_accuracy": 0.6179194450378418, "best_epoch": 25, "seconds": 0.6236484629916959}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 50, "loss": 1.2157083749771118, "validation_accuracy": 0.6697315573692322, "best_epoch": 50, "seconds": 1.2503543859929778}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 75, "loss": 1.1139063835144043, "validation_accuracy": 0.6853691339492798, "best_epoch": 75, "seconds": 1.8768402249988867}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 100, "loss": 1.0645289421081543, "validation_accuracy": 0.694161057472229, "best_epoch": 100, "seconds": 2.503995638995548}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 125, "loss": 1.0300308465957642, "validation_accuracy": 0.7025503516197205, "best_epoch": 125, "seconds": 3.1315360509906895}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 150, "loss": 1.0117706060409546, "validation_accuracy": 0.7048322558403015, "best_epoch": 150, "seconds": 3.7570734479959356}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 175, "loss": 0.99211585521698, "validation_accuracy": 0.7089262008666992, "best_epoch": 175, "seconds": 4.382774525991408}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 200, "loss": 0.975992739200592, "validation_accuracy": 0.7135570645332336, "best_epoch": 200, "seconds": 5.008771747990977}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 225, "loss": 0.95895916223526, "validation_accuracy": 0.7144295573234558, "best_epoch": 225, "seconds": 5.634371022999403}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 250, "loss": 0.9483007788658142, "validation_accuracy": 0.7162415981292725, "best_epoch": 250, "seconds": 6.2602198329987}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 275, "loss": 0.9377003312110901, "validation_accuracy": 0.7177181243896484, "best_epoch": 275, "seconds": 6.88700602199242}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 300, "loss": 0.9262390732765198, "validation_accuracy": 0.7165100574493408, "best_epoch": 285, "seconds": 7.511333147995174}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 325, "loss": 0.9160622358322144, "validation_accuracy": 0.7178523540496826, "best_epoch": 320, "seconds": 8.136301532998914}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher", "epoch": 350, "loss": 0.9082436561584473, "validation_accuracy": 0.7187919616699219, "best_epoch": 320, "seconds": 8.760698621001211}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "teacher_complete", "epochs": 370, "best_epoch": 320, "seconds": 9.295879279001383}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 25, "loss": 2.1545426845550537, "validation_accuracy": 0.3072483241558075, "best_epoch": 25, "seconds": 0.5506325859896606}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 50, "loss": 2.006441593170166, "validation_accuracy": 0.36738255620002747, "best_epoch": 50, "seconds": 1.1024595060007414}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 75, "loss": 1.9049146175384521, "validation_accuracy": 0.38322147727012634, "best_epoch": 75, "seconds": 1.654687242989894}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 100, "loss": 1.8128336668014526, "validation_accuracy": 0.38261744379997253, "best_epoch": 90, "seconds": 2.2037977439904353}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 125, "loss": 1.7322790622711182, "validation_accuracy": 0.38308724761009216, "best_epoch": 90, "seconds": 2.7512626079987967}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 150, "loss": 1.6552175283432007, "validation_accuracy": 0.4031543731689453, "best_epoch": 150, "seconds": 3.300163309002528}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 175, "loss": 1.5996979475021362, "validation_accuracy": 0.40624162554740906, "best_epoch": 170, "seconds": 3.849674098994001}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 200, "loss": 1.5527324676513672, "validation_accuracy": 0.40624162554740906, "best_epoch": 180, "seconds": 4.398383079998894}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 225, "loss": 1.5128966569900513, "validation_accuracy": 0.41174498200416565, "best_epoch": 210, "seconds": 4.947804000999895}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 250, "loss": 1.4821306467056274, "validation_accuracy": 0.4196644425392151, "best_epoch": 245, "seconds": 5.495801900993683}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 275, "loss": 1.4564313888549805, "validation_accuracy": 0.4088590741157532, "best_epoch": 245, "seconds": 6.043358752998756}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 300, "loss": 1.4298806190490723, "validation_accuracy": 0.42812082171440125, "best_epoch": 300, "seconds": 6.592752883996582}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 325, "loss": 1.4064459800720215, "validation_accuracy": 0.4291275143623352, "best_epoch": 325, "seconds": 7.141267225990305}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 350, "loss": 1.3860622644424438, "validation_accuracy": 0.42409396171569824, "best_epoch": 345, "seconds": 7.690642417001072}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 375, "loss": 1.3708373308181763, "validation_accuracy": 0.4358389377593994, "best_epoch": 375, "seconds": 8.239057464001235}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 400, "loss": 1.349406123161316, "validation_accuracy": 0.4195302128791809, "best_epoch": 375, "seconds": 8.787028093996923}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 425, "loss": 1.3328404426574707, "validation_accuracy": 0.43147650361061096, "best_epoch": 420, "seconds": 9.337963799989666}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 450, "loss": 1.3195359706878662, "validation_accuracy": 0.4353691339492798, "best_epoch": 420, "seconds": 9.885806970996782}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 475, "loss": 1.3063983917236328, "validation_accuracy": 0.4317449629306793, "best_epoch": 460, "seconds": 10.435283940998488}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH", "epoch": 500, "loss": 1.2885441780090332, "validation_accuracy": 0.4399328827857971, "best_epoch": 460, "seconds": 10.982856950999121}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "FAITH_complete", "epochs": 500, "best_epoch": 460, "seconds": 11.016326288998243}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "frozen_cache_complete"}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "joint_cache_complete", "budget": 0.01}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "joint_cache_complete", "budget": 0.05}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "joint_cache_complete", "budget": 0.1}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "joint_cache_complete", "budget": 0.2}
+{"dataset": "ogbn-arxiv", "seed": 48, "phase": "complete", "rows": 46}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 25, "loss": 1.5469353199005127, "validation_accuracy": 0.6071140766143799, "best_epoch": 25, "seconds": 0.6163531890051672}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 50, "loss": 1.213683843612671, "validation_accuracy": 0.6649664640426636, "best_epoch": 50, "seconds": 1.235336397003266}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 75, "loss": 1.1122368574142456, "validation_accuracy": 0.6872483491897583, "best_epoch": 75, "seconds": 1.8545351490029134}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 100, "loss": 1.0652494430541992, "validation_accuracy": 0.6914765238761902, "best_epoch": 100, "seconds": 2.474429356996552}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 125, "loss": 1.033928632736206, "validation_accuracy": 0.6997315287590027, "best_epoch": 125, "seconds": 3.094459560001269}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 150, "loss": 1.0107882022857666, "validation_accuracy": 0.6977181434631348, "best_epoch": 130, "seconds": 3.7121983370016096}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 175, "loss": 0.9884780049324036, "validation_accuracy": 0.7046309113502502, "best_epoch": 160, "seconds": 4.331914467009483}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 200, "loss": 0.975919246673584, "validation_accuracy": 0.7054362297058105, "best_epoch": 190, "seconds": 4.95028815700789}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 225, "loss": 0.9643168449401855, "validation_accuracy": 0.7110067009925842, "best_epoch": 225, "seconds": 5.568514935002895}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 250, "loss": 0.9480899572372437, "validation_accuracy": 0.7128188014030457, "best_epoch": 250, "seconds": 6.187137390006683}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 275, "loss": 0.935234546661377, "validation_accuracy": 0.7129530310630798, "best_epoch": 270, "seconds": 6.805025438996381}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 300, "loss": 0.9262155294418335, "validation_accuracy": 0.7143624424934387, "best_epoch": 290, "seconds": 7.423378150997451}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 325, "loss": 0.9174852967262268, "validation_accuracy": 0.7163087129592896, "best_epoch": 325, "seconds": 8.041501436004182}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 350, "loss": 0.9081021547317505, "validation_accuracy": 0.717382550239563, "best_epoch": 350, "seconds": 8.658676735009067}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 375, "loss": 0.9004576802253723, "validation_accuracy": 0.7117449641227722, "best_epoch": 355, "seconds": 9.274773644996458}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 400, "loss": 0.8917838931083679, "validation_accuracy": 0.7197986841201782, "best_epoch": 390, "seconds": 9.892343152998365}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 425, "loss": 0.8854020833969116, "validation_accuracy": 0.7202684879302979, "best_epoch": 410, "seconds": 10.509359137999127}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 450, "loss": 0.8738142848014832, "validation_accuracy": 0.7220134139060974, "best_epoch": 450, "seconds": 11.128685971008963}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 475, "loss": 0.8708578944206238, "validation_accuracy": 0.72114098072052, "best_epoch": 450, "seconds": 11.746337272998062}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher", "epoch": 500, "loss": 0.8644936084747314, "validation_accuracy": 0.7231543660163879, "best_epoch": 500, "seconds": 12.364078373007942}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "teacher_complete", "epochs": 500, "best_epoch": 500, "seconds": 12.400932496995665}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 25, "loss": 2.1963841915130615, "validation_accuracy": 0.3133557140827179, "best_epoch": 25, "seconds": 0.5506463030033046}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 50, "loss": 2.047151565551758, "validation_accuracy": 0.36677852272987366, "best_epoch": 50, "seconds": 1.1041769330040552}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 75, "loss": 1.9402837753295898, "validation_accuracy": 0.381946325302124, "best_epoch": 75, "seconds": 1.6547343010024633}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 100, "loss": 1.8439161777496338, "validation_accuracy": 0.37906041741371155, "best_epoch": 85, "seconds": 2.2031851320061833}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 125, "loss": 1.765282154083252, "validation_accuracy": 0.39899328351020813, "best_epoch": 125, "seconds": 2.7517231960082427}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 150, "loss": 1.6887800693511963, "validation_accuracy": 0.41033557057380676, "best_epoch": 145, "seconds": 3.2993825870071305}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 175, "loss": 1.6284140348434448, "validation_accuracy": 0.4140939712524414, "best_epoch": 175, "seconds": 3.847961239007418}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 200, "loss": 1.5799603462219238, "validation_accuracy": 0.42335569858551025, "best_epoch": 195, "seconds": 4.395937691006111}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 225, "loss": 1.5404330492019653, "validation_accuracy": 0.4156375825405121, "best_epoch": 195, "seconds": 4.94227197500004}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 250, "loss": 1.508615255355835, "validation_accuracy": 0.4168456494808197, "best_epoch": 235, "seconds": 5.489479887008201}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 275, "loss": 1.4838918447494507, "validation_accuracy": 0.4351677894592285, "best_epoch": 275, "seconds": 6.037773293995997}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 300, "loss": 1.452313780784607, "validation_accuracy": 0.4200671315193176, "best_epoch": 290, "seconds": 6.583713068001089}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 325, "loss": 1.4273079633712769, "validation_accuracy": 0.42597314715385437, "best_epoch": 320, "seconds": 7.132205991001683}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH", "epoch": 350, "loss": 1.407890796661377, "validation_accuracy": 0.42275169491767883, "best_epoch": 320, "seconds": 7.679412337005488}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "FAITH_complete", "epochs": 370, "best_epoch": 320, "seconds": 8.149801656007185}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "frozen_cache_complete"}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "joint_cache_complete", "budget": 0.01}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "joint_cache_complete", "budget": 0.05}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "joint_cache_complete", "budget": 0.1}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "joint_cache_complete", "budget": 0.2}
+{"dataset": "ogbn-arxiv", "seed": 52, "phase": "complete", "rows": 46}
+{"dataset": "ogbn-products", "phase": "data_ready", "nodes": 2449029, "edges": 126167053, "total_wedges": 14449595542.0, "gamma": 6.914699662600974e-10}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 25, "loss": 0.5574003458023071, "validation_accuracy": 0.8608483076095581, "best_epoch": 25, "seconds": 14.43945416000497}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 50, "loss": 0.4112353026866913, "validation_accuracy": 0.8862780928611755, "best_epoch": 50, "seconds": 28.857847444000072}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 75, "loss": 0.36208397150039673, "validation_accuracy": 0.8963991403579712, "best_epoch": 75, "seconds": 43.29595330900338}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 100, "loss": 0.33481159806251526, "validation_accuracy": 0.903875470161438, "best_epoch": 100, "seconds": 57.754026328999316}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 125, "loss": 0.31528374552726746, "validation_accuracy": 0.9064184427261353, "best_epoch": 125, "seconds": 72.22114155400777}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 150, "loss": 0.2989380955696106, "validation_accuracy": 0.9094191789627075, "best_epoch": 150, "seconds": 86.6928717020055}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 175, "loss": 0.28717339038848877, "validation_accuracy": 0.9113009572029114, "best_epoch": 175, "seconds": 101.17268078699999}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 200, "loss": 0.2761721909046173, "validation_accuracy": 0.9135896563529968, "best_epoch": 200, "seconds": 115.65711173300224}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 225, "loss": 0.2681899666786194, "validation_accuracy": 0.9152680039405823, "best_epoch": 225, "seconds": 130.1446451189986}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 250, "loss": 0.2595129907131195, "validation_accuracy": 0.9161326289176941, "best_epoch": 250, "seconds": 144.63313750299858}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 275, "loss": 0.25405097007751465, "validation_accuracy": 0.9167938232421875, "best_epoch": 260, "seconds": 159.12485210000887}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 300, "loss": 0.2487211525440216, "validation_accuracy": 0.9178618788719177, "best_epoch": 300, "seconds": 173.62185847399815}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 325, "loss": 0.24539059400558472, "validation_accuracy": 0.9173532724380493, "best_epoch": 310, "seconds": 188.11519696300093}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 350, "loss": 0.238821879029274, "validation_accuracy": 0.9187264442443848, "best_epoch": 345, "seconds": 202.61632785500842}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 375, "loss": 0.23513704538345337, "validation_accuracy": 0.9191333651542664, "best_epoch": 375, "seconds": 217.11475614400115}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 400, "loss": 0.23227417469024658, "validation_accuracy": 0.9198454022407532, "best_epoch": 400, "seconds": 231.616021171998}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 425, "loss": 0.22742758691310883, "validation_accuracy": 0.92025226354599, "best_epoch": 425, "seconds": 246.1214112919988}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 450, "loss": 0.22391721606254578, "validation_accuracy": 0.9191842079162598, "best_epoch": 425, "seconds": 260.62776409900107}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher", "epoch": 475, "loss": 0.22159618139266968, "validation_accuracy": 0.920099675655365, "best_epoch": 425, "seconds": 275.1319273580011}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher_complete", "epochs": 475, "best_epoch": 425, "seconds": 275.8328795790003}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 2.7366607189178467, "validation_accuracy": 0.3721391558647156, "best_epoch": 5, "seconds": 9.971818680001888}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 2.5396835803985596, "validation_accuracy": 0.35825449228286743, "best_epoch": 5, "seconds": 19.94596313900547}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH_complete", "epochs": 55, "best_epoch": 5, "seconds": 22.51346046300023}
+{"dataset": "ogbn-products", "seed": 42, "phase": "frozen_cache_complete"}

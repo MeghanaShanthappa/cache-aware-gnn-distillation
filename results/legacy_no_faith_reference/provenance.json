@@ -1,0 +1,31 @@
+{
+  "study": "Earlier A40 non-FAITH GCN\u2013MLP reference; not a matched ablation of current FAITH runs",
+  "architecture": "two layers, 64 hidden units",
+  "files": {
+    "Cora": {
+      "source": "/home/mshanthappa/distill-cache-research/results/five_datasets_converged/Cora.json",
+      "sha256": "468705730a59fd83f2802fc4552a7418843643f474c96f1486e9d5cdf24dd866",
+      "rows": 110
+    },
+    "CiteSeer": {
+      "source": "/home/mshanthappa/distill-cache-research/results/five_datasets_converged/CiteSeer.json",
+      "sha256": "d1745c076fbee7443fb3f2f726bebe91e521516adf6ccf75b1de84efb9c1a23e",
+      "rows": 110
+    },
+    "PubMed": {
+      "source": "/home/mshanthappa/distill-cache-research/results/five_datasets_converged/PubMed.json",
+      "sha256": "b776c22caea45342646edc375f9f9e077d3ed527fd9a1287670251ed270ba5cd",
+      "rows": 110
+    },
+    "ogbn-arxiv": {
+      "source": "/var/tmp/work-mshanthappa/ogb_verified_results/ogbn-arxiv/ogbn-arxiv.json",
+      "sha256": "041f53edfff2c91652da68a49f9481d037fbf77a6c3dbfefc09f1ba2f68ab2ba",
+      "rows": 110
+    },
+    "ogbn-products": {
+      "source": "/var/tmp/work-mshanthappa/ogb_verified_results/ogbn-products/ogbn-products.json",
+      "sha256": "1c1e2b5494c896da470af537f4d9ec0dba1f1b437526fdc4ca5fa3e621e9df31",
+      "rows": 110
+    }
+  }
+}

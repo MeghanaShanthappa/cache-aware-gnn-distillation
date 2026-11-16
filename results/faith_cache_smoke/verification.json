@@ -1,0 +1,9 @@
+{
+  "rows": 13,
+  "dataset_seed_runs": 1,
+  "routing": "passed",
+  "source_baseline": "unchanged and matched",
+  "test_labels_used_for_selection": false,
+  "calibration_independence": "validation reused after checkpoint selection; exploratory",
+  "additional_steps": 2
+}

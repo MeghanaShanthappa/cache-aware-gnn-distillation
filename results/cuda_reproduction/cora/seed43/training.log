@@ -1,0 +1,457 @@
+[0;30;46m [1] CLA: 1.94711 | Train: 0.4214, Val: 0.2960, Test: 0.2760 | Val Best: 0.0000, Test Val: 0.0000, Test Best: 0.0000 | IF: 0.0216[0m
+[0;30;46m [2] CLA: 1.89190 | Train: 0.6857, Val: 0.4700, Test: 0.4600 | Val Best: 0.2960, Test Val: 0.2760, Test Best: 0.2760 | IF: 0.2093[0m
+[0;30;46m [3] CLA: 1.73637 | Train: 0.4643, Val: 0.2920, Test: 0.2750 | Val Best: 0.4700, Test Val: 0.4600, Test Best: 0.4600 | IF: 1.3701[0m
+[0;30;46m [4] CLA: 1.48002 | Train: 0.6929, Val: 0.4520, Test: 0.4550 | Val Best: 0.4700, Test Val: 0.4600, Test Best: 0.4600 | IF: 4.2901[0m
+[0;30;46m [5] CLA: 1.21591 | Train: 0.9000, Val: 0.6820, Test: 0.7120 | Val Best: 0.4700, Test Val: 0.4600, Test Best: 0.4600 | IF: 12.0524[0m
+[0;30;46m [6] CLA: 0.75118 | Train: 0.7643, Val: 0.5040, Test: 0.4900 | Val Best: 0.6820, Test Val: 0.7120, Test Best: 0.7120 | IF: 25.0533[0m
+[0;30;46m [7] CLA: 0.57915 | Train: 0.9643, Val: 0.7860, Test: 0.7910 | Val Best: 0.6820, Test Val: 0.7120, Test Best: 0.7120 | IF: 47.5560[0m
+[0;30;46m [8] CLA: 0.27576 | Train: 0.9357, Val: 0.7260, Test: 0.7590 | Val Best: 0.7860, Test Val: 0.7910, Test Best: 0.7910 | IF: 70.8699[0m
+[0;30;46m [9] CLA: 0.22959 | Train: 0.9571, Val: 0.7300, Test: 0.7390 | Val Best: 0.7860, Test Val: 0.7910, Test Best: 0.7910 | IF: 99.6697[0m
+[0;30;46m [10] CLA: 0.16642 | Train: 0.9929, Val: 0.7660, Test: 0.7670 | Val Best: 0.7860, Test Val: 0.7910, Test Best: 0.7910 | IF: 131.8854[0m
+[0;30;46m [11] CLA: 0.08735 | Train: 0.9857, Val: 0.7860, Test: 0.7840 | Val Best: 0.7860, Test Val: 0.7910, Test Best: 0.7910 | IF: 162.2150[0m
+[0;30;46m [12] CLA: 0.06395 | Train: 0.9857, Val: 0.7820, Test: 0.7930 | Val Best: 0.7860, Test Val: 0.7840, Test Best: 0.7910 | IF: 189.3125[0m
+[0;30;46m [13] CLA: 0.05744 | Train: 1.0000, Val: 0.7900, Test: 0.8150 | Val Best: 0.7860, Test Val: 0.7840, Test Best: 0.7930 | IF: 216.0677[0m
+[0;30;46m [14] CLA: 0.04037 | Train: 0.9857, Val: 0.7940, Test: 0.8120 | Val Best: 0.7900, Test Val: 0.8150, Test Best: 0.8150 | IF: 243.5105[0m
+[0;30;46m [15] CLA: 0.04804 | Train: 0.9929, Val: 0.7920, Test: 0.8210 | Val Best: 0.7940, Test Val: 0.8120, Test Best: 0.8150 | IF: 267.7168[0m
+[0;30;46m [16] CLA: 0.02970 | Train: 1.0000, Val: 0.8040, Test: 0.8320 | Val Best: 0.7940, Test Val: 0.8120, Test Best: 0.8210 | IF: 286.8093[0m
+[0;30;46m [17] CLA: 0.02107 | Train: 0.9929, Val: 0.8100, Test: 0.8290 | Val Best: 0.8040, Test Val: 0.8320, Test Best: 0.8320 | IF: 299.8521[0m
+[0;30;46m [18] CLA: 0.02301 | Train: 1.0000, Val: 0.8060, Test: 0.8190 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 304.6754[0m
+[0;30;46m [19] CLA: 0.01638 | Train: 1.0000, Val: 0.7800, Test: 0.7870 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 301.4885[0m
+[0;30;46m [20] CLA: 0.01222 | Train: 1.0000, Val: 0.7600, Test: 0.7700 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 291.6890[0m
+[0;30;46m [21] CLA: 0.01875 | Train: 1.0000, Val: 0.7580, Test: 0.7750 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 278.9441[0m
+[0;30;46m [22] CLA: 0.01778 | Train: 1.0000, Val: 0.7860, Test: 0.7940 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 265.0853[0m
+[0;30;46m [23] CLA: 0.01382 | Train: 1.0000, Val: 0.7840, Test: 0.8050 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 252.1530[0m
+[0;30;46m [24] CLA: 0.02861 | Train: 1.0000, Val: 0.7760, Test: 0.8000 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 244.4967[0m
+[0;30;46m [25] CLA: 0.01783 | Train: 1.0000, Val: 0.7720, Test: 0.7850 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 233.8029[0m
+[0;30;46m [26] CLA: 0.02189 | Train: 0.9929, Val: 0.7600, Test: 0.7770 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 219.1810[0m
+[0;30;46m [27] CLA: 0.03340 | Train: 1.0000, Val: 0.7860, Test: 0.8150 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 201.5216[0m
+[0;30;46m [28] CLA: 0.02915 | Train: 1.0000, Val: 0.7880, Test: 0.8140 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 183.1476[0m
+[0;30;46m [29] CLA: 0.04398 | Train: 1.0000, Val: 0.7760, Test: 0.7960 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 168.6990[0m
+[0;30;46m [30] CLA: 0.04310 | Train: 0.9929, Val: 0.7700, Test: 0.7770 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 156.1798[0m
+[0;30;46m [31] CLA: 0.06305 | Train: 1.0000, Val: 0.7800, Test: 0.8150 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 146.2735[0m
+[0;30;46m [32] CLA: 0.05108 | Train: 0.9929, Val: 0.7840, Test: 0.7920 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 137.6143[0m
+[0;30;46m [33] CLA: 0.07064 | Train: 1.0000, Val: 0.7580, Test: 0.7820 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 129.9259[0m
+[0;30;46m [34] CLA: 0.06156 | Train: 1.0000, Val: 0.7680, Test: 0.7860 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 122.0569[0m
+[0;30;46m [35] CLA: 0.05992 | Train: 1.0000, Val: 0.7800, Test: 0.8040 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 115.9009[0m
+[0;30;46m [36] CLA: 0.06647 | Train: 1.0000, Val: 0.7760, Test: 0.8030 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 116.1299[0m
+[0;30;46m [37] CLA: 0.05044 | Train: 1.0000, Val: 0.7800, Test: 0.7770 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 115.6163[0m
+[0;30;46m [38] CLA: 0.06003 | Train: 1.0000, Val: 0.7760, Test: 0.8010 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 115.6633[0m
+[0;30;46m [39] CLA: 0.04697 | Train: 1.0000, Val: 0.7780, Test: 0.8090 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 114.0743[0m
+[0;30;46m [40] CLA: 0.05360 | Train: 1.0000, Val: 0.7840, Test: 0.8160 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 115.5397[0m
+[0;30;46m [41] CLA: 0.04214 | Train: 1.0000, Val: 0.7780, Test: 0.7880 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 117.6525[0m
+[0;30;46m [42] CLA: 0.03786 | Train: 1.0000, Val: 0.7620, Test: 0.7810 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 119.4608[0m
+[0;30;46m [43] CLA: 0.03654 | Train: 1.0000, Val: 0.7900, Test: 0.8050 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 121.8861[0m
+[0;30;46m [44] CLA: 0.03711 | Train: 1.0000, Val: 0.7860, Test: 0.8200 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 123.6412[0m
+[0;30;46m [45] CLA: 0.03323 | Train: 1.0000, Val: 0.7820, Test: 0.8170 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 124.7755[0m
+[0;30;46m [46] CLA: 0.03491 | Train: 1.0000, Val: 0.7760, Test: 0.7940 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 124.8831[0m
+[0;30;46m [47] CLA: 0.03250 | Train: 1.0000, Val: 0.7760, Test: 0.7930 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 123.9344[0m
+[0;30;46m [48] CLA: 0.03072 | Train: 1.0000, Val: 0.7860, Test: 0.7910 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 123.3472[0m
+[0;30;46m [49] CLA: 0.04047 | Train: 1.0000, Val: 0.7840, Test: 0.8080 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 124.3044[0m
+[0;30;46m [50] CLA: 0.03480 | Train: 1.0000, Val: 0.7840, Test: 0.8150 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 124.9386[0m
+[0;30;46m [51] CLA: 0.04281 | Train: 1.0000, Val: 0.7800, Test: 0.7970 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 125.2771[0m
+[0;30;46m [52] CLA: 0.03729 | Train: 1.0000, Val: 0.7760, Test: 0.7860 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 123.5053[0m
+[0;30;46m [53] CLA: 0.04017 | Train: 1.0000, Val: 0.7780, Test: 0.7920 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 122.5169[0m
+[0;30;46m [54] CLA: 0.04314 | Train: 1.0000, Val: 0.7800, Test: 0.8030 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 122.7544[0m
+[0;30;46m [55] CLA: 0.03974 | Train: 1.0000, Val: 0.7840, Test: 0.8140 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 124.0098[0m
+[0;30;46m [56] CLA: 0.04217 | Train: 1.0000, Val: 0.7800, Test: 0.8050 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 125.8464[0m
+[0;30;46m [57] CLA: 0.03513 | Train: 1.0000, Val: 0.7680, Test: 0.7740 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 125.7529[0m
+[0;30;46m [58] CLA: 0.04242 | Train: 1.0000, Val: 0.7700, Test: 0.7870 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 126.7533[0m
+[0;30;46m [59] CLA: 0.03339 | Train: 1.0000, Val: 0.7760, Test: 0.8120 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 127.2389[0m
+[0;30;46m [60] CLA: 0.03409 | Train: 1.0000, Val: 0.7760, Test: 0.8170 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 128.7130[0m
+[0;30;46m [61] CLA: 0.03505 | Train: 1.0000, Val: 0.7800, Test: 0.7950 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 130.5576[0m
+[0;30;46m [62] CLA: 0.03294 | Train: 1.0000, Val: 0.7740, Test: 0.7810 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 131.8371[0m
+[0;30;46m [63] CLA: 0.04102 | Train: 1.0000, Val: 0.7820, Test: 0.8160 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 133.4280[0m
+[0;30;46m [64] CLA: 0.03182 | Train: 1.0000, Val: 0.7780, Test: 0.8170 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 133.2498[0m
+[0;30;46m [65] CLA: 0.03714 | Train: 1.0000, Val: 0.7660, Test: 0.7940 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 133.4555[0m
+[0;30;46m [66] CLA: 0.03153 | Train: 1.0000, Val: 0.7720, Test: 0.7810 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 132.8438[0m
+[0;30;46m [67] CLA: 0.03245 | Train: 1.0000, Val: 0.7780, Test: 0.7900 | Val Best: 0.8100, Test Val: 0.8290, Test Best: 0.8320 | IF: 133.9752[0m
+Early stopping!
+Best Validation Accuracy: 0.8100, Test Accuracy: 0.8290, IF: 299.8521
+REPRODUCTION METHOD FAITH
+Student
+[0;30;43m [1] CLA: 0.58412, KD: 1.15945, Total: 1.74357 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.0000, Test Val: 0.0000, Test Best: 0.0000 | Power: 1.0000  | IF: 0.0004[0m
+[0;30;43m [2] CLA: 0.58505, KD: 1.14311, Total: 1.72816 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.0082[0m
+[0;30;43m [3] CLA: 0.58534, KD: 1.13196, Total: 1.71731 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.0300[0m
+[0;30;43m [4] CLA: 0.58227, KD: 1.12475, Total: 1.70702 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.0904[0m
+[0;30;43m [5] CLA: 0.57880, KD: 1.12210, Total: 1.70091 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.1951[0m
+[0;30;43m [6] CLA: 0.57332, KD: 1.11707, Total: 1.69039 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.3487[0m
+[0;30;43m [7] CLA: 0.56491, KD: 1.11388, Total: 1.67878 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.5865[0m
+[0;30;43m [8] CLA: 0.55418, KD: 1.11128, Total: 1.66546 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.9926[0m
+[0;30;43m [9] CLA: 0.54235, KD: 1.10374, Total: 1.64608 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 1.6878[0m
+[0;30;43m [10] CLA: 0.52726, KD: 1.09857, Total: 1.62583 | Train: 0.2500, Val: 0.4220, Test: 0.4080 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 2.0797[0m
+[0;30;43m [11] CLA: 0.51844, KD: 1.08893, Total: 1.60737 | Train: 0.2286, Val: 0.3960, Test: 0.3880 | Val Best: 0.4220, Test Val: 0.4080, Test Best: 0.4080 | Power: 1.0000  | IF: 4.2994[0m
+[0;30;43m [12] CLA: 0.50330, KD: 1.10697, Total: 1.61027 | Train: 0.3000, Val: 0.4220, Test: 0.4170 | Val Best: 0.4220, Test Val: 0.4080, Test Best: 0.4080 | Power: 1.0000  | IF: 2.1027[0m
+[0;30;43m [13] CLA: 0.51288, KD: 1.09310, Total: 1.60598 | Train: 0.3857, Val: 0.4940, Test: 0.4630 | Val Best: 0.4220, Test Val: 0.4170, Test Best: 0.4170 | Power: 1.0000  | IF: 2.5686[0m
+[0;30;43m [14] CLA: 0.50166, KD: 1.07397, Total: 1.57563 | Train: 0.3714, Val: 0.4900, Test: 0.4670 | Val Best: 0.4940, Test Val: 0.4630, Test Best: 0.4630 | Power: 1.0000  | IF: 5.0786[0m
+[0;30;43m [15] CLA: 0.48045, KD: 1.07427, Total: 1.55472 | Train: 0.4071, Val: 0.5180, Test: 0.5240 | Val Best: 0.4940, Test Val: 0.4630, Test Best: 0.4670 | Power: 1.0000  | IF: 4.7850[0m
+[0;30;43m [16] CLA: 0.46998, KD: 1.05280, Total: 1.52278 | Train: 0.4286, Val: 0.5220, Test: 0.5230 | Val Best: 0.5180, Test Val: 0.5240, Test Best: 0.5240 | Power: 1.0000  | IF: 3.4062[0m
+[0;30;43m [17] CLA: 0.46705, KD: 1.03390, Total: 1.50095 | Train: 0.4286, Val: 0.5160, Test: 0.5300 | Val Best: 0.5220, Test Val: 0.5230, Test Best: 0.5240 | Power: 1.0000  | IF: 3.9138[0m
+[0;30;43m [18] CLA: 0.45656, KD: 1.02041, Total: 1.47697 | Train: 0.4286, Val: 0.5320, Test: 0.5390 | Val Best: 0.5220, Test Val: 0.5230, Test Best: 0.5300 | Power: 1.0000  | IF: 5.9611[0m
+[0;30;43m [19] CLA: 0.43873, KD: 1.02698, Total: 1.46571 | Train: 0.4286, Val: 0.5320, Test: 0.5380 | Val Best: 0.5320, Test Val: 0.5390, Test Best: 0.5390 | Power: 1.0000  | IF: 6.0303[0m
+[0;30;43m [20] CLA: 0.42873, KD: 1.01029, Total: 1.43902 | Train: 0.4286, Val: 0.5220, Test: 0.5340 | Val Best: 0.5320, Test Val: 0.5380, Test Best: 0.5390 | Power: 1.0000  | IF: 5.3436[0m
+[0;30;43m [21] CLA: 0.43426, KD: 0.99942, Total: 1.43368 | Train: 0.4286, Val: 0.5260, Test: 0.5450 | Val Best: 0.5320, Test Val: 0.5380, Test Best: 0.5390 | Power: 1.0000  | IF: 6.0709[0m
+[0;30;43m [22] CLA: 0.41596, KD: 0.98610, Total: 1.40206 | Train: 0.4286, Val: 0.5380, Test: 0.5500 | Val Best: 0.5320, Test Val: 0.5380, Test Best: 0.5450 | Power: 1.0000  | IF: 7.5225[0m
+[0;30;43m [23] CLA: 0.40825, KD: 0.99285, Total: 1.40110 | Train: 0.4286, Val: 0.5300, Test: 0.5380 | Val Best: 0.5380, Test Val: 0.5500, Test Best: 0.5500 | Power: 1.0000  | IF: 6.6607[0m
+[0;30;43m [24] CLA: 0.40334, KD: 0.98011, Total: 1.38344 | Train: 0.4286, Val: 0.5140, Test: 0.5400 | Val Best: 0.5380, Test Val: 0.5500, Test Best: 0.5500 | Power: 1.0000  | IF: 6.0227[0m
+[0;30;43m [25] CLA: 0.40319, KD: 0.97274, Total: 1.37593 | Train: 0.4286, Val: 0.5320, Test: 0.5490 | Val Best: 0.5380, Test Val: 0.5500, Test Best: 0.5500 | Power: 1.0000  | IF: 6.6358[0m
+[0;30;43m [26] CLA: 0.39392, KD: 0.97120, Total: 1.36512 | Train: 0.4429, Val: 0.5480, Test: 0.5510 | Val Best: 0.5380, Test Val: 0.5500, Test Best: 0.5500 | Power: 1.0000  | IF: 6.9391[0m
+[0;30;43m [27] CLA: 0.38290, KD: 0.97323, Total: 1.35613 | Train: 0.5500, Val: 0.6040, Test: 0.5890 | Val Best: 0.5480, Test Val: 0.5510, Test Best: 0.5510 | Power: 1.0000  | IF: 6.1205[0m
+[0;30;43m [28] CLA: 0.37946, KD: 0.95907, Total: 1.33852 | Train: 0.6429, Val: 0.6540, Test: 0.6270 | Val Best: 0.6040, Test Val: 0.5890, Test Best: 0.5890 | Power: 1.0000  | IF: 6.4313[0m
+[0;30;43m [29] CLA: 0.36899, KD: 0.96059, Total: 1.32958 | Train: 0.7143, Val: 0.6740, Test: 0.6730 | Val Best: 0.6540, Test Val: 0.6270, Test Best: 0.6270 | Power: 1.0000  | IF: 7.1807[0m
+[0;30;43m [30] CLA: 0.36607, KD: 0.95677, Total: 1.32284 | Train: 0.7000, Val: 0.6840, Test: 0.6840 | Val Best: 0.6740, Test Val: 0.6730, Test Best: 0.6730 | Power: 1.0000  | IF: 6.7413[0m
+[0;30;43m [31] CLA: 0.35364, KD: 0.94490, Total: 1.29854 | Train: 0.6929, Val: 0.6900, Test: 0.7000 | Val Best: 0.6840, Test Val: 0.6840, Test Best: 0.6840 | Power: 1.0000  | IF: 7.1250[0m
+[0;30;43m [32] CLA: 0.34930, KD: 0.95134, Total: 1.30064 | Train: 0.6929, Val: 0.6720, Test: 0.7020 | Val Best: 0.6900, Test Val: 0.7000, Test Best: 0.7000 | Power: 1.0000  | IF: 7.6122[0m
+[0;30;43m [33] CLA: 0.34348, KD: 0.94867, Total: 1.29215 | Train: 0.6857, Val: 0.6780, Test: 0.6940 | Val Best: 0.6900, Test Val: 0.7000, Test Best: 0.7020 | Power: 1.0000  | IF: 7.4128[0m
+[0;30;43m [34] CLA: 0.33554, KD: 0.95468, Total: 1.29021 | Train: 0.6929, Val: 0.6900, Test: 0.7010 | Val Best: 0.6900, Test Val: 0.7000, Test Best: 0.7020 | Power: 1.0000  | IF: 7.7270[0m
+[0;30;43m [35] CLA: 0.32798, KD: 0.94783, Total: 1.27581 | Train: 0.7000, Val: 0.6960, Test: 0.7060 | Val Best: 0.6900, Test Val: 0.7010, Test Best: 0.7020 | Power: 1.0000  | IF: 7.7753[0m
+[0;30;43m [36] CLA: 0.31842, KD: 0.94384, Total: 1.26226 | Train: 0.7071, Val: 0.6900, Test: 0.7100 | Val Best: 0.6960, Test Val: 0.7060, Test Best: 0.7060 | Power: 1.0000  | IF: 7.5516[0m
+[0;30;43m [37] CLA: 0.32164, KD: 0.93448, Total: 1.25612 | Train: 0.7071, Val: 0.7080, Test: 0.7130 | Val Best: 0.6960, Test Val: 0.7060, Test Best: 0.7100 | Power: 1.0000  | IF: 7.8140[0m
+[0;30;43m [38] CLA: 0.30662, KD: 0.93142, Total: 1.23804 | Train: 0.7071, Val: 0.7100, Test: 0.7180 | Val Best: 0.7080, Test Val: 0.7130, Test Best: 0.7130 | Power: 1.0000  | IF: 8.3805[0m
+[0;30;43m [39] CLA: 0.29513, KD: 0.92530, Total: 1.22042 | Train: 0.7071, Val: 0.6900, Test: 0.7130 | Val Best: 0.7100, Test Val: 0.7180, Test Best: 0.7180 | Power: 1.0000  | IF: 8.5762[0m
+[0;30;43m [40] CLA: 0.28574, KD: 0.92127, Total: 1.20701 | Train: 0.7143, Val: 0.7080, Test: 0.7190 | Val Best: 0.7100, Test Val: 0.7180, Test Best: 0.7180 | Power: 1.0000  | IF: 9.0985[0m
+[0;30;43m [41] CLA: 0.26874, KD: 0.92379, Total: 1.19252 | Train: 0.7143, Val: 0.7060, Test: 0.7200 | Val Best: 0.7100, Test Val: 0.7180, Test Best: 0.7190 | Power: 1.0000  | IF: 9.1794[0m
+[0;30;43m [42] CLA: 0.26782, KD: 0.92333, Total: 1.19115 | Train: 0.7143, Val: 0.7060, Test: 0.7200 | Val Best: 0.7100, Test Val: 0.7180, Test Best: 0.7200 | Power: 1.0000  | IF: 10.0594[0m
+[0;30;43m [43] CLA: 0.25358, KD: 0.91507, Total: 1.16865 | Train: 0.7143, Val: 0.7040, Test: 0.7250 | Val Best: 0.7100, Test Val: 0.7180, Test Best: 0.7200 | Power: 1.0000  | IF: 10.3683[0m
+[0;30;43m [44] CLA: 0.24870, KD: 0.92113, Total: 1.16983 | Train: 0.7143, Val: 0.7100, Test: 0.7250 | Val Best: 0.7100, Test Val: 0.7180, Test Best: 0.7250 | Power: 1.0000  | IF: 10.1430[0m
+[0;30;43m [45] CLA: 0.23175, KD: 0.90654, Total: 1.13829 | Train: 0.7143, Val: 0.7060, Test: 0.7230 | Val Best: 0.7100, Test Val: 0.7250, Test Best: 0.7250 | Power: 1.0000  | IF: 10.7891[0m
+[0;30;43m [46] CLA: 0.22905, KD: 0.90380, Total: 1.13284 | Train: 0.7571, Val: 0.7060, Test: 0.7290 | Val Best: 0.7100, Test Val: 0.7250, Test Best: 0.7250 | Power: 1.0000  | IF: 11.3383[0m
+[0;30;43m [47] CLA: 0.21876, KD: 0.90095, Total: 1.11971 | Train: 0.8071, Val: 0.7220, Test: 0.7460 | Val Best: 0.7100, Test Val: 0.7250, Test Best: 0.7290 | Power: 1.0000  | IF: 11.2184[0m
+[0;30;43m [48] CLA: 0.19892, KD: 0.90610, Total: 1.10502 | Train: 0.9500, Val: 0.7460, Test: 0.7680 | Val Best: 0.7220, Test Val: 0.7460, Test Best: 0.7460 | Power: 1.0000  | IF: 11.5160[0m
+[0;30;43m [49] CLA: 0.19626, KD: 0.90063, Total: 1.09689 | Train: 0.9786, Val: 0.7560, Test: 0.7970 | Val Best: 0.7460, Test Val: 0.7680, Test Best: 0.7680 | Power: 1.0000  | IF: 11.7414[0m
+[0;30;43m [50] CLA: 0.18789, KD: 0.90083, Total: 1.08871 | Train: 0.9857, Val: 0.7660, Test: 0.8120 | Val Best: 0.7560, Test Val: 0.7970, Test Best: 0.7970 | Power: 1.0144  | IF: 11.5684[0m
+[0;30;43m [51] CLA: 0.16427, KD: 0.89223, Total: 1.05650 | Train: 0.9857, Val: 0.7800, Test: 0.8180 | Val Best: 0.7660, Test Val: 0.8120, Test Best: 0.8120 | Power: 1.0342  | IF: 12.0532[0m
+[0;30;43m [52] CLA: 0.15833, KD: 0.88724, Total: 1.04557 | Train: 0.9929, Val: 0.7760, Test: 0.8210 | Val Best: 0.7800, Test Val: 0.8180, Test Best: 0.8180 | Power: 1.0532  | IF: 12.1676[0m
+[0;30;43m [53] CLA: 0.14569, KD: 0.87921, Total: 1.02490 | Train: 1.0000, Val: 0.7620, Test: 0.8190 | Val Best: 0.7800, Test Val: 0.8180, Test Best: 0.8210 | Power: 1.0722  | IF: 12.0527[0m
+[0;30;43m [54] CLA: 0.14196, KD: 0.87647, Total: 1.01843 | Train: 1.0000, Val: 0.7960, Test: 0.8300 | Val Best: 0.7800, Test Val: 0.8180, Test Best: 0.8210 | Power: 1.0834  | IF: 12.5037[0m
+[0;30;43m [55] CLA: 0.12474, KD: 0.86595, Total: 0.99068 | Train: 1.0000, Val: 0.7980, Test: 0.8320 | Val Best: 0.7960, Test Val: 0.8300, Test Best: 0.8300 | Power: 1.1017  | IF: 12.5188[0m
+[0;30;43m [56] CLA: 0.11799, KD: 0.85699, Total: 0.97498 | Train: 1.0000, Val: 0.7900, Test: 0.8320 | Val Best: 0.7980, Test Val: 0.8320, Test Best: 0.8320 | Power: 1.1206  | IF: 12.4007[0m
+[0;30;43m [57] CLA: 0.11231, KD: 0.85547, Total: 0.96777 | Train: 1.0000, Val: 0.7980, Test: 0.8350 | Val Best: 0.7980, Test Val: 0.8320, Test Best: 0.8320 | Power: 1.1333  | IF: 13.1787[0m
+[0;30;43m [58] CLA: 0.09877, KD: 0.85145, Total: 0.95023 | Train: 1.0000, Val: 0.7980, Test: 0.8360 | Val Best: 0.7980, Test Val: 0.8350, Test Best: 0.8350 | Power: 1.1441  | IF: 13.4571[0m
+[0;30;43m [59] CLA: 0.08664, KD: 0.85801, Total: 0.94465 | Train: 1.0000, Val: 0.7900, Test: 0.8340 | Val Best: 0.7980, Test Val: 0.8360, Test Best: 0.8360 | Power: 1.1547  | IF: 12.5155[0m
+[0;30;43m [60] CLA: 0.09169, KD: 0.84751, Total: 0.93920 | Train: 1.0000, Val: 0.7980, Test: 0.8380 | Val Best: 0.7980, Test Val: 0.8360, Test Best: 0.8360 | Power: 1.1663  | IF: 12.6831[0m
+[0;30;43m [61] CLA: 0.08201, KD: 0.84064, Total: 0.92265 | Train: 1.0000, Val: 0.8040, Test: 0.8380 | Val Best: 0.7980, Test Val: 0.8380, Test Best: 0.8380 | Power: 1.1864  | IF: 13.2727[0m
+[0;30;43m [62] CLA: 0.07975, KD: 0.84024, Total: 0.91999 | Train: 1.0000, Val: 0.7880, Test: 0.8310 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8380 | Power: 1.1920  | IF: 12.7979[0m
+[0;30;43m [63] CLA: 0.08564, KD: 0.83802, Total: 0.92366 | Train: 1.0000, Val: 0.8020, Test: 0.8430 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8380 | Power: 1.2022  | IF: 12.6684[0m
+[0;30;43m [64] CLA: 0.07576, KD: 0.83363, Total: 0.90939 | Train: 1.0000, Val: 0.8020, Test: 0.8390 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2106  | IF: 12.8558[0m
+[0;30;43m [65] CLA: 0.08225, KD: 0.82137, Total: 0.90362 | Train: 1.0000, Val: 0.8000, Test: 0.8410 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2159  | IF: 12.8078[0m
+[0;30;43m [66] CLA: 0.08475, KD: 0.81895, Total: 0.90370 | Train: 1.0000, Val: 0.7920, Test: 0.8410 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2304  | IF: 12.4828[0m
+[0;30;43m [67] CLA: 0.08033, KD: 0.81153, Total: 0.89185 | Train: 1.0000, Val: 0.8020, Test: 0.8400 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2429  | IF: 12.5478[0m
+[0;30;43m [68] CLA: 0.07379, KD: 0.81537, Total: 0.88916 | Train: 1.0000, Val: 0.8020, Test: 0.8410 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2516  | IF: 12.6931[0m
+[0;30;43m [69] CLA: 0.06780, KD: 0.81314, Total: 0.88094 | Train: 1.0000, Val: 0.8020, Test: 0.8320 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2816  | IF: 12.8339[0m
+[0;30;43m [70] CLA: 0.06763, KD: 0.81124, Total: 0.87888 | Train: 1.0000, Val: 0.8100, Test: 0.8360 | Val Best: 0.8040, Test Val: 0.8380, Test Best: 0.8430 | Power: 1.2895  | IF: 12.8370[0m
+[0;30;43m [71] CLA: 0.07474, KD: 0.80815, Total: 0.88289 | Train: 1.0000, Val: 0.8040, Test: 0.8360 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8430 | Power: 1.3015  | IF: 12.9403[0m
+[0;30;43m [72] CLA: 0.07227, KD: 0.80012, Total: 0.87239 | Train: 1.0000, Val: 0.8060, Test: 0.8380 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8430 | Power: 1.3161  | IF: 12.8411[0m
+[0;30;43m [73] CLA: 0.07231, KD: 0.80726, Total: 0.87957 | Train: 1.0000, Val: 0.8060, Test: 0.8440 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8430 | Power: 1.3322  | IF: 12.5223[0m
+[0;30;43m [74] CLA: 0.07077, KD: 0.79252, Total: 0.86329 | Train: 1.0000, Val: 0.8060, Test: 0.8410 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.3460  | IF: 12.7384[0m
+[0;30;43m [75] CLA: 0.07170, KD: 0.79400, Total: 0.86570 | Train: 1.0000, Val: 0.8020, Test: 0.8420 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.3577  | IF: 12.1357[0m
+[0;30;43m [76] CLA: 0.07719, KD: 0.78546, Total: 0.86265 | Train: 1.0000, Val: 0.8000, Test: 0.8440 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.3722  | IF: 11.9659[0m
+[0;30;43m [77] CLA: 0.08025, KD: 0.79013, Total: 0.87038 | Train: 1.0000, Val: 0.8060, Test: 0.8410 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.3886  | IF: 12.4317[0m
+[0;30;43m [78] CLA: 0.07316, KD: 0.78378, Total: 0.85695 | Train: 1.0000, Val: 0.8000, Test: 0.8350 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.4024  | IF: 12.8225[0m
+[0;30;43m [79] CLA: 0.07263, KD: 0.77849, Total: 0.85112 | Train: 1.0000, Val: 0.7960, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.4195  | IF: 13.3012[0m
+[0;30;43m [80] CLA: 0.06370, KD: 0.79302, Total: 0.85672 | Train: 1.0000, Val: 0.8020, Test: 0.8410 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.4436  | IF: 13.2288[0m
+[0;30;43m [81] CLA: 0.06950, KD: 0.78474, Total: 0.85425 | Train: 1.0000, Val: 0.7940, Test: 0.8320 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.4674  | IF: 13.5223[0m
+[0;30;43m [82] CLA: 0.06486, KD: 0.79453, Total: 0.85939 | Train: 1.0000, Val: 0.7980, Test: 0.8350 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.4796  | IF: 13.3368[0m
+[0;30;43m [83] CLA: 0.07024, KD: 0.78243, Total: 0.85267 | Train: 1.0000, Val: 0.8020, Test: 0.8400 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.5085  | IF: 12.8541[0m
+[0;30;43m [84] CLA: 0.06564, KD: 0.77471, Total: 0.84035 | Train: 1.0000, Val: 0.8020, Test: 0.8430 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.5303  | IF: 12.5000[0m
+[0;30;43m [85] CLA: 0.06904, KD: 0.77352, Total: 0.84256 | Train: 1.0000, Val: 0.8060, Test: 0.8370 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.5541  | IF: 12.9872[0m
+[0;30;43m [86] CLA: 0.06885, KD: 0.77611, Total: 0.84496 | Train: 1.0000, Val: 0.8080, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.5811  | IF: 13.4399[0m
+[0;30;43m [87] CLA: 0.06743, KD: 0.78086, Total: 0.84829 | Train: 1.0000, Val: 0.8100, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8360, Test Best: 0.8440 | Power: 1.6062  | IF: 13.4320[0m
+[0;30;43m [88] CLA: 0.06552, KD: 0.77925, Total: 0.84476 | Train: 1.0000, Val: 0.8060, Test: 0.8420 | Val Best: 0.8100, Test Val: 0.8390, Test Best: 0.8440 | Power: 1.6326  | IF: 13.1488[0m
+[0;30;43m [89] CLA: 0.07314, KD: 0.77418, Total: 0.84732 | Train: 1.0000, Val: 0.8100, Test: 0.8400 | Val Best: 0.8100, Test Val: 0.8390, Test Best: 0.8440 | Power: 1.6593  | IF: 13.0399[0m
+[0;30;43m [90] CLA: 0.06473, KD: 0.77554, Total: 0.84027 | Train: 1.0000, Val: 0.8060, Test: 0.8400 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.6728  | IF: 12.6360[0m
+[0;30;43m [91] CLA: 0.06486, KD: 0.76442, Total: 0.82928 | Train: 1.0000, Val: 0.8000, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.6888  | IF: 12.8337[0m
+[0;30;43m [92] CLA: 0.06382, KD: 0.77040, Total: 0.83422 | Train: 1.0000, Val: 0.8040, Test: 0.8420 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.7048  | IF: 12.8997[0m
+[0;30;43m [93] CLA: 0.06932, KD: 0.76792, Total: 0.83723 | Train: 1.0000, Val: 0.7980, Test: 0.8410 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.7205  | IF: 12.7287[0m
+[0;30;43m [94] CLA: 0.06804, KD: 0.76195, Total: 0.82999 | Train: 1.0000, Val: 0.8000, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.7376  | IF: 12.8636[0m
+[0;30;43m [95] CLA: 0.06096, KD: 0.76810, Total: 0.82906 | Train: 1.0000, Val: 0.7980, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.7531  | IF: 12.3989[0m
+[0;30;43m [96] CLA: 0.06809, KD: 0.77442, Total: 0.84251 | Train: 1.0000, Val: 0.8020, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.7698  | IF: 12.3721[0m
+[0;30;43m [97] CLA: 0.06901, KD: 0.76682, Total: 0.83583 | Train: 1.0000, Val: 0.8000, Test: 0.8420 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.7894  | IF: 13.0047[0m
+[0;30;43m [98] CLA: 0.06978, KD: 0.75679, Total: 0.82657 | Train: 1.0000, Val: 0.8020, Test: 0.8450 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8440 | Power: 1.8021  | IF: 13.0540[0m
+[0;30;43m [99] CLA: 0.06730, KD: 0.75668, Total: 0.82398 | Train: 1.0000, Val: 0.8100, Test: 0.8370 | Val Best: 0.8100, Test Val: 0.8400, Test Best: 0.8450 | Power: 1.8153  | IF: 12.7948[0m
+[0;30;43m [100] CLA: 0.06320, KD: 0.76716, Total: 0.83036 | Train: 1.0000, Val: 0.8020, Test: 0.8370 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8335  | IF: 12.4659[0m
+[0;30;43m [101] CLA: 0.06775, KD: 0.74746, Total: 0.81521 | Train: 1.0000, Val: 0.8040, Test: 0.8390 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8471  | IF: 12.9196[0m
+[0;30;43m [102] CLA: 0.06362, KD: 0.75585, Total: 0.81947 | Train: 1.0000, Val: 0.8080, Test: 0.8360 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8575  | IF: 12.9716[0m
+[0;30;43m [103] CLA: 0.06457, KD: 0.76275, Total: 0.82732 | Train: 1.0000, Val: 0.8080, Test: 0.8400 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8714  | IF: 12.8993[0m
+[0;30;43m [104] CLA: 0.06289, KD: 0.75616, Total: 0.81905 | Train: 1.0000, Val: 0.8040, Test: 0.8410 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8780  | IF: 12.7583[0m
+[0;30;43m [105] CLA: 0.07358, KD: 0.74499, Total: 0.81857 | Train: 1.0000, Val: 0.8080, Test: 0.8370 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8815  | IF: 13.4312[0m
+[0;30;43m [106] CLA: 0.06359, KD: 0.75799, Total: 0.82159 | Train: 1.0000, Val: 0.8120, Test: 0.8400 | Val Best: 0.8100, Test Val: 0.8370, Test Best: 0.8450 | Power: 1.8939  | IF: 13.5895[0m
+[0;30;43m [107] CLA: 0.06527, KD: 0.75422, Total: 0.81950 | Train: 1.0000, Val: 0.8080, Test: 0.8400 | Val Best: 0.8120, Test Val: 0.8400, Test Best: 0.8450 | Power: 1.9037  | IF: 12.8070[0m
+[0;30;43m [108] CLA: 0.06664, KD: 0.75401, Total: 0.82065 | Train: 1.0000, Val: 0.8140, Test: 0.8390 | Val Best: 0.8120, Test Val: 0.8400, Test Best: 0.8450 | Power: 1.9091  | IF: 12.4616[0m
+[0;30;43m [109] CLA: 0.06425, KD: 0.75054, Total: 0.81479 | Train: 1.0000, Val: 0.8100, Test: 0.8430 | Val Best: 0.8140, Test Val: 0.8390, Test Best: 0.8450 | Power: 1.9313  | IF: 13.0009[0m
+[0;30;43m [110] CLA: 0.06081, KD: 0.76148, Total: 0.82228 | Train: 1.0000, Val: 0.8180, Test: 0.8400 | Val Best: 0.8140, Test Val: 0.8390, Test Best: 0.8450 | Power: 1.9554  | IF: 13.4688[0m
+[0;30;43m [111] CLA: 0.06822, KD: 0.75023, Total: 0.81846 | Train: 1.0000, Val: 0.8080, Test: 0.8400 | Val Best: 0.8180, Test Val: 0.8400, Test Best: 0.8450 | Power: 1.9794  | IF: 13.5196[0m
+[0;30;43m [112] CLA: 0.06060, KD: 0.75957, Total: 0.82017 | Train: 1.0000, Val: 0.8100, Test: 0.8410 | Val Best: 0.8180, Test Val: 0.8400, Test Best: 0.8450 | Power: 1.9868  | IF: 12.9479[0m
+[0;30;43m [113] CLA: 0.05780, KD: 0.75786, Total: 0.81566 | Train: 1.0000, Val: 0.8100, Test: 0.8440 | Val Best: 0.8180, Test Val: 0.8400, Test Best: 0.8450 | Power: 2.0075  | IF: 12.9959[0m
+[0;30;43m [114] CLA: 0.06384, KD: 0.75411, Total: 0.81795 | Train: 1.0000, Val: 0.8100, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8400, Test Best: 0.8450 | Power: 2.0281  | IF: 13.0654[0m
+[0;30;43m [115] CLA: 0.06669, KD: 0.75475, Total: 0.82144 | Train: 1.0000, Val: 0.8180, Test: 0.8430 | Val Best: 0.8180, Test Val: 0.8400, Test Best: 0.8450 | Power: 2.0471  | IF: 12.6862[0m
+[0;30;43m [116] CLA: 0.06373, KD: 0.74018, Total: 0.80391 | Train: 1.0000, Val: 0.8160, Test: 0.8410 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.0564  | IF: 12.7953[0m
+[0;30;43m [117] CLA: 0.06279, KD: 0.75036, Total: 0.81315 | Train: 1.0000, Val: 0.8100, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.0661  | IF: 13.3631[0m
+[0;30;43m [118] CLA: 0.07425, KD: 0.74549, Total: 0.81974 | Train: 1.0000, Val: 0.8140, Test: 0.8370 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.0877  | IF: 13.2925[0m
+[0;30;43m [119] CLA: 0.06307, KD: 0.75360, Total: 0.81667 | Train: 1.0000, Val: 0.8160, Test: 0.8350 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1099  | IF: 12.5992[0m
+[0;30;43m [120] CLA: 0.06413, KD: 0.75089, Total: 0.81502 | Train: 1.0000, Val: 0.8100, Test: 0.8320 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1312  | IF: 12.5968[0m
+[0;30;43m [121] CLA: 0.06420, KD: 0.74475, Total: 0.80895 | Train: 1.0000, Val: 0.8040, Test: 0.8310 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1507  | IF: 13.3097[0m
+[0;30;43m [122] CLA: 0.05648, KD: 0.74271, Total: 0.79919 | Train: 1.0000, Val: 0.8100, Test: 0.8410 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1584  | IF: 13.3324[0m
+[0;30;43m [123] CLA: 0.06409, KD: 0.74138, Total: 0.80546 | Train: 1.0000, Val: 0.8020, Test: 0.8350 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1669  | IF: 12.8341[0m
+[0;30;43m [124] CLA: 0.06259, KD: 0.74591, Total: 0.80851 | Train: 1.0000, Val: 0.8020, Test: 0.8330 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1763  | IF: 12.6379[0m
+[0;30;43m [125] CLA: 0.07265, KD: 0.73783, Total: 0.81048 | Train: 1.0000, Val: 0.8100, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1855  | IF: 13.0096[0m
+[0;30;43m [126] CLA: 0.06944, KD: 0.74252, Total: 0.81196 | Train: 1.0000, Val: 0.8000, Test: 0.8370 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1927  | IF: 12.9787[0m
+[0;30;43m [127] CLA: 0.06215, KD: 0.74521, Total: 0.80736 | Train: 1.0000, Val: 0.7960, Test: 0.8310 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.1988  | IF: 12.4813[0m
+[0;30;43m [128] CLA: 0.05841, KD: 0.73944, Total: 0.79785 | Train: 1.0000, Val: 0.8060, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2157  | IF: 12.4855[0m
+[0;30;43m [129] CLA: 0.06710, KD: 0.74516, Total: 0.81226 | Train: 1.0000, Val: 0.8060, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2319  | IF: 12.7332[0m
+[0;30;43m [130] CLA: 0.06449, KD: 0.74429, Total: 0.80878 | Train: 1.0000, Val: 0.7960, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2524  | IF: 13.2094[0m
+[0;30;43m [131] CLA: 0.05938, KD: 0.75394, Total: 0.81332 | Train: 1.0000, Val: 0.8100, Test: 0.8430 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2613  | IF: 13.2451[0m
+[0;30;43m [132] CLA: 0.06861, KD: 0.73776, Total: 0.80637 | Train: 1.0000, Val: 0.8080, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2759  | IF: 13.0406[0m
+[0;30;43m [133] CLA: 0.06368, KD: 0.73461, Total: 0.79829 | Train: 1.0000, Val: 0.7980, Test: 0.8410 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2839  | IF: 13.0707[0m
+[0;30;43m [134] CLA: 0.05915, KD: 0.73479, Total: 0.79394 | Train: 1.0000, Val: 0.8100, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2938  | IF: 12.8548[0m
+[0;30;43m [135] CLA: 0.06794, KD: 0.74868, Total: 0.81662 | Train: 1.0000, Val: 0.8080, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.2982  | IF: 12.4552[0m
+[0;30;43m [136] CLA: 0.06858, KD: 0.73607, Total: 0.80465 | Train: 1.0000, Val: 0.8060, Test: 0.8310 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3058  | IF: 12.9658[0m
+[0;30;43m [137] CLA: 0.06015, KD: 0.73861, Total: 0.79876 | Train: 1.0000, Val: 0.8080, Test: 0.8370 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3159  | IF: 13.3266[0m
+[0;30;43m [138] CLA: 0.05639, KD: 0.73866, Total: 0.79505 | Train: 1.0000, Val: 0.8080, Test: 0.8300 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3224  | IF: 13.5554[0m
+[0;30;43m [139] CLA: 0.06440, KD: 0.73589, Total: 0.80029 | Train: 1.0000, Val: 0.8060, Test: 0.8320 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3288  | IF: 13.5015[0m
+[0;30;43m [140] CLA: 0.05209, KD: 0.74356, Total: 0.79565 | Train: 1.0000, Val: 0.8120, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3382  | IF: 12.9001[0m
+[0;30;43m [141] CLA: 0.06728, KD: 0.73058, Total: 0.79786 | Train: 1.0000, Val: 0.8140, Test: 0.8340 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3434  | IF: 12.6826[0m
+[0;30;43m [142] CLA: 0.06667, KD: 0.74174, Total: 0.80842 | Train: 1.0000, Val: 0.8060, Test: 0.8290 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3498  | IF: 12.7642[0m
+[0;30;43m [143] CLA: 0.07222, KD: 0.72963, Total: 0.80186 | Train: 1.0000, Val: 0.8120, Test: 0.8340 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3605  | IF: 13.2730[0m
+[0;30;43m [144] CLA: 0.06880, KD: 0.73741, Total: 0.80621 | Train: 1.0000, Val: 0.8160, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3657  | IF: 13.1939[0m
+[0;30;43m [145] CLA: 0.05805, KD: 0.74311, Total: 0.80116 | Train: 1.0000, Val: 0.8060, Test: 0.8340 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3695  | IF: 13.3142[0m
+[0;30;43m [146] CLA: 0.05970, KD: 0.72923, Total: 0.78893 | Train: 1.0000, Val: 0.8040, Test: 0.8340 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3750  | IF: 13.3428[0m
+[0;30;43m [147] CLA: 0.06289, KD: 0.73779, Total: 0.80068 | Train: 1.0000, Val: 0.8120, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3868  | IF: 13.7114[0m
+[0;30;43m [148] CLA: 0.06280, KD: 0.73356, Total: 0.79636 | Train: 1.0000, Val: 0.8160, Test: 0.8460 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8450 | Power: 2.3853  | IF: 13.5085[0m
+[0;30;43m [149] CLA: 0.06484, KD: 0.73304, Total: 0.79788 | Train: 1.0000, Val: 0.8100, Test: 0.8380 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.3900  | IF: 13.1041[0m
+[0;30;43m [150] CLA: 0.06349, KD: 0.73593, Total: 0.79943 | Train: 1.0000, Val: 0.8100, Test: 0.8430 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.3988  | IF: 13.0162[0m
+[0;30;43m [151] CLA: 0.06566, KD: 0.72649, Total: 0.79215 | Train: 1.0000, Val: 0.8080, Test: 0.8410 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4068  | IF: 13.4498[0m
+[0;30;43m [152] CLA: 0.06296, KD: 0.73367, Total: 0.79663 | Train: 1.0000, Val: 0.8100, Test: 0.8430 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4167  | IF: 13.6334[0m
+[0;30;43m [153] CLA: 0.06082, KD: 0.73422, Total: 0.79505 | Train: 1.0000, Val: 0.8080, Test: 0.8410 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4241  | IF: 13.2322[0m
+[0;30;43m [154] CLA: 0.05574, KD: 0.72795, Total: 0.78370 | Train: 1.0000, Val: 0.8040, Test: 0.8430 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4305  | IF: 13.0738[0m
+[0;30;43m [155] CLA: 0.06018, KD: 0.73155, Total: 0.79173 | Train: 1.0000, Val: 0.8000, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4336  | IF: 13.1807[0m
+[0;30;43m [156] CLA: 0.06368, KD: 0.72657, Total: 0.79024 | Train: 1.0000, Val: 0.8020, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4410  | IF: 13.3324[0m
+[0;30;43m [157] CLA: 0.05541, KD: 0.73074, Total: 0.78615 | Train: 1.0000, Val: 0.8020, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4514  | IF: 12.9233[0m
+[0;30;43m [158] CLA: 0.06162, KD: 0.72549, Total: 0.78711 | Train: 1.0000, Val: 0.8000, Test: 0.8390 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4602  | IF: 12.9663[0m
+[0;30;43m [159] CLA: 0.06235, KD: 0.73955, Total: 0.80190 | Train: 1.0000, Val: 0.8020, Test: 0.8370 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4656  | IF: 12.9716[0m
+[0;30;43m [160] CLA: 0.05838, KD: 0.72871, Total: 0.78709 | Train: 1.0000, Val: 0.8000, Test: 0.8360 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4718  | IF: 12.9574[0m
+[0;30;43m [161] CLA: 0.06218, KD: 0.71925, Total: 0.78143 | Train: 1.0000, Val: 0.8000, Test: 0.8330 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4798  | IF: 13.0790[0m
+[0;30;43m [162] CLA: 0.06453, KD: 0.72011, Total: 0.78464 | Train: 1.0000, Val: 0.8020, Test: 0.8350 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.4883  | IF: 12.9842[0m
+[0;30;43m [163] CLA: 0.06541, KD: 0.71786, Total: 0.78326 | Train: 1.0000, Val: 0.8100, Test: 0.8330 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.5126  | IF: 13.2024[0m
+[0;30;43m [164] CLA: 0.06197, KD: 0.72850, Total: 0.79047 | Train: 1.0000, Val: 0.8080, Test: 0.8350 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.5373  | IF: 13.3292[0m
+[0;30;43m [165] CLA: 0.05435, KD: 0.73705, Total: 0.79140 | Train: 1.0000, Val: 0.8100, Test: 0.8350 | Val Best: 0.8180, Test Val: 0.8430, Test Best: 0.8460 | Power: 2.5580  | IF: 13.3111[0m
+Early stopping!
+Best Validation Accuracy: 0.8180, Test Accuracy: 0.8430, IF: 12.6862
+REPRODUCTION METHOD KL_ablation
+Student
+[0;30;43m [1] CLA: 0.58412, KD: 1.14377, Total: 1.72788 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.0000, Test Val: 0.0000, Test Best: 0.0000 | Power: 1.0000  | IF: 0.0013[0m
+[0;30;43m [2] CLA: 0.59726, KD: 1.08955, Total: 1.68681 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.0772[0m
+[0;30;43m [3] CLA: 0.60159, KD: 1.07090, Total: 1.67249 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 0.1855[0m
+[0;30;43m [4] CLA: 0.57713, KD: 1.07217, Total: 1.64931 | Train: 0.1429, Val: 0.3160, Test: 0.3190 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 1.1116[0m
+[0;30;43m [5] CLA: 0.56230, KD: 1.02820, Total: 1.59050 | Train: 0.1429, Val: 0.3160, Test: 0.3200 | Val Best: 0.3160, Test Val: 0.3190, Test Best: 0.3190 | Power: 1.0000  | IF: 6.1023[0m
+[0;30;43m [6] CLA: 0.53605, KD: 0.96241, Total: 1.49845 | Train: 0.2500, Val: 0.3980, Test: 0.3900 | Val Best: 0.3160, Test Val: 0.3200, Test Best: 0.3200 | Power: 1.0000  | IF: 16.0138[0m
+[0;30;43m [7] CLA: 0.49409, KD: 0.90355, Total: 1.39763 | Train: 0.2714, Val: 0.4060, Test: 0.4070 | Val Best: 0.3980, Test Val: 0.3900, Test Best: 0.3900 | Power: 1.0000  | IF: 52.1481[0m
+[0;30;43m [8] CLA: 0.45671, KD: 0.84054, Total: 1.29725 | Train: 0.4786, Val: 0.5460, Test: 0.5060 | Val Best: 0.4060, Test Val: 0.4070, Test Best: 0.4070 | Power: 1.0000  | IF: 86.0999[0m
+[0;30;43m [9] CLA: 0.42417, KD: 0.78174, Total: 1.20591 | Train: 0.5286, Val: 0.5780, Test: 0.5410 | Val Best: 0.5460, Test Val: 0.5060, Test Best: 0.5060 | Power: 1.0000  | IF: 159.7674[0m
+[0;30;43m [10] CLA: 0.37962, KD: 0.71231, Total: 1.09193 | Train: 0.6857, Val: 0.6520, Test: 0.6140 | Val Best: 0.5780, Test Val: 0.5410, Test Best: 0.5410 | Power: 1.0000  | IF: 212.9617[0m
+[0;30;43m [11] CLA: 0.33163, KD: 0.63759, Total: 0.96921 | Train: 0.7143, Val: 0.6620, Test: 0.6270 | Val Best: 0.6520, Test Val: 0.6140, Test Best: 0.6140 | Power: 1.0000  | IF: 269.9562[0m
+[0;30;43m [12] CLA: 0.28285, KD: 0.57104, Total: 0.85390 | Train: 0.7000, Val: 0.6460, Test: 0.6460 | Val Best: 0.6620, Test Val: 0.6270, Test Best: 0.6270 | Power: 1.0000  | IF: 401.0349[0m
+[0;30;43m [13] CLA: 0.24802, KD: 0.52850, Total: 0.77652 | Train: 0.6643, Val: 0.6260, Test: 0.6100 | Val Best: 0.6620, Test Val: 0.6270, Test Best: 0.6460 | Power: 1.0000  | IF: 404.8486[0m
+[0;30;43m [14] CLA: 0.22955, KD: 0.53488, Total: 0.76443 | Train: 0.7929, Val: 0.6660, Test: 0.6600 | Val Best: 0.6620, Test Val: 0.6270, Test Best: 0.6460 | Power: 1.0000  | IF: 599.9689[0m
+[0;30;43m [15] CLA: 0.19711, KD: 0.49722, Total: 0.69433 | Train: 0.9071, Val: 0.6580, Test: 0.6870 | Val Best: 0.6660, Test Val: 0.6600, Test Best: 0.6600 | Power: 1.0000  | IF: 594.5521[0m
+[0;30;43m [16] CLA: 0.18054, KD: 0.46959, Total: 0.65013 | Train: 0.9357, Val: 0.7420, Test: 0.7180 | Val Best: 0.6660, Test Val: 0.6600, Test Best: 0.6870 | Power: 1.0000  | IF: 621.3970[0m
+[0;30;43m [17] CLA: 0.17287, KD: 0.45319, Total: 0.62606 | Train: 0.8357, Val: 0.7040, Test: 0.7090 | Val Best: 0.7420, Test Val: 0.7180, Test Best: 0.7180 | Power: 1.0000  | IF: 649.8131[0m
+[0;30;43m [18] CLA: 0.15086, KD: 0.39666, Total: 0.54751 | Train: 0.8071, Val: 0.6840, Test: 0.6860 | Val Best: 0.7420, Test Val: 0.7180, Test Best: 0.7180 | Power: 1.0000  | IF: 636.3091[0m
+[0;30;43m [19] CLA: 0.14453, KD: 0.39960, Total: 0.54413 | Train: 0.8714, Val: 0.7100, Test: 0.7080 | Val Best: 0.7420, Test Val: 0.7180, Test Best: 0.7180 | Power: 1.0000  | IF: 591.8419[0m
+[0;30;43m [20] CLA: 0.13178, KD: 0.35851, Total: 0.49030 | Train: 0.9786, Val: 0.7520, Test: 0.7470 | Val Best: 0.7420, Test Val: 0.7180, Test Best: 0.7180 | Power: 1.0000  | IF: 545.3419[0m
+[0;30;43m [21] CLA: 0.12351, KD: 0.34512, Total: 0.46863 | Train: 1.0000, Val: 0.7560, Test: 0.7790 | Val Best: 0.7520, Test Val: 0.7470, Test Best: 0.7470 | Power: 1.0000  | IF: 508.6893[0m
+[0;30;43m [22] CLA: 0.10081, KD: 0.30804, Total: 0.40885 | Train: 1.0000, Val: 0.7500, Test: 0.7710 | Val Best: 0.7560, Test Val: 0.7790, Test Best: 0.7790 | Power: 1.0000  | IF: 491.6498[0m
+[0;30;43m [23] CLA: 0.08726, KD: 0.29341, Total: 0.38066 | Train: 1.0000, Val: 0.7720, Test: 0.7920 | Val Best: 0.7560, Test Val: 0.7790, Test Best: 0.7790 | Power: 1.0000  | IF: 469.1208[0m
+[0;30;43m [24] CLA: 0.06766, KD: 0.27445, Total: 0.34211 | Train: 1.0000, Val: 0.7740, Test: 0.7960 | Val Best: 0.7720, Test Val: 0.7920, Test Best: 0.7920 | Power: 1.0000  | IF: 440.2399[0m
+[0;30;43m [25] CLA: 0.05331, KD: 0.25771, Total: 0.31102 | Train: 1.0000, Val: 0.7740, Test: 0.7930 | Val Best: 0.7740, Test Val: 0.7960, Test Best: 0.7960 | Power: 1.0000  | IF: 428.9709[0m
+[0;30;43m [26] CLA: 0.04849, KD: 0.24106, Total: 0.28955 | Train: 1.0000, Val: 0.7920, Test: 0.7970 | Val Best: 0.7740, Test Val: 0.7930, Test Best: 0.7960 | Power: 1.0000  | IF: 444.9887[0m
+[0;30;43m [27] CLA: 0.03316, KD: 0.22263, Total: 0.25579 | Train: 1.0000, Val: 0.7820, Test: 0.8140 | Val Best: 0.7920, Test Val: 0.7970, Test Best: 0.7970 | Power: 1.0000  | IF: 456.4598[0m
+[0;30;43m [28] CLA: 0.02721, KD: 0.21448, Total: 0.24170 | Train: 1.0000, Val: 0.7800, Test: 0.8110 | Val Best: 0.7920, Test Val: 0.7970, Test Best: 0.8140 | Power: 1.0000  | IF: 448.9222[0m
+[0;30;43m [29] CLA: 0.02443, KD: 0.19761, Total: 0.22204 | Train: 1.0000, Val: 0.7940, Test: 0.8160 | Val Best: 0.7920, Test Val: 0.7970, Test Best: 0.8140 | Power: 1.0000  | IF: 460.3127[0m
+[0;30;43m [30] CLA: 0.02028, KD: 0.19092, Total: 0.21120 | Train: 1.0000, Val: 0.8020, Test: 0.8190 | Val Best: 0.7940, Test Val: 0.8160, Test Best: 0.8160 | Power: 1.0000  | IF: 463.7573[0m
+[0;30;43m [31] CLA: 0.01621, KD: 0.17673, Total: 0.19295 | Train: 1.0000, Val: 0.7940, Test: 0.8200 | Val Best: 0.8020, Test Val: 0.8190, Test Best: 0.8190 | Power: 1.0000  | IF: 459.9914[0m
+[0;30;43m [32] CLA: 0.01468, KD: 0.16784, Total: 0.18252 | Train: 1.0000, Val: 0.8040, Test: 0.8270 | Val Best: 0.8020, Test Val: 0.8190, Test Best: 0.8200 | Power: 1.0000  | IF: 453.4939[0m
+[0;30;43m [33] CLA: 0.01519, KD: 0.16058, Total: 0.17577 | Train: 1.0000, Val: 0.8040, Test: 0.8220 | Val Best: 0.8040, Test Val: 0.8270, Test Best: 0.8270 | Power: 1.0000  | IF: 441.4241[0m
+[0;30;43m [34] CLA: 0.01300, KD: 0.15482, Total: 0.16781 | Train: 1.0000, Val: 0.8100, Test: 0.8270 | Val Best: 0.8040, Test Val: 0.8220, Test Best: 0.8270 | Power: 1.0000  | IF: 429.5815[0m
+[0;30;43m [35] CLA: 0.01440, KD: 0.14820, Total: 0.16259 | Train: 1.0000, Val: 0.8060, Test: 0.8260 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8270 | Power: 1.0000  | IF: 414.2502[0m
+[0;30;43m [36] CLA: 0.01350, KD: 0.14329, Total: 0.15679 | Train: 1.0000, Val: 0.8080, Test: 0.8240 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8270 | Power: 1.0000  | IF: 399.2858[0m
+[0;30;43m [37] CLA: 0.01772, KD: 0.14326, Total: 0.16098 | Train: 1.0000, Val: 0.8080, Test: 0.8370 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8270 | Power: 1.0000  | IF: 396.3042[0m
+[0;30;43m [38] CLA: 0.01755, KD: 0.13533, Total: 0.15288 | Train: 1.0000, Val: 0.8080, Test: 0.8310 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8370 | Power: 1.0000  | IF: 386.0704[0m
+[0;30;43m [39] CLA: 0.01532, KD: 0.13920, Total: 0.15451 | Train: 1.0000, Val: 0.8080, Test: 0.8320 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8370 | Power: 1.0000  | IF: 383.3889[0m
+[0;30;43m [40] CLA: 0.01517, KD: 0.12649, Total: 0.14166 | Train: 1.0000, Val: 0.8040, Test: 0.8410 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8370 | Power: 1.0000  | IF: 383.3561[0m
+[0;30;43m [41] CLA: 0.01461, KD: 0.13160, Total: 0.14621 | Train: 1.0000, Val: 0.8100, Test: 0.8240 | Val Best: 0.8100, Test Val: 0.8270, Test Best: 0.8410 | Power: 1.0000  | IF: 377.9291[0m
+[0;30;43m [42] CLA: 0.02053, KD: 0.13632, Total: 0.15685 | Train: 1.0000, Val: 0.8140, Test: 0.8480 | Val Best: 0.8100, Test Val: 0.8240, Test Best: 0.8410 | Power: 1.0000  | IF: 382.2868[0m
+[0;30;43m [43] CLA: 0.01534, KD: 0.13440, Total: 0.14974 | Train: 1.0000, Val: 0.8000, Test: 0.8300 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 373.2179[0m
+[0;30;43m [44] CLA: 0.01406, KD: 0.12806, Total: 0.14212 | Train: 1.0000, Val: 0.8020, Test: 0.8340 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 372.0292[0m
+[0;30;43m [45] CLA: 0.01511, KD: 0.12151, Total: 0.13662 | Train: 1.0000, Val: 0.8060, Test: 0.8420 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 373.7097[0m
+[0;30;43m [46] CLA: 0.01502, KD: 0.12738, Total: 0.14240 | Train: 1.0000, Val: 0.7980, Test: 0.8260 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 364.8911[0m
+[0;30;43m [47] CLA: 0.01421, KD: 0.12883, Total: 0.14304 | Train: 1.0000, Val: 0.8000, Test: 0.8380 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 367.8453[0m
+[0;30;43m [48] CLA: 0.01483, KD: 0.12285, Total: 0.13768 | Train: 1.0000, Val: 0.7960, Test: 0.8340 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 362.6373[0m
+[0;30;43m [49] CLA: 0.01272, KD: 0.11867, Total: 0.13140 | Train: 1.0000, Val: 0.7960, Test: 0.8300 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0000  | IF: 358.2563[0m
+[0;30;43m [50] CLA: 0.01365, KD: 0.11557, Total: 0.12922 | Train: 1.0000, Val: 0.8000, Test: 0.8280 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0337  | IF: 361.6686[0m
+[0;30;43m [51] CLA: 0.01288, KD: 0.11573, Total: 0.12861 | Train: 1.0000, Val: 0.8000, Test: 0.8270 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0665  | IF: 355.4702[0m
+[0;30;43m [52] CLA: 0.01328, KD: 0.11202, Total: 0.12531 | Train: 1.0000, Val: 0.8040, Test: 0.8310 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.0892  | IF: 352.3100[0m
+[0;30;43m [53] CLA: 0.01177, KD: 0.10961, Total: 0.12138 | Train: 1.0000, Val: 0.8060, Test: 0.8300 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.1115  | IF: 357.9102[0m
+[0;30;43m [54] CLA: 0.01041, KD: 0.10644, Total: 0.11686 | Train: 1.0000, Val: 0.8060, Test: 0.8180 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.1442  | IF: 357.8302[0m
+[0;30;43m [55] CLA: 0.01088, KD: 0.11004, Total: 0.12092 | Train: 1.0000, Val: 0.7980, Test: 0.8280 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.1774  | IF: 356.6548[0m
+[0;30;43m [56] CLA: 0.01107, KD: 0.10790, Total: 0.11897 | Train: 1.0000, Val: 0.8080, Test: 0.8330 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.2009  | IF: 354.6745[0m
+[0;30;43m [57] CLA: 0.01056, KD: 0.10755, Total: 0.11811 | Train: 1.0000, Val: 0.8080, Test: 0.8270 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.2238  | IF: 351.2396[0m
+[0;30;43m [58] CLA: 0.01266, KD: 0.10722, Total: 0.11988 | Train: 1.0000, Val: 0.8160, Test: 0.8330 | Val Best: 0.8140, Test Val: 0.8480, Test Best: 0.8480 | Power: 1.2465  | IF: 348.1492[0m
+[0;30;43m [59] CLA: 0.01145, KD: 0.10689, Total: 0.11834 | Train: 1.0000, Val: 0.8080, Test: 0.8340 | Val Best: 0.8160, Test Val: 0.8330, Test Best: 0.8480 | Power: 1.2617  | IF: 341.5239[0m
+[0;30;43m [60] CLA: 0.01200, KD: 0.10494, Total: 0.11693 | Train: 1.0000, Val: 0.8160, Test: 0.8360 | Val Best: 0.8160, Test Val: 0.8330, Test Best: 0.8480 | Power: 1.2902  | IF: 339.8083[0m
+[0;30;43m [61] CLA: 0.01555, KD: 0.10790, Total: 0.12345 | Train: 1.0000, Val: 0.8080, Test: 0.8300 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.3100  | IF: 331.5213[0m
+[0;30;43m [62] CLA: 0.01049, KD: 0.10932, Total: 0.11981 | Train: 1.0000, Val: 0.8100, Test: 0.8360 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.3367  | IF: 330.6691[0m
+[0;30;43m [63] CLA: 0.01110, KD: 0.09888, Total: 0.10998 | Train: 1.0000, Val: 0.8100, Test: 0.8290 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.3818  | IF: 328.8886[0m
+[0;30;43m [64] CLA: 0.00964, KD: 0.10433, Total: 0.11396 | Train: 1.0000, Val: 0.8080, Test: 0.8290 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.4108  | IF: 322.6158[0m
+[0;30;43m [65] CLA: 0.00992, KD: 0.10024, Total: 0.11017 | Train: 1.0000, Val: 0.8080, Test: 0.8320 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.4492  | IF: 318.7034[0m
+[0;30;43m [66] CLA: 0.00981, KD: 0.10280, Total: 0.11261 | Train: 1.0000, Val: 0.8060, Test: 0.8280 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.4893  | IF: 321.5477[0m
+[0;30;43m [67] CLA: 0.01152, KD: 0.09907, Total: 0.11059 | Train: 1.0000, Val: 0.8040, Test: 0.8270 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.5224  | IF: 322.7029[0m
+[0;30;43m [68] CLA: 0.01089, KD: 0.09364, Total: 0.10453 | Train: 1.0000, Val: 0.8040, Test: 0.8310 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.5597  | IF: 317.1792[0m
+[0;30;43m [69] CLA: 0.01000, KD: 0.09830, Total: 0.10830 | Train: 1.0000, Val: 0.8040, Test: 0.8330 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.5921  | IF: 315.7971[0m
+[0;30;43m [70] CLA: 0.01032, KD: 0.09846, Total: 0.10878 | Train: 1.0000, Val: 0.7960, Test: 0.8260 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.6203  | IF: 314.0913[0m
+[0;30;43m [71] CLA: 0.00941, KD: 0.09759, Total: 0.10700 | Train: 1.0000, Val: 0.8120, Test: 0.8410 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.6569  | IF: 313.9705[0m
+[0;30;43m [72] CLA: 0.00965, KD: 0.09749, Total: 0.10714 | Train: 1.0000, Val: 0.8000, Test: 0.8320 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.6749  | IF: 306.3124[0m
+[0;30;43m [73] CLA: 0.00890, KD: 0.09129, Total: 0.10019 | Train: 1.0000, Val: 0.8080, Test: 0.8310 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.7006  | IF: 301.8245[0m
+[0;30;43m [74] CLA: 0.01034, KD: 0.09504, Total: 0.10538 | Train: 1.0000, Val: 0.8080, Test: 0.8370 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.7184  | IF: 303.4735[0m
+[0;30;43m [75] CLA: 0.01107, KD: 0.09282, Total: 0.10389 | Train: 1.0000, Val: 0.8040, Test: 0.8240 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.7310  | IF: 301.3061[0m
+[0;30;43m [76] CLA: 0.00943, KD: 0.09853, Total: 0.10795 | Train: 1.0000, Val: 0.8100, Test: 0.8340 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.7754  | IF: 298.1028[0m
+[0;30;43m [77] CLA: 0.01059, KD: 0.10334, Total: 0.11393 | Train: 1.0000, Val: 0.7980, Test: 0.8200 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.7858  | IF: 293.2759[0m
+[0;30;43m [78] CLA: 0.01043, KD: 0.10713, Total: 0.11756 | Train: 1.0000, Val: 0.8060, Test: 0.8320 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.8204  | IF: 298.5938[0m
+[0;30;43m [79] CLA: 0.01152, KD: 0.09472, Total: 0.10624 | Train: 1.0000, Val: 0.8100, Test: 0.8260 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.8267  | IF: 297.7176[0m
+[0;30;43m [80] CLA: 0.00969, KD: 0.09281, Total: 0.10251 | Train: 1.0000, Val: 0.8020, Test: 0.8350 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.8523  | IF: 295.5848[0m
+[0;30;43m [81] CLA: 0.00785, KD: 0.08739, Total: 0.09523 | Train: 1.0000, Val: 0.8140, Test: 0.8380 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.8707  | IF: 297.8031[0m
+[0;30;43m [82] CLA: 0.00938, KD: 0.09678, Total: 0.10616 | Train: 1.0000, Val: 0.8020, Test: 0.8220 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.8773  | IF: 298.1657[0m
+[0;30;43m [83] CLA: 0.00964, KD: 0.09911, Total: 0.10875 | Train: 1.0000, Val: 0.8100, Test: 0.8280 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.8945  | IF: 299.1059[0m
+[0;30;43m [84] CLA: 0.01048, KD: 0.08816, Total: 0.09864 | Train: 1.0000, Val: 0.8020, Test: 0.8350 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.9282  | IF: 296.3771[0m
+[0;30;43m [85] CLA: 0.00869, KD: 0.08738, Total: 0.09607 | Train: 1.0000, Val: 0.8080, Test: 0.8290 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.9411  | IF: 294.7751[0m
+[0;30;43m [86] CLA: 0.00960, KD: 0.08792, Total: 0.09752 | Train: 1.0000, Val: 0.8060, Test: 0.8310 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 1.9748  | IF: 296.3622[0m
+[0;30;43m [87] CLA: 0.00869, KD: 0.08832, Total: 0.09701 | Train: 1.0000, Val: 0.8040, Test: 0.8300 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.0098  | IF: 295.1824[0m
+[0;30;43m [88] CLA: 0.00979, KD: 0.08745, Total: 0.09724 | Train: 1.0000, Val: 0.8100, Test: 0.8310 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.0497  | IF: 292.7204[0m
+[0;30;43m [89] CLA: 0.00951, KD: 0.08738, Total: 0.09689 | Train: 1.0000, Val: 0.8080, Test: 0.8340 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.0866  | IF: 291.4780[0m
+[0;30;43m [90] CLA: 0.00911, KD: 0.08592, Total: 0.09503 | Train: 1.0000, Val: 0.8060, Test: 0.8300 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.1086  | IF: 294.1628[0m
+[0;30;43m [91] CLA: 0.00978, KD: 0.08760, Total: 0.09738 | Train: 1.0000, Val: 0.8060, Test: 0.8280 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.1436  | IF: 293.0298[0m
+[0;30;43m [92] CLA: 0.00929, KD: 0.09131, Total: 0.10060 | Train: 1.0000, Val: 0.7960, Test: 0.8370 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.1676  | IF: 288.5121[0m
+[0;30;43m [93] CLA: 0.00763, KD: 0.08893, Total: 0.09657 | Train: 1.0000, Val: 0.7980, Test: 0.8320 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.1875  | IF: 287.0317[0m
+[0;30;43m [94] CLA: 0.00790, KD: 0.08427, Total: 0.09217 | Train: 1.0000, Val: 0.7980, Test: 0.8300 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.2094  | IF: 285.7180[0m
+[0;30;43m [95] CLA: 0.00910, KD: 0.09352, Total: 0.10262 | Train: 1.0000, Val: 0.8000, Test: 0.8290 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.2255  | IF: 282.2205[0m
+[0;30;43m [96] CLA: 0.01002, KD: 0.08778, Total: 0.09780 | Train: 1.0000, Val: 0.8000, Test: 0.8330 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.2376  | IF: 279.4558[0m
+[0;30;43m [97] CLA: 0.00999, KD: 0.08447, Total: 0.09447 | Train: 1.0000, Val: 0.8060, Test: 0.8320 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.2620  | IF: 280.7640[0m
+[0;30;43m [98] CLA: 0.00787, KD: 0.09131, Total: 0.09919 | Train: 1.0000, Val: 0.8060, Test: 0.8360 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.2745  | IF: 282.9084[0m
+[0;30;43m [99] CLA: 0.00930, KD: 0.08478, Total: 0.09407 | Train: 1.0000, Val: 0.8060, Test: 0.8220 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.2989  | IF: 282.7550[0m
+[0;30;43m [100] CLA: 0.00803, KD: 0.08721, Total: 0.09523 | Train: 1.0000, Val: 0.8100, Test: 0.8330 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.3170  | IF: 281.3417[0m
+[0;30;43m [101] CLA: 0.00766, KD: 0.08571, Total: 0.09336 | Train: 1.0000, Val: 0.7960, Test: 0.8270 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.3488  | IF: 281.4907[0m
+[0;30;43m [102] CLA: 0.00780, KD: 0.09016, Total: 0.09796 | Train: 1.0000, Val: 0.8220, Test: 0.8330 | Val Best: 0.8160, Test Val: 0.8360, Test Best: 0.8480 | Power: 2.3832  | IF: 282.0404[0m
+[0;30;43m [103] CLA: 0.01245, KD: 0.09129, Total: 0.10374 | Train: 1.0000, Val: 0.7980, Test: 0.8220 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.3855  | IF: 275.9624[0m
+[0;30;43m [104] CLA: 0.01104, KD: 0.09740, Total: 0.10844 | Train: 1.0000, Val: 0.8100, Test: 0.8400 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4073  | IF: 272.4709[0m
+[0;30;43m [105] CLA: 0.00882, KD: 0.09503, Total: 0.10385 | Train: 1.0000, Val: 0.8100, Test: 0.8250 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4164  | IF: 270.7899[0m
+[0;30;43m [106] CLA: 0.00810, KD: 0.08838, Total: 0.09648 | Train: 1.0000, Val: 0.8060, Test: 0.8310 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4274  | IF: 270.3685[0m
+[0;30;43m [107] CLA: 0.00971, KD: 0.08383, Total: 0.09353 | Train: 1.0000, Val: 0.8120, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4526  | IF: 271.8068[0m
+[0;30;43m [108] CLA: 0.01031, KD: 0.09619, Total: 0.10650 | Train: 1.0000, Val: 0.8000, Test: 0.8140 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4629  | IF: 271.1881[0m
+[0;30;43m [109] CLA: 0.00894, KD: 0.09754, Total: 0.10648 | Train: 1.0000, Val: 0.8100, Test: 0.8310 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4710  | IF: 272.4187[0m
+[0;30;43m [110] CLA: 0.00830, KD: 0.08580, Total: 0.09410 | Train: 1.0000, Val: 0.8160, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4731  | IF: 271.9619[0m
+[0;30;43m [111] CLA: 0.00958, KD: 0.08143, Total: 0.09101 | Train: 1.0000, Val: 0.8020, Test: 0.8260 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.4998  | IF: 272.0133[0m
+[0;30;43m [112] CLA: 0.00803, KD: 0.08877, Total: 0.09680 | Train: 1.0000, Val: 0.8140, Test: 0.8300 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.5295  | IF: 272.5214[0m
+[0;30;43m [113] CLA: 0.00855, KD: 0.08814, Total: 0.09669 | Train: 1.0000, Val: 0.8100, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.5419  | IF: 270.9923[0m
+[0;30;43m [114] CLA: 0.00746, KD: 0.08015, Total: 0.08761 | Train: 1.0000, Val: 0.8060, Test: 0.8310 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.5632  | IF: 270.4138[0m
+[0;30;43m [115] CLA: 0.00807, KD: 0.08247, Total: 0.09054 | Train: 1.0000, Val: 0.8080, Test: 0.8370 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.5929  | IF: 273.0034[0m
+[0;30;43m [116] CLA: 0.00806, KD: 0.08561, Total: 0.09367 | Train: 1.0000, Val: 0.8000, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.6091  | IF: 273.8937[0m
+[0;30;43m [117] CLA: 0.00856, KD: 0.08600, Total: 0.09455 | Train: 1.0000, Val: 0.8020, Test: 0.8390 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.6243  | IF: 269.3193[0m
+[0;30;43m [118] CLA: 0.00673, KD: 0.08094, Total: 0.08767 | Train: 1.0000, Val: 0.8000, Test: 0.8360 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.6476  | IF: 268.8166[0m
+[0;30;43m [119] CLA: 0.00893, KD: 0.07767, Total: 0.08660 | Train: 1.0000, Val: 0.8020, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.6732  | IF: 272.0964[0m
+[0;30;43m [120] CLA: 0.00942, KD: 0.08517, Total: 0.09459 | Train: 1.0000, Val: 0.8060, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.6988  | IF: 268.9702[0m
+[0;30;43m [121] CLA: 0.00754, KD: 0.08027, Total: 0.08781 | Train: 1.0000, Val: 0.8020, Test: 0.8260 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.7094  | IF: 266.3679[0m
+[0;30;43m [122] CLA: 0.00688, KD: 0.07872, Total: 0.08559 | Train: 1.0000, Val: 0.8000, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.7314  | IF: 268.6638[0m
+[0;30;43m [123] CLA: 0.00835, KD: 0.08182, Total: 0.09017 | Train: 1.0000, Val: 0.8100, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.7551  | IF: 270.0382[0m
+[0;30;43m [124] CLA: 0.00826, KD: 0.08237, Total: 0.09063 | Train: 1.0000, Val: 0.8060, Test: 0.8250 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.7625  | IF: 266.8950[0m
+[0;30;43m [125] CLA: 0.00899, KD: 0.08201, Total: 0.09100 | Train: 1.0000, Val: 0.8160, Test: 0.8420 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.7891  | IF: 265.7351[0m
+[0;30;43m [126] CLA: 0.00872, KD: 0.08342, Total: 0.09214 | Train: 1.0000, Val: 0.8100, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.7998  | IF: 268.1524[0m
+[0;30;43m [127] CLA: 0.00746, KD: 0.07880, Total: 0.08626 | Train: 1.0000, Val: 0.8160, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.8163  | IF: 268.3824[0m
+[0;30;43m [128] CLA: 0.00830, KD: 0.07688, Total: 0.08518 | Train: 1.0000, Val: 0.8180, Test: 0.8410 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.8292  | IF: 266.5996[0m
+[0;30;43m [129] CLA: 0.00766, KD: 0.07984, Total: 0.08750 | Train: 1.0000, Val: 0.8020, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.8363  | IF: 267.8540[0m
+[0;30;43m [130] CLA: 0.00712, KD: 0.08410, Total: 0.09123 | Train: 1.0000, Val: 0.8140, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.8579  | IF: 271.1204[0m
+[0;30;43m [131] CLA: 0.00849, KD: 0.08024, Total: 0.08873 | Train: 1.0000, Val: 0.8060, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.8673  | IF: 269.7212[0m
+[0;30;43m [132] CLA: 0.00889, KD: 0.07654, Total: 0.08543 | Train: 1.0000, Val: 0.8020, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.9006  | IF: 266.7643[0m
+[0;30;43m [133] CLA: 0.00855, KD: 0.08110, Total: 0.08966 | Train: 1.0000, Val: 0.8140, Test: 0.8360 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.9228  | IF: 267.2833[0m
+[0;30;43m [134] CLA: 0.00782, KD: 0.08175, Total: 0.08957 | Train: 1.0000, Val: 0.8000, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.9315  | IF: 267.5153[0m
+[0;30;43m [135] CLA: 0.00884, KD: 0.08103, Total: 0.08987 | Train: 1.0000, Val: 0.8100, Test: 0.8390 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.9646  | IF: 263.6471[0m
+[0;30;43m [136] CLA: 0.00803, KD: 0.07874, Total: 0.08677 | Train: 1.0000, Val: 0.8120, Test: 0.8410 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.9794  | IF: 261.3422[0m
+[0;30;43m [137] CLA: 0.00937, KD: 0.08287, Total: 0.09224 | Train: 1.0000, Val: 0.7980, Test: 0.8260 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 2.9907  | IF: 261.7009[0m
+[0;30;43m [138] CLA: 0.00861, KD: 0.08545, Total: 0.09406 | Train: 1.0000, Val: 0.8060, Test: 0.8370 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.0019  | IF: 260.3360[0m
+[0;30;43m [139] CLA: 0.00734, KD: 0.08101, Total: 0.08834 | Train: 1.0000, Val: 0.8040, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.0130  | IF: 258.6475[0m
+[0;30;43m [140] CLA: 0.00812, KD: 0.08399, Total: 0.09211 | Train: 1.0000, Val: 0.7980, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.0312  | IF: 261.0143[0m
+[0;30;43m [141] CLA: 0.00798, KD: 0.08265, Total: 0.09063 | Train: 1.0000, Val: 0.8000, Test: 0.8390 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.0451  | IF: 261.5572[0m
+[0;30;43m [142] CLA: 0.00820, KD: 0.08055, Total: 0.08875 | Train: 1.0000, Val: 0.8040, Test: 0.8220 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.0736  | IF: 257.3251[0m
+[0;30;43m [143] CLA: 0.00676, KD: 0.08003, Total: 0.08679 | Train: 1.0000, Val: 0.8060, Test: 0.8370 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.0923  | IF: 255.1612[0m
+[0;30;43m [144] CLA: 0.00678, KD: 0.08274, Total: 0.08952 | Train: 1.0000, Val: 0.8000, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1098  | IF: 256.5466[0m
+[0;30;43m [145] CLA: 0.00866, KD: 0.07635, Total: 0.08501 | Train: 1.0000, Val: 0.8060, Test: 0.8250 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1221  | IF: 256.2006[0m
+[0;30;43m [146] CLA: 0.00754, KD: 0.08245, Total: 0.08999 | Train: 1.0000, Val: 0.8060, Test: 0.8400 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1510  | IF: 254.3762[0m
+[0;30;43m [147] CLA: 0.00742, KD: 0.08198, Total: 0.08939 | Train: 1.0000, Val: 0.8040, Test: 0.8260 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1604  | IF: 254.3657[0m
+[0;30;43m [148] CLA: 0.00923, KD: 0.07871, Total: 0.08794 | Train: 1.0000, Val: 0.8100, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1739  | IF: 255.4110[0m
+[0;30;43m [149] CLA: 0.00761, KD: 0.07849, Total: 0.08610 | Train: 1.0000, Val: 0.8080, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1834  | IF: 255.8339[0m
+[0;30;43m [150] CLA: 0.00860, KD: 0.07728, Total: 0.08589 | Train: 1.0000, Val: 0.8080, Test: 0.8250 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.1941  | IF: 255.5996[0m
+[0;30;43m [151] CLA: 0.01010, KD: 0.08149, Total: 0.09158 | Train: 1.0000, Val: 0.8220, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8330, Test Best: 0.8480 | Power: 3.2017  | IF: 255.2722[0m
+[0;30;43m [152] CLA: 0.00787, KD: 0.08165, Total: 0.08952 | Train: 1.0000, Val: 0.8020, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2023  | IF: 255.7122[0m
+[0;30;43m [153] CLA: 0.00749, KD: 0.08384, Total: 0.09133 | Train: 1.0000, Val: 0.8100, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2102  | IF: 255.0236[0m
+[0;30;43m [154] CLA: 0.00747, KD: 0.07922, Total: 0.08669 | Train: 1.0000, Val: 0.8100, Test: 0.8220 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2171  | IF: 252.9679[0m
+[0;30;43m [155] CLA: 0.00760, KD: 0.08444, Total: 0.09204 | Train: 1.0000, Val: 0.7980, Test: 0.8390 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2166  | IF: 254.6629[0m
+[0;30;43m [156] CLA: 0.00823, KD: 0.07969, Total: 0.08792 | Train: 1.0000, Val: 0.8000, Test: 0.8360 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2285  | IF: 257.4404[0m
+[0;30;43m [157] CLA: 0.00932, KD: 0.08115, Total: 0.09047 | Train: 1.0000, Val: 0.8000, Test: 0.8310 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2513  | IF: 256.5048[0m
+[0;30;43m [158] CLA: 0.00641, KD: 0.07881, Total: 0.08523 | Train: 1.0000, Val: 0.8020, Test: 0.8360 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2730  | IF: 257.5450[0m
+[0;30;43m [159] CLA: 0.00862, KD: 0.08129, Total: 0.08990 | Train: 1.0000, Val: 0.8080, Test: 0.8410 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2794  | IF: 257.8022[0m
+[0;30;43m [160] CLA: 0.00780, KD: 0.07760, Total: 0.08540 | Train: 1.0000, Val: 0.8040, Test: 0.8340 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.2854  | IF: 256.8253[0m
+[0;30;43m [161] CLA: 0.00929, KD: 0.08037, Total: 0.08966 | Train: 1.0000, Val: 0.8120, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.3031  | IF: 256.1619[0m
+[0;30;43m [162] CLA: 0.00832, KD: 0.07895, Total: 0.08727 | Train: 1.0000, Val: 0.8020, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.3105  | IF: 253.9957[0m
+[0;30;43m [163] CLA: 0.00790, KD: 0.08416, Total: 0.09206 | Train: 1.0000, Val: 0.8180, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.3114  | IF: 251.2446[0m
+[0;30;43m [164] CLA: 0.00872, KD: 0.08293, Total: 0.09165 | Train: 1.0000, Val: 0.8000, Test: 0.8250 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.3180  | IF: 253.5194[0m
+[0;30;43m [165] CLA: 0.00726, KD: 0.08700, Total: 0.09426 | Train: 1.0000, Val: 0.8220, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8290, Test Best: 0.8480 | Power: 3.3365  | IF: 251.6058[0m
+[0;30;43m [166] CLA: 0.00971, KD: 0.08305, Total: 0.09276 | Train: 1.0000, Val: 0.8080, Test: 0.8300 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3280  | IF: 247.8155[0m
+[0;30;43m [167] CLA: 0.00692, KD: 0.08361, Total: 0.09054 | Train: 1.0000, Val: 0.8160, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3330  | IF: 250.9398[0m
+[0;30;43m [168] CLA: 0.00877, KD: 0.07410, Total: 0.08287 | Train: 1.0000, Val: 0.8160, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3452  | IF: 256.4337[0m
+[0;30;43m [169] CLA: 0.00759, KD: 0.07936, Total: 0.08695 | Train: 1.0000, Val: 0.8080, Test: 0.8190 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3544  | IF: 255.6589[0m
+[0;30;43m [170] CLA: 0.00636, KD: 0.08413, Total: 0.09049 | Train: 1.0000, Val: 0.8140, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3668  | IF: 254.0798[0m
+[0;30;43m [171] CLA: 0.00837, KD: 0.08409, Total: 0.09246 | Train: 1.0000, Val: 0.8100, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3745  | IF: 257.7437[0m
+[0;30;43m [172] CLA: 0.00760, KD: 0.07423, Total: 0.08183 | Train: 1.0000, Val: 0.8020, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.3956  | IF: 259.8859[0m
+[0;30;43m [173] CLA: 0.00857, KD: 0.07892, Total: 0.08750 | Train: 1.0000, Val: 0.8080, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4098  | IF: 254.9282[0m
+[0;30;43m [174] CLA: 0.00732, KD: 0.07690, Total: 0.08422 | Train: 1.0000, Val: 0.7980, Test: 0.8300 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4210  | IF: 250.3361[0m
+[0;30;43m [175] CLA: 0.00758, KD: 0.07877, Total: 0.08635 | Train: 1.0000, Val: 0.8040, Test: 0.8370 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4419  | IF: 249.2681[0m
+[0;30;43m [176] CLA: 0.00769, KD: 0.07815, Total: 0.08584 | Train: 1.0000, Val: 0.8040, Test: 0.8300 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4497  | IF: 250.2635[0m
+[0;30;43m [177] CLA: 0.00742, KD: 0.07522, Total: 0.08264 | Train: 1.0000, Val: 0.8000, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4674  | IF: 249.5492[0m
+[0;30;43m [178] CLA: 0.00751, KD: 0.07919, Total: 0.08669 | Train: 1.0000, Val: 0.8100, Test: 0.8370 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4841  | IF: 248.3963[0m
+[0;30;43m [179] CLA: 0.00759, KD: 0.08082, Total: 0.08841 | Train: 1.0000, Val: 0.8060, Test: 0.8300 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4801  | IF: 251.7424[0m
+[0;30;43m [180] CLA: 0.00966, KD: 0.08053, Total: 0.09020 | Train: 1.0000, Val: 0.8080, Test: 0.8390 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4924  | IF: 253.7260[0m
+[0;30;43m [181] CLA: 0.00756, KD: 0.07542, Total: 0.08298 | Train: 1.0000, Val: 0.8080, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.4964  | IF: 253.4489[0m
+[0;30;43m [182] CLA: 0.00735, KD: 0.07779, Total: 0.08514 | Train: 1.0000, Val: 0.8000, Test: 0.8340 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5127  | IF: 254.8654[0m
+[0;30;43m [183] CLA: 0.00656, KD: 0.07241, Total: 0.07897 | Train: 1.0000, Val: 0.8040, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5228  | IF: 256.0644[0m
+[0;30;43m [184] CLA: 0.00840, KD: 0.07554, Total: 0.08393 | Train: 1.0000, Val: 0.8020, Test: 0.8310 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5302  | IF: 254.7275[0m
+[0;30;43m [185] CLA: 0.00707, KD: 0.07680, Total: 0.08386 | Train: 1.0000, Val: 0.8100, Test: 0.8340 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5517  | IF: 252.8177[0m
+[0;30;43m [186] CLA: 0.00713, KD: 0.07727, Total: 0.08440 | Train: 1.0000, Val: 0.8000, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5485  | IF: 252.4735[0m
+[0;30;43m [187] CLA: 0.00700, KD: 0.07590, Total: 0.08290 | Train: 1.0000, Val: 0.8060, Test: 0.8310 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5663  | IF: 247.4822[0m
+[0;30;43m [188] CLA: 0.00712, KD: 0.07704, Total: 0.08416 | Train: 1.0000, Val: 0.8120, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5663  | IF: 246.5752[0m
+[0;30;43m [189] CLA: 0.00722, KD: 0.07627, Total: 0.08350 | Train: 1.0000, Val: 0.8040, Test: 0.8260 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5681  | IF: 249.5575[0m
+[0;30;43m [190] CLA: 0.00637, KD: 0.07730, Total: 0.08366 | Train: 1.0000, Val: 0.8140, Test: 0.8340 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5892  | IF: 248.9317[0m
+[0;30;43m [191] CLA: 0.00904, KD: 0.07793, Total: 0.08696 | Train: 1.0000, Val: 0.8020, Test: 0.8300 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.5864  | IF: 248.3565[0m
+[0;30;43m [192] CLA: 0.00727, KD: 0.07691, Total: 0.08418 | Train: 1.0000, Val: 0.8060, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6122  | IF: 248.2814[0m
+[0;30;43m [193] CLA: 0.00713, KD: 0.07312, Total: 0.08025 | Train: 1.0000, Val: 0.8080, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6225  | IF: 251.7643[0m
+[0;30;43m [194] CLA: 0.00938, KD: 0.07545, Total: 0.08483 | Train: 1.0000, Val: 0.8040, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6323  | IF: 251.9856[0m
+[0;30;43m [195] CLA: 0.00828, KD: 0.07951, Total: 0.08779 | Train: 1.0000, Val: 0.8100, Test: 0.8450 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6482  | IF: 245.5328[0m
+[0;30;43m [196] CLA: 0.00975, KD: 0.08591, Total: 0.09566 | Train: 1.0000, Val: 0.8060, Test: 0.8220 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6444  | IF: 247.8958[0m
+[0;30;43m [197] CLA: 0.00672, KD: 0.08336, Total: 0.09008 | Train: 1.0000, Val: 0.8100, Test: 0.8360 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6630  | IF: 247.5373[0m
+[0;30;43m [198] CLA: 0.00728, KD: 0.07928, Total: 0.08656 | Train: 1.0000, Val: 0.8120, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6687  | IF: 243.5549[0m
+[0;30;43m [199] CLA: 0.00834, KD: 0.07390, Total: 0.08224 | Train: 1.0000, Val: 0.8080, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6807  | IF: 244.1186[0m
+[0;30;43m [200] CLA: 0.00852, KD: 0.07629, Total: 0.08481 | Train: 1.0000, Val: 0.8160, Test: 0.8340 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6861  | IF: 249.5147[0m
+[0;30;43m [201] CLA: 0.00633, KD: 0.07818, Total: 0.08451 | Train: 1.0000, Val: 0.8100, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6879  | IF: 253.5793[0m
+[0;30;43m [202] CLA: 0.00744, KD: 0.07148, Total: 0.07893 | Train: 1.0000, Val: 0.8080, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.6935  | IF: 253.9632[0m
+[0;30;43m [203] CLA: 0.00679, KD: 0.07260, Total: 0.07939 | Train: 1.0000, Val: 0.8080, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7099  | IF: 253.1657[0m
+[0;30;43m [204] CLA: 0.00787, KD: 0.07635, Total: 0.08422 | Train: 1.0000, Val: 0.8020, Test: 0.8220 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7092  | IF: 253.4450[0m
+[0;30;43m [205] CLA: 0.00700, KD: 0.07718, Total: 0.08418 | Train: 1.0000, Val: 0.8080, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7148  | IF: 249.1053[0m
+[0;30;43m [206] CLA: 0.00922, KD: 0.07814, Total: 0.08737 | Train: 1.0000, Val: 0.8100, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7129  | IF: 246.2800[0m
+[0;30;43m [207] CLA: 0.00741, KD: 0.07382, Total: 0.08123 | Train: 1.0000, Val: 0.8000, Test: 0.8280 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7246  | IF: 242.6916[0m
+[0;30;43m [208] CLA: 0.00990, KD: 0.07726, Total: 0.08716 | Train: 1.0000, Val: 0.8120, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7561  | IF: 242.4644[0m
+[0;30;43m [209] CLA: 0.00836, KD: 0.07913, Total: 0.08749 | Train: 1.0000, Val: 0.8060, Test: 0.8270 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7611  | IF: 246.0065[0m
+[0;30;43m [210] CLA: 0.00750, KD: 0.07681, Total: 0.08430 | Train: 1.0000, Val: 0.8120, Test: 0.8380 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7716  | IF: 243.4315[0m
+[0;30;43m [211] CLA: 0.00766, KD: 0.07303, Total: 0.08069 | Train: 1.0000, Val: 0.8060, Test: 0.8330 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7757  | IF: 244.9069[0m
+[0;30;43m [212] CLA: 0.00822, KD: 0.07570, Total: 0.08392 | Train: 1.0000, Val: 0.8140, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7790  | IF: 249.5703[0m
+[0;30;43m [213] CLA: 0.00706, KD: 0.07391, Total: 0.08097 | Train: 1.0000, Val: 0.8140, Test: 0.8350 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7958  | IF: 251.4413[0m
+[0;30;43m [214] CLA: 0.00628, KD: 0.07382, Total: 0.08010 | Train: 1.0000, Val: 0.8140, Test: 0.8320 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.7990  | IF: 249.4634[0m
+[0;30;43m [215] CLA: 0.00662, KD: 0.07297, Total: 0.07959 | Train: 1.0000, Val: 0.8120, Test: 0.8290 | Val Best: 0.8220, Test Val: 0.8350, Test Best: 0.8480 | Power: 3.8081  | IF: 249.0466[0m
+Early stopping!
+Best Validation Accuracy: 0.8220, Test Accuracy: 0.8350, IF: 251.6058

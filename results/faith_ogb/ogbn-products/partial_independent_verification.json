@@ -1,0 +1,25 @@
+{
+  "rows": 46,
+  "runs": 1,
+  "seeds": [
+    42
+  ],
+  "original_official_splits": true,
+  "disjoint_training_validation_calibration_test": true,
+  "independent_reconstruction_of_accuracy_weighted_shifted_and_hit_rate": true,
+  "source_checkpoint_and_data_hashes": true,
+  "budgets_bytes_and_indices": true,
+  "equal_refinement_steps": 150,
+  "finite_metrics_and_routing_agreement": true,
+  "positive_coefficient_selected_by_model_validation_only": true,
+  "validation_selected_checkpoints": true,
+  "similarity_metric": "Monte Carlo estimate, independent fixed evaluation sample",
+  "datasets": {
+    "ogbn-products": {
+      "nodes": 2449029,
+      "test_nodes": 2213091,
+      "calibration_nodes": 19661,
+      "validation_nodes": 19662
+    }
+  }
+}

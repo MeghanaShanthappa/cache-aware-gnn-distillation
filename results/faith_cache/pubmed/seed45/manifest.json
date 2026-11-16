@@ -1,0 +1,23 @@
+{
+  "dataset": "pubmed",
+  "seed": 45,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "phases": 3,
+  "steps_per_phase": 50,
+  "cached_weight": 0.1,
+  "source_checkpoint_sha256": "408707d247fbcb36cb6e798492ce88e023283d54af6905cacff29b4bbb3aef8a",
+  "teacher_checkpoint_sha256": "6ec999801a228ad4e99871236520d66d4c0949a2ba58d1339a4761caecced8c2",
+  "source_config_sha256": "f20cf9162ecba02c8d5106950ac522dcb9fe4f639c09cebbaaa199eb3905f454",
+  "implementation_sha256": "e5b46642fde2f3e4874546e73967da7f55af16a43e4f55da7f778d24b39bba30",
+  "model_source_sha256": "d8bb8590f868428c28a1b0a57c9b1616638d9ce95a94f9196232847f3638a944",
+  "energy_source_sha256": "fbcdf6dd4d0712e7a4cf414e09fcad056f11569ae1464cbb4b90cbab141657e8",
+  "history_requests": 100000,
+  "zipf_exponent": 0.8,
+  "calibration": "all 500 validation labels, reused after checkpoint selection",
+  "version": 1
+}

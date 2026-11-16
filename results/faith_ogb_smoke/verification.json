@@ -1,0 +1,8 @@
+{
+  "rows": 92,
+  "runs": 2,
+  "routing": "passed",
+  "calibration": "separate from checkpoint selection and test",
+  "completed": true,
+  "adaptation": true
+}

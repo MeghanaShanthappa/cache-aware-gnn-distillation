@@ -1,0 +1,19 @@
+{
+  "python": "3.10.22 (main, Oct  9 2026, 15:21:30) [Clang 22.1.3 ]",
+  "torch": "2.1.2+cu118",
+  "numpy": "1.21.6",
+  "scipy": "1.7.3",
+  "dgl": "1.1.2+cu118",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "dgl_package_url": "https://conda.anaconda.org/dglteam/label/cu118/linux-64/dgl-1.1.2.cu118-py310_0.tar.bz2",
+  "dgl_package_sha256": "9ebce768a956ca15520c5cf8f63d4f0ca71bd2d5c5148c67c6697eb2568fbc56",
+  "conda_checksum_matches": true,
+  "architecture": "x86_64",
+  "student_training": "ordinary CE/KL; no FAITH objectives",
+  "planned_seeds": [
+    42
+  ],
+  "initial_study": true,
+  "frequency_ties": "Fixed-seed 7341 uniform random tie breaking, independent of node split IDs; strict integer count ordering preserved",
+  "cache_policy_locked_before_full_test_evaluation": true
+}

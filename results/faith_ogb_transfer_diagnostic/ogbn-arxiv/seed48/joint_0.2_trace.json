@@ -1,0 +1,20 @@
+[
+  {
+    "phase": 0,
+    "steps": 50,
+    "cached_nodes": 33868,
+    "last_loss": 1.1235982179641724
+  },
+  {
+    "phase": 1,
+    "steps": 50,
+    "cached_nodes": 33868,
+    "last_loss": 1.0949198007583618
+  },
+  {
+    "phase": 2,
+    "steps": 50,
+    "cached_nodes": 33868,
+    "last_loss": 1.0698585510253906
+  }
+]

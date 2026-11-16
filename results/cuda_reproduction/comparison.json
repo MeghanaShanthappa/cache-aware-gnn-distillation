@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "cora",
+    "accuracy_mean": 83.10000419616699,
+    "accuracy_population_std": 0.6841058572891895,
+    "paper_accuracy": 83.96,
+    "accuracy_gap_pp": -0.8599958038330016,
+    "unfairness_mean": 11.019449609375,
+    "unfairness_population_std": 0.9306106533407743,
+    "paper_unfairness": 12.06,
+    "unfairness_gap": -1.0405503906250004
+  },
+  {
+    "dataset": "citeseer",
+    "accuracy_mean": 63.6400032043457,
+    "accuracy_population_std": 18.94472032684387,
+    "paper_accuracy": 74.1,
+    "accuracy_gap_pp": -10.459996795654291,
+    "unfairness_mean": 2.704082487714291,
+    "unfairness_population_std": 2.3260282735511773,
+    "paper_unfairness": 1.78,
+    "unfairness_gap": 0.9240824877142908
+  },
+  {
+    "dataset": "pubmed",
+    "accuracy_mean": 81.76000356674194,
+    "accuracy_population_std": 0.5276381209686715,
+    "paper_accuracy": 81.53,
+    "accuracy_gap_pp": 0.23000356674194222,
+    "unfairness_mean": 48.4865234375,
+    "unfairness_population_std": 1.9549175397398786,
+    "paper_unfairness": 47.96,
+    "unfairness_gap": 0.5265234374999963
+  }
+]

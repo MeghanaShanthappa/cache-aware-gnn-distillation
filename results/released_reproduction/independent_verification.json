@@ -1,0 +1,18 @@
+{
+  "completed_dataset_seed_runs": 15,
+  "seed_schedule": [
+    42,
+    43,
+    45,
+    48,
+    52
+  ],
+  "source_files_unchanged": true,
+  "full_validation_masks": true,
+  "published_faith_configurations": true,
+  "coefficient_checks": true,
+  "launcher_hash": true,
+  "loss_gradient_optimizer_equivalence": true,
+  "comparability": "released full FAITH rerun with documented CPU/runtime repairs",
+  "published_glnn_row_reproduced": false
+}

@@ -1,0 +1,71 @@
+/var/tmp/work-mshanthappa/faith-cache-research/faith_ogb.py:31: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(torch.as_tensor(a.indptr.astype(np.int64), device=device),
+{"dataset": "ogbn-arxiv", "phase": "data_ready", "nodes": 169343, "edges": 2484941, "total_wedges": 415893076.0, "gamma": 1e-08}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 2.1681630611419678, "validation_accuracy": 0.3106040358543396, "best_epoch": 25, "seconds": 0.7919350239972118}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 2.014650821685791, "validation_accuracy": 0.36550337076187134, "best_epoch": 50, "seconds": 1.3207811070024036}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 1.9108920097351074, "validation_accuracy": 0.38503357768058777, "best_epoch": 75, "seconds": 1.851665527006844}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 1.8244874477386475, "validation_accuracy": 0.3870469927787781, "best_epoch": 95, "seconds": 2.379279561006115}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 1.7374505996704102, "validation_accuracy": 0.3881208002567291, "best_epoch": 95, "seconds": 2.9060636250069365}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 1.6703121662139893, "validation_accuracy": 0.39127516746520996, "best_epoch": 130, "seconds": 3.434218405003776}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 130, "seconds": 3.489265288997558}
+{"dataset": "ogbn-arxiv", "candidate_complete": true, "multiplier": 1.0, "gamma": 1e-08, "validation_accuracy": 0.3970469832420349, "best_epoch": 130, "updates": 150, "checkpoint_sha256": "57aaf2bf535a06653aee6d846c9e8a5be8e02d73c637bd84059695f35bcbcf7a"}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 1.3367512226104736, "validation_accuracy": 0.4732885956764221, "best_epoch": 25, "seconds": 0.528433055995265}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 1.2378251552581787, "validation_accuracy": 0.5417449474334717, "best_epoch": 50, "seconds": 1.0596056240028702}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 1.1878533363342285, "validation_accuracy": 0.5660402774810791, "best_epoch": 75, "seconds": 1.5914663989969995}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 1.1519423723220825, "validation_accuracy": 0.5749664306640625, "best_epoch": 100, "seconds": 2.1234758670034353}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 1.1191480159759521, "validation_accuracy": 0.5770469903945923, "best_epoch": 125, "seconds": 2.6535501739999745}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 1.0925630331039429, "validation_accuracy": 0.5764429569244385, "best_epoch": 130, "seconds": 3.1817594570020447}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 130, "seconds": 3.2339971180044813}
+{"dataset": "ogbn-arxiv", "candidate_complete": true, "multiplier": 0.1, "gamma": 1e-09, "validation_accuracy": 0.5787919759750366, "best_epoch": 130, "updates": 150, "checkpoint_sha256": "fbe8095cfed5906f1b08fbb7f7c69e81a39a527d4cb1aac9b14ca78052058eb0"}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 1.042920708656311, "validation_accuracy": 0.5089932680130005, "best_epoch": 25, "seconds": 0.5305924710119143}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 0.9443410634994507, "validation_accuracy": 0.5704026818275452, "best_epoch": 50, "seconds": 1.062306919004186}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 0.8977392315864563, "validation_accuracy": 0.5904027223587036, "best_epoch": 75, "seconds": 1.5946159400045872}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 0.8676057457923889, "validation_accuracy": 0.6004027128219604, "best_epoch": 100, "seconds": 2.1273128340108087}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 0.8403022885322571, "validation_accuracy": 0.6053020358085632, "best_epoch": 125, "seconds": 2.6582677890110062}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 0.8185849785804749, "validation_accuracy": 0.6091275215148926, "best_epoch": 150, "seconds": 3.189492046003579}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 150, "seconds": 3.2227084879996255}
+{"dataset": "ogbn-arxiv", "candidate_complete": true, "multiplier": 0.01, "gamma": 1e-10, "validation_accuracy": 0.6091275215148926, "best_epoch": 150, "updates": 150, "checkpoint_sha256": "81d27f17fea9eb4d9a699554bc81e5ae70c8b7dd259bdfe755a0dc11fbb9a24a"}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 0.9897240996360779, "validation_accuracy": 0.5102684497833252, "best_epoch": 25, "seconds": 0.5303532449906925}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 0.8866110444068909, "validation_accuracy": 0.5714094042778015, "best_epoch": 50, "seconds": 1.0620850029954454}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 0.8387473821640015, "validation_accuracy": 0.5902013778686523, "best_epoch": 75, "seconds": 1.594265526990057}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 0.8077958226203918, "validation_accuracy": 0.6001342535018921, "best_epoch": 100, "seconds": 2.1268801109981723}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 0.7804290652275085, "validation_accuracy": 0.6063758730888367, "best_epoch": 125, "seconds": 2.6589831589953974}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 0.7582026124000549, "validation_accuracy": 0.6118792295455933, "best_epoch": 150, "seconds": 3.1891451439878438}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 150, "seconds": 3.2230413840006804}
+{"dataset": "ogbn-arxiv", "candidate_complete": true, "multiplier": 0.001, "gamma": 1.0000000000000001e-11, "validation_accuracy": 0.6118792295455933, "best_epoch": 150, "updates": 150, "checkpoint_sha256": "b80cd7ea31fff9254d0aaf750cf81d797138e7c169cd461d62b5c7dc8b5a0fa6"}
+{"dataset": "ogbn-arxiv", "selected_gamma": 1.0000000000000001e-11, "validation_accuracy": 0.6118792295455933}
+{"dataset": "ogbn-products", "phase": "data_ready", "nodes": 2449029, "edges": 126167053, "total_wedges": 14449595542.0, "gamma": 6.914699662600974e-10}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 2.730578660964966, "validation_accuracy": 0.37112197279930115, "best_epoch": 5, "seconds": 9.827259675992536}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 2.5399718284606934, "validation_accuracy": 0.3573390245437622, "best_epoch": 5, "seconds": 19.662176065001404}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 2.459057569503784, "validation_accuracy": 0.37046077847480774, "best_epoch": 5, "seconds": 29.512461769991205}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 2.3965086936950684, "validation_accuracy": 0.39517852663993835, "best_epoch": 5, "seconds": 39.380731333003496}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 2.3333399295806885, "validation_accuracy": 0.42264264822006226, "best_epoch": 125, "seconds": 49.26683010099805}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 2.288867950439453, "validation_accuracy": 0.43835824728012085, "best_epoch": 150, "seconds": 59.153878618002636}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 150, "seconds": 59.7414764760033}
+{"dataset": "ogbn-products", "candidate_complete": true, "multiplier": 1.0, "gamma": 6.914699662600974e-10, "validation_accuracy": 0.43835824728012085, "best_epoch": 150, "updates": 150, "checkpoint_sha256": "e34c752bba12ee0c3bdb87ae5afe24726df9699aa4a2f49d2885ec07ce6613c3"}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 1.5872893333435059, "validation_accuracy": 0.6696165204048157, "best_epoch": 25, "seconds": 9.959687274997123}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 1.4428480863571167, "validation_accuracy": 0.6985047459602356, "best_epoch": 50, "seconds": 19.86445393699978}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 1.3766181468963623, "validation_accuracy": 0.7173227667808533, "best_epoch": 75, "seconds": 29.785554401998525}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 1.3353509902954102, "validation_accuracy": 0.7257145643234253, "best_epoch": 100, "seconds": 39.70890732000407}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 1.305314540863037, "validation_accuracy": 0.7335469126701355, "best_epoch": 125, "seconds": 49.635803725002916}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 1.281092882156372, "validation_accuracy": 0.737768292427063, "best_epoch": 150, "seconds": 59.567908195997006}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 150, "seconds": 60.15809430000081}
+{"dataset": "ogbn-products", "candidate_complete": true, "multiplier": 0.1, "gamma": 6.914699662600974e-11, "validation_accuracy": 0.737768292427063, "best_epoch": 150, "updates": 150, "checkpoint_sha256": "5b7c3e7279d5ec27b0299bcf8253780ef439034c32a57bd5b1a6c520c1ffacd2"}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 1.2338985204696655, "validation_accuracy": 0.6792798042297363, "best_epoch": 25, "seconds": 9.977439733993378}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 1.0881258249282837, "validation_accuracy": 0.706947386264801, "best_epoch": 50, "seconds": 19.92085599800339}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 1.0226447582244873, "validation_accuracy": 0.7341064214706421, "best_epoch": 75, "seconds": 29.869942892997642}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 0.9863985776901245, "validation_accuracy": 0.7472789883613586, "best_epoch": 100, "seconds": 39.82244782599446}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 0.9630619287490845, "validation_accuracy": 0.7542976140975952, "best_epoch": 125, "seconds": 49.77549675499904}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 0.9457283616065979, "validation_accuracy": 0.7587224245071411, "best_epoch": 150, "seconds": 59.73202121199574}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 150, "seconds": 60.32268337899586}
+{"dataset": "ogbn-products", "candidate_complete": true, "multiplier": 0.01, "gamma": 6.9146996626009744e-12, "validation_accuracy": 0.7587224245071411, "best_epoch": 150, "updates": 150, "checkpoint_sha256": "980a043f62d6eb1abb72511a60964f2397faec5655cf5a2453ef33c2df327c0e"}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 25, "loss": 1.1799968481063843, "validation_accuracy": 0.6799409985542297, "best_epoch": 25, "seconds": 10.024299212993355}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 50, "loss": 1.029707908630371, "validation_accuracy": 0.707099974155426, "best_epoch": 50, "seconds": 19.98823342200194}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 75, "loss": 0.9619441032409668, "validation_accuracy": 0.7371070981025696, "best_epoch": 75, "seconds": 29.956488363997778}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 100, "loss": 0.9248127937316895, "validation_accuracy": 0.7480419278144836, "best_epoch": 100, "seconds": 39.91733589798969}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 125, "loss": 0.9011465311050415, "validation_accuracy": 0.7551113963127136, "best_epoch": 125, "seconds": 49.879988731001504}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH", "epoch": 150, "loss": 0.8833742737770081, "validation_accuracy": 0.7595361471176147, "best_epoch": 150, "seconds": 59.84691211899917}
+{"dataset": "ogbn-products", "seed": 42, "phase": "FAITH_complete", "epochs": 150, "best_epoch": 150, "seconds": 60.43970493499364}
+{"dataset": "ogbn-products", "candidate_complete": true, "multiplier": 0.001, "gamma": 6.914699662600975e-13, "validation_accuracy": 0.7595361471176147, "best_epoch": 150, "updates": 150, "checkpoint_sha256": "055df471c1caa6bf4a44cbd7da19045d26c6ab8b9d949728140ccc98abadd661"}
+{"dataset": "ogbn-products", "selected_gamma": 6.914699662600975e-13, "validation_accuracy": 0.7595361471176147}
+Validation-only positive coefficients locked for the final five-seed study.

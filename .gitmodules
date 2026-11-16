@@ -1,0 +1,12 @@
+[submodule "upstream"]
+	path = upstream
+	url = https://github.com/shashivipul/FAITH.git
+[submodule "glnn-upstream"]
+	path = glnn-upstream
+	url = https://github.com/snap-research/graphless-neural-networks.git
+[submodule "leaderboard-upstream/AGDN"]
+	path = leaderboard-upstream/AGDN
+	url = https://github.com/skepsun/Adaptive-Graph-Diffusion-Networks.git
+[submodule "leaderboard-upstream/SCR"]
+	path = leaderboard-upstream/SCR
+	url = https://github.com/THUDM/SCR.git

@@ -1,0 +1,5 @@
+{"dataset": "ogbn-arxiv", "seed": 42, "stage": "supervised", "epoch": 1, "loss": 3.1814820766448975, "validation_accuracy": 0.41838926174496643, "validation_loss": 2.085411310195923, "best_validation_loss": 2.085411310195923, "seconds": 0.9971040670061484}
+/var/tmp/work-mshanthappa/faith-cache-research/.venv-reproduction/lib/python3.10/site-packages/torch/nn/functional.py:2943: UserWarning: reduction: 'mean' divides the total loss by both the batch size and the support size.'batchmean' divides only by the batch size, and aligns with the KL div math definition.'mean' will be changed to behave the same as 'batchmean' in the next major release.
+  warnings.warn(
+{"dataset": "ogbn-arxiv", "seed": 42, "stage": "self_kd", "epoch": 1, "loss": 0.3075803518295288, "validation_accuracy": 0.3201342281879195, "validation_loss": 2.5894179344177246, "best_validation_loss": 2.5894179344177246, "seconds": 0.7806539579760283}
+{"dataset": "ogbn-arxiv", "seed": 42, "phase": "teacher_complete", "train": 0.3999955952167511, "valid": 0.3206147849559784, "test": 0.33870336413383484, "model_valid": 0.3201342225074768, "calibration": 0.32109537720680237}

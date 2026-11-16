@@ -1,0 +1,11 @@
+{
+  "optimizer_step_equivalence": true,
+  "gradient_equivalence": true,
+  "diagnostic_fairness_equivalence": true,
+  "cuda_dropout_output_and_gradient": true,
+  "cpu_rng_preserved_during_cuda_dropout": true,
+  "status": "stopped_after_completed_seeds",
+  "completed_dataset_seed_runs": 10,
+  "planned_dataset_seed_runs": 15,
+  "reason": "Superseded by CUDA model execution using a forward/gradient verified message-sum adapter; completed fallback data preserved."
+}

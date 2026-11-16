@@ -1,0 +1,15 @@
+{
+  "faith_sha": "94be4423aee12cdf4d4d098d369fe472aeedcbe7",
+  "glnn_sha": "80d0f8ea66ad49b27336f9c02691ca16a6dc1dd2",
+  "faith_source_hashes": {
+    "src_trans/data_preprocess.py": "7bc89348328d6935d3290ffd73a42adc1dc997685da5b21522d081036f9640e7",
+    "src_trans/dataloader.py": "97538655ff83c00033db7198a4a741a8845cd0ffbe8248ded37081b145548892",
+    "src_trans/models.py": "d8bb8590f868428c28a1b0a57c9b1616638d9ce95a94f9196232847f3638a944",
+    "src_trans/utils.py": "e4060266b6404ef647a37488e09d205f300f6fe0ff81d2ee7647f75eb374e562",
+    "src_trans/utils_guide.py": "fbcdf6dd4d0712e7a4cf414e09fcad056f11569ae1464cbb4b90cbab141657e8",
+    "src_trans/train_and_eval.py": "f7f2a347f60956213e3215091ebf2d38b54fcdb2d35993d671bf7c860031a491",
+    "src_trans/train.py": "0c41b5f6490ad092081686dba1c9a40e0f84508e63800df1f408af4e0f1e4346"
+  },
+  "glnn_configuration_hash": "457c9781f0773ea0538b08df4150c478f714dbaa5fea1c718ee519225d644645",
+  "baseline_status": "FAITH release has no GLNN rerun configuration or checkpoints. Do not equate the KL loss ablation with that table row."
+}

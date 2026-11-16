@@ -1,0 +1,6 @@
+{
+  "executed_train_step_identical_to_gpu_step_check": true,
+  "source_check": "../hybrid_reproduction/cuda_step_checks.json",
+  "executed_train_step_sha256": "f53e4a40d77668121baf07f16ec93e0a9bfc45dc19276865343af1331733704d",
+  "static_tensor_helper": "reproduce_hybrid.DeviceStaticTensors.matrices, used unchanged by both launchers"
+}

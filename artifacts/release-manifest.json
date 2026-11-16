@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "created_utc": "2026-11-16T22:51:21.466604+00:00",
+  "repository": "mshanthappa-hub/cache-aware-gnn-distillation",
+  "release": "research-snapshot-2026-11-16",
+  "groups": [
+    {
+      "name": "all-experiment-results",
+      "compression": "zstd",
+      "members": [
+        "results"
+      ],
+      "parts": [
+        {
+          "name": "all-experiment-results.tar.zst.part000",
+          "bytes": 1572864000,
+          "sha256": "3a4fe1bde0712722becdb6d4c5cfa43ff90904f9cacb8a5cf4786c5af4fe12ec",
+          "part": 0
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part001",
+          "bytes": 1572864000,
+          "sha256": "c7bcce9097d4ef6201b7f46631c8a8756d5d3b921884d6be41a3002ed889f66b",
+          "part": 1
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part002",
+          "bytes": 1572864000,
+          "sha256": "10ff3ad518d3d63d1c4b3493ac36d56dbd7971138a903aa10f9e1c1b9a100d2a",
+          "part": 2
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part003",
+          "bytes": 1572864000,
+          "sha256": "c66b0ed3026ef098424969e4f228023ebabf6d3e68fb0de8da5cf91757abd9b5",
+          "part": 3
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part004",
+          "bytes": 1572864000,
+          "sha256": "cca5ef1f4e6d831b9561f12899b8076d5b751601b240baad52827bacd67083f7",
+          "part": 4
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part005",
+          "bytes": 1572864000,
+          "sha256": "ac6961fde23ab419e8cbbbe9a071255c59fa59cd23b30b5e496be400ccf17de8",
+          "part": 5
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part006",
+          "bytes": 1572864000,
+          "sha256": "7b2ded9a82a7d3ed90fa2a667cf721d1cdbb1b610d22bac9bb0c556babc8466d",
+          "part": 6
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part007",
+          "bytes": 1572864000,
+          "sha256": "eb11225159a06d2d5477517b4ad66ff949cdc9fe5e941d00990ee87ae1782b12",
+          "part": 7
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part008",
+          "bytes": 1572864000,
+          "sha256": "a56b06bb5ca49d1e02b447a9f0e40e465bd711d5e9b420c1ebf5979f74b588e7",
+          "part": 8
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part009",
+          "bytes": 1572864000,
+          "sha256": "684f05428c96fd07359cfe36c42ebf15876dd1f35bf750e9193331a8be78ff30",
+          "part": 9
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part010",
+          "bytes": 1572864000,
+          "sha256": "36173287452c8fd98b4f082e9a56c7be1962833c9b5645569c052a50212afe61",
+          "part": 10
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part011",
+          "bytes": 1572864000,
+          "sha256": "a4a801053428ef96ac8df4b43f232017dde831e08bdbda8d24687979a7aa3e57",
+          "part": 11
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part012",
+          "bytes": 1572864000,
+          "sha256": "340727fab909403515389621731b096d221566c4200488934d484c6ff64acd20",
+          "part": 12
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part013",
+          "bytes": 1572864000,
+          "sha256": "3d807b15484c58f8983bdcdd911cabdf6bea56b8bf9a1ecb7d7e3cbda0280f5a",
+          "part": 13
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part014",
+          "bytes": 1572864000,
+          "sha256": "5a9d6e7e785b5efda26002ce84740812ddba6a26c6e868e5c35040f536897d96",
+          "part": 14
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part015",
+          "bytes": 1572864000,
+          "sha256": "e9bfa8adf5669583c7e4d27cfb251d77fb33ab4ed878db6bc77931709bea1d8e",
+          "part": 15
+        },
+        {
+          "name": "all-experiment-results.tar.zst.part016",
+          "bytes": 474219281,
+          "sha256": "a76a12175d5f4b59fbc7f513f8e9f119f07b743ecf95ad64319af8c112b7e5db",
+          "part": 16
+        }
+      ]
+    },
+    {
+      "name": "citation-inputs",
+      "compression": "zstd",
+      "members": [
+        "data",
+        "dgl-reproduction-data"
+      ],
+      "parts": [
+        {
+          "name": "citation-inputs.tar.zst.part000",
+          "bytes": 22550545,
+          "sha256": "987fc68c4daa699f2116c9019a4b293accbd2a77fd49b02243352dbe33eef3f8",
+          "part": 0
+        }
+      ]
+    },
+    {
+      "name": "original-ogb-inputs",
+      "compression": "zstd",
+      "members": [
+        "ogb-data/arxiv.zip",
+        "ogb-data/products.zip"
+      ],
+      "parts": [
+        {
+          "name": "original-ogb-inputs.tar.zst.part000",
+          "bytes": 1564079062,
+          "sha256": "d4d3b27e8f496bde808d5f11f30bdb6dd40148a99da478ede599b620a7f0f72a",
+          "part": 0
+        }
+      ]
+    },
+    {
+      "name": "original-giant-arxiv",
+      "compression": "zstd",
+      "members": [
+        "leaderboard-data/ogbn-arxiv.tar.gz"
+      ],
+      "parts": [
+        {
+          "name": "original-giant-arxiv.tar.zst.part000",
+          "bytes": 958245869,
+          "sha256": "83a42cdba63b172f7e7e18c4a422a75426cf46ca2293a1b98bc6cb423940bf51",
+          "part": 0
+        }
+      ]
+    },
+    {
+      "name": "original-giant-products",
+      "compression": "zstd",
+      "members": [
+        "leaderboard-data/ogbn-products.tar.gz"
+      ],
+      "parts": [
+        {
+          "name": "original-giant-products.tar.zst.part000",
+          "bytes": 1572864000,
+          "sha256": "81234f162eb82e58ea33a3a293b85253353f26faca4612c001a16873ac19b839",
+          "part": 0
+        },
+        {
+          "name": "original-giant-products.tar.zst.part001",
+          "bytes": 1572864000,
+          "sha256": "685b8c7cbfb3a4a008eaba26e2533c9bf8ae1be9633625df4d93bb22eb140a9b",
+          "part": 1
+        },
+        {
+          "name": "original-giant-products.tar.zst.part002",
+          "bytes": 1572864000,
+          "sha256": "3c96ccc6521b4c1704fbb07b06dec8e1fa4db071d2d78d12d87a2128bd5dd271",
+          "part": 2
+        },
+        {
+          "name": "original-giant-products.tar.zst.part003",
+          "bytes": 1572864000,
+          "sha256": "373d5949bc4664aa99d41fb12801dc33cc63d722d57fc6997c0d8973fbfa969a",
+          "part": 3
+        },
+        {
+          "name": "original-giant-products.tar.zst.part004",
+          "bytes": 1572864000,
+          "sha256": "d6b24812eb4c368c2d81106ce43ded3211d3cf117079c46a6ae324507a654ed6",
+          "part": 4
+        },
+        {
+          "name": "original-giant-products.tar.zst.part005",
+          "bytes": 153328792,
+          "sha256": "13c66ac6366310fefed5d97213d21738a9f58f6044849add5f13b89a5c8fe77d",
+          "part": 5
+        }
+      ]
+    }
+  ],
+  "result_files": 2208,
+  "result_bytes": 28237481554,
+  "input_files": 112,
+  "input_bytes": 52810664378,
+  "regenerable_inputs": [
+    "Extracted OGB CSV data and prepared NumPy/CSR tables: prepare_ogb_data.py",
+    "GIANT NumPy embeddings: extract X.all.xrt-emb.npy from the preserved original archives",
+    "Three-hop products features and nine-hop training-label embeddings: leaderboard_teacher.products_preprocess"
+  ],
+  "excluded_rebuildable": [
+    "Python virtual environments",
+    "Python interpreter installations",
+    "Package download caches",
+    "Native DGL/NVIDIA dependency installations",
+    "Matplotlib font caches",
+    "Python bytecode caches"
+  ],
+  "scope": "All research code, reports, results, logs, checkpoints, saved predictions, cache indices, workloads, and source snapshots; original dataset and GIANT archives; exact manifests for derived inputs"
+}

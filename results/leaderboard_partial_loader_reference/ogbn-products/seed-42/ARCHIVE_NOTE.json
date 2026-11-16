@@ -1,0 +1,6 @@
+{
+  "reason": "Partial run preserved before restarting with equivalent batched ID loading",
+  "completed": false,
+  "settings_unchanged": true,
+  "loader_equivalence": "results/leaderboard_cache/dataloader-equivalence.json"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "stage": "supervised",
+    "epoch": 1,
+    "loss": 3.1814820766448975,
+    "validation_accuracy": 0.41838926174496643,
+    "validation_loss": 2.085411310195923,
+    "best_validation_loss": 2.085411310195923,
+    "seconds": 0.9971040670061484
+  }
+]

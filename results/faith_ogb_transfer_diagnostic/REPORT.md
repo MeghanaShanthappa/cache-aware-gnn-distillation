@@ -1,0 +1,39 @@
+# OGB: scalable FAITH-based cache study
+
+A100 study with released SAGE/MLP model classes, width 256, full-graph energy alignment and importance-sampled OSA. This is a documented adaptation, not published FAITH reproduction. Products has no released configuration; arxiv settings transfer with gamma multiplied by 169343/N. All official test nodes are evaluated. Cache calibration uses half of official validation, disjoint from checkpoint selection.
+
+## Frozen student at 10% cache
+
+Request-weighted accuracy (%), mean ± population standard deviation. Synthetic Zipf(0.8) requests; all completed seeds are included. Uniform accuracy appears separately.
+
+| Dataset | Seeds | No cache | Frequency | Disagreement | Benefit |
+|---|---:|---:|---:|---:|---:|
+| ogbn-arxiv | 5 | 39.69 ± 3.89 | 59.92 ± 2.52 | 61.47 ± 2.52 | 63.61 ± 2.54 |
+
+## Uniform test accuracy (%)
+
+| Dataset | No cache | Frequency | Disagreement | Benefit |
+|---|---:|---:|---:|---:|
+| ogbn-arxiv | 40.03 ± 0.88 | 43.15 ± 0.77 | 45.34 ± 0.82 | 47.80 ± 0.94 |
+
+## Equal-update controls at 10% cache
+
+| Dataset | Continued no cache | Continued frequency | Continued disagreement | Joint | Continued using joint cache | Continued benefit | Joint benefit |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| ogbn-arxiv | 38.87 ± 3.24 | 59.90 ± 2.60 | 61.32 ± 2.61 | 61.21 ± 2.58 | 61.22 ± 2.60 | 63.57 ± 2.60 | 63.48 ± 2.56 |
+
+## Protocol and limits
+
+Three-layer width-256 SAGE gcn teacher and released batch-normalized MLP student; dropout teacher 0.5/student 0.1, Adam lr 0.005, weight decay 0, lambda 0.2, tau 1 with no tau-squared multiplier. Beta 0.02; gamma 1e-8 on arxiv and 1e-8*169343/N on products. These choices were fixed before test evaluation. Arxiv released width is 2048, so width 256 is an explicit memory/runtime adaptation. Products settings are transferred, not author-specified.
+
+Maximum 500 epochs by default, validation every five, minimum 50, patience 50 epochs; validation ties replace the checkpoint. Model selection sees half of official validation; the other half calibrates a fixed ridge benefit regressor. Both are disjoint from train/test. Continued and joint refinement use the same initial weights, optimizer resets, dropout seeds and 150 added updates (three phases of 50); final refinement steps are evaluated without selecting by test results.
+
+Source energy cosine is computed by equivalent sparse matrix identities over every graph edge. OSA estimates the released sum of sqrt(adjacency-row cosine) times logit distance using 32,768 common-neighbor wedge samples with inverse pair-probability weights. Graph unfairness is independently estimated with 65,536 fixed evaluation samples; raw and probability values are both saved. This is a Monte Carlo graph metric, not exact full-graph paper unfairness. Fixed samples can introduce approximation and optimization error; seeds vary training/workload, not the fixed graph samples.
+
+Binary undirected adjacency has one self loop; the released SAGE gcn class adds its own self contribution. Products/arxiv features remain original. Source arxiv loader can retain reciprocal-edge multiplicity, whereas this extension deduplicates it. Teacher and MLP computation execute on CUDA; CSR message sums replace unavailable native DGL CUDA, with native-DGL value/gradient tests.
+
+Historical workload contains max(100000,10*N) Zipf(0.8) requests and additive-one count smoothing. Node cache bounds are 1%,5%,10%,20% of all graph nodes. Cache payload is 4*k*C bytes; lookup is 8*N bytes when nonempty, counted separately from student parameters. Benefit may underfill the budget. Teacher outputs are prepared offline. Test labels do not select caches, checkpoints or configurations.
+
+Latency includes lookup, output assembly and MLP inference only on misses, for 1,024 GPU-resident test requests, 10 warmups and median 40 synchronized calls. It excludes host/network transfer and offline construction/refresh. Query outputs and argmaxes must agree with canonical mixed predictions. Shared-device/order variability limits performance conclusions. Compare within this trial, not against earlier A40 or citation numbers.
+
+See per-dataset data_protocol.json, per-seed manifests, split.npz, fixed similarity samples, training traces and all metrics. This report updates only after complete seeds; all intended five seeds per dataset are required for the final study.

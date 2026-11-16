@@ -1,0 +1,12 @@
+/var/tmp/work-mshanthappa/faith-cache-research/faith_ogb.py:31: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(torch.as_tensor(a.indptr.astype(np.int64), device=device),
+Exact sparse fairness completed: ogbn-arxiv seed 42
+Exact sparse fairness completed: ogbn-arxiv seed 43
+Exact sparse fairness completed: ogbn-arxiv seed 45
+Exact sparse fairness completed: ogbn-arxiv seed 48
+Exact sparse fairness completed: ogbn-arxiv seed 52
+Exact sparse fairness completed: ogbn-products seed 42
+Exact sparse fairness completed: ogbn-products seed 43
+Exact sparse fairness completed: ogbn-products seed 45
+Exact sparse fairness completed: ogbn-products seed 48
+Exact sparse fairness completed: ogbn-products seed 52

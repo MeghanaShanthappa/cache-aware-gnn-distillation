@@ -1,0 +1,14 @@
+{
+  "arxiv": {
+    "source": "https://archive.org/download/pecos-dataset/giant-xrt/ogbn-arxiv.tar.gz",
+    "size": 958223071,
+    "md5": "67be61930d224369ca7f87db09b7e431",
+    "matches_official_archive_metadata": true
+  },
+  "products": {
+    "source": "https://archive.org/download/pecos-dataset/giant-xrt/ogbn-products.tar.gz",
+    "size": 8017464543,
+    "md5": "d1f866c3e047f0ea43b5e15b4cabf836",
+    "matches_official_archive_metadata": true
+  }
+}

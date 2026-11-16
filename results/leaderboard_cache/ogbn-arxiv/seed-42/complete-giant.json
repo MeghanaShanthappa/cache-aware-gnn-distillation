@@ -1,0 +1,27 @@
+{
+  "rows": 13,
+  "student_checkpoint_sha256": "ab2ff41bdcc00d0c12337d9db2f4642e780d3d77de83ebb009c5cc70dd975659",
+  "source_sha256": "b531321207091c49e0b0eb638a50ec8793706010c1b15f9e7fc94ae590023919",
+  "common_sha256": "6b6033bab71c2e1c357e4b7174cf9a09804f52081e11b491cf30f2ed62fa9b78",
+  "teacher_accuracy": 0.7632039174536551,
+  "teacher_weighted_accuracy": 0.7448762210395374,
+  "student_parameters": 273960,
+  "selected_epoch": 155,
+  "checkpoint_selection": "model_valid only",
+  "cache_selection": "history, teacher/student outputs, calibration labels only",
+  "protocol": "Ordinary CE/KL distillation, lambda .2, temperature 1, three-layer width-256 BN MLP; no FAITH objectives",
+  "student_feature_note": "Precomputed GIANT-XRT embeddings",
+  "max_epochs": 500,
+  "validation_every": 5,
+  "patience_epochs": 50,
+  "min_epochs": 50,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "route_matches_offline": true,
+  "request_distribution": "Synthetic permuted Zipf(0.8)",
+  "teacher_cache": "Frozen precomputed float32 logits; no online graph or teacher execution"
+}

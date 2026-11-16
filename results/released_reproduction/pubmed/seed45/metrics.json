@@ -1,0 +1,24 @@
+{
+  "dataset": "pubmed",
+  "seed": 45,
+  "requested_epochs": null,
+  "teacher_accuracy": 0.7739999890327454,
+  "teacher_individual_unfairness": 1249.180875,
+  "methods": {
+    "FAITH": {
+      "accuracy": 0.8180000185966492,
+      "individual_unfairness": 52.174796875,
+      "beta": 0.02,
+      "gamma": 2e-06
+    },
+    "KL_ablation": {
+      "accuracy": 0.8050000071525574,
+      "individual_unfairness": 430.8736875,
+      "beta": 0.0,
+      "gamma": 0.0
+    }
+  },
+  "seconds": 187.97607782301202,
+  "validation_nodes": 500,
+  "device": "cpu"
+}

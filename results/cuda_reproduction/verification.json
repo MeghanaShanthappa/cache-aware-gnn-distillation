@@ -1,0 +1,36 @@
+{
+  "completed_dataset_seed_runs": 15,
+  "expected": 15,
+  "seeds": [
+    42,
+    43,
+    45,
+    48,
+    52
+  ],
+  "full_validation_masks": true,
+  "teacher_cpu_rng_preserved": true,
+  "optimizer_step_equivalence": true,
+  "gradient_equivalence": true,
+  "diagnostic_fairness_equivalence": true,
+  "released_dgl_forward_equivalence": true,
+  "released_dgl_parameter_gradient_equivalence": true,
+  "input_gradient_equivalence": true,
+  "directed_edges": true,
+  "duplicate_edges": true,
+  "isolated_nodes": true,
+  "cases": [
+    {
+      "inputs": 3,
+      "hidden": 8,
+      "outputs": 2,
+      "layers": 2
+    },
+    {
+      "inputs": 8,
+      "hidden": 3,
+      "outputs": 2,
+      "layers": 3
+    }
+  ]
+}

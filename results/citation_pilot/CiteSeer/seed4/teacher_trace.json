@@ -1,0 +1,28 @@
+{
+  "epochs": 71,
+  "best_epoch": 21,
+  "best_validation_accuracy": 0.7440000176429749,
+  "seconds": 0.6058848250104347,
+  "trace": [
+    {
+      "epoch": 1,
+      "loss": 1.7923790216445923,
+      "validation_accuracy": 0.4280000329017639
+    },
+    {
+      "epoch": 26,
+      "loss": 0.3307687044143677,
+      "validation_accuracy": 0.7400000095367432
+    },
+    {
+      "epoch": 51,
+      "loss": 0.1959918588399887,
+      "validation_accuracy": 0.7040000557899475
+    },
+    {
+      "epoch": 71,
+      "loss": 0.16945762932300568,
+      "validation_accuracy": 0.7200000286102295
+    }
+  ]
+}

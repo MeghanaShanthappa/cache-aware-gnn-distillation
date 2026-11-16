@@ -1,0 +1,20 @@
+{
+  "original_self_edges_preserved": true,
+  "independent_CPU_row_means_match_GPU_preprocessing": [
+    {
+      "hop": 1,
+      "rows": 640,
+      "max_absolute_error": 3.5762786865234375e-07
+    },
+    {
+      "hop": 2,
+      "rows": 640,
+      "max_absolute_error": 5.066394805908203e-07
+    },
+    {
+      "hop": 3,
+      "rows": 640,
+      "max_absolute_error": 4.76837158203125e-07
+    }
+  ]
+}

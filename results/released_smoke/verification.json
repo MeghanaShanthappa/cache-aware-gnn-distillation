@@ -1,0 +1,10 @@
+{
+  "completed_dataset_seed_runs": 1,
+  "expected": 1,
+  "full_validation_masks": true,
+  "source_training_loops": true,
+  "reported_metric": "uniform accuracy at validation-selected checkpoint",
+  "optimizer_step_equivalence": true,
+  "gradient_equivalence": true,
+  "diagnostic_fairness_equivalence": true
+}

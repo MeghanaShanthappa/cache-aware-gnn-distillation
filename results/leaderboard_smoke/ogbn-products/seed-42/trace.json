@@ -1,0 +1,8 @@
+[
+  {
+    "epoch": 1,
+    "validation_accuracy": 0.12984436750411987,
+    "best_validation_accuracy": 0.12984436750411987,
+    "seconds": 1.0134458559914492
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "rows": 460,
+  "method": "Exact adjacency-row cosine Laplacian quadratic form via sparse factorization",
+  "accumulation": "float64",
+  "probability_definition": "float32 softmax followed by float64 graph quadratic form",
+  "metric_scale": "divide by 1000, as in citation analysis",
+  "metrics_sha256": "e26920ed123929107c753f44c85c4a8d7766753f43f3b59079301a5ed13ee94c",
+  "implementation_sha256": "abdc95741d4d519a6288a6e477efc1b2f38c0f76595e3793b8438e3596c04560",
+  "training_unchanged": true,
+  "dense_small_graph_equivalence": "unit tested"
+}

@@ -1,0 +1,40 @@
+{
+  "dataset": "PubMed",
+  "seed": 2,
+  "config": {
+    "dataset": "pubmed",
+    "teacher": "SAGE",
+    "student": "MLP",
+    "exp_setting": "tran",
+    "split_rate": 0.1,
+    "num_layers": 3,
+    "hidden_dim": 256,
+    "dropout_t": 0.4,
+    "dropout_s": 0.3,
+    "lamb": 0.0,
+    "tau": 0.8,
+    "init_power": 1.0,
+    "momentum": 0.99,
+    "bins_num": 50,
+    "learning_rate": 0.01,
+    "weight_decay": 0.0005,
+    "max_epoch": 500,
+    "seed": 42,
+    "save_mode": 1,
+    "data_mode": 2,
+    "ablation_mode": 0,
+    "norm_type": "none"
+  },
+  "beta": 0.02,
+  "epochs": 500,
+  "budgets": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "source_sha": "94be4423aee12cdf4d4d098d369fe472aeedcbe7",
+  "protocol": "structural_adaptation_v1",
+  "calibration_split_seed": 1729,
+  "history_length": 100000
+}

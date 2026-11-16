@@ -1,0 +1,49 @@
+{
+  "identical_batch_ids_and_order": true,
+  "identical_CPU_rng_consumption": true,
+  "benchmarks": [
+    {
+      "shuffle": false,
+      "batched_fetch": false,
+      "seconds": 7.167713308997918,
+      "batch_sha256": "269d0a8be05315e1cf84b4bf6795450649b3a682b61dacac7833459cc97bdcdb"
+    },
+    {
+      "shuffle": false,
+      "batched_fetch": true,
+      "seconds": 0.6830764850019477,
+      "batch_sha256": "269d0a8be05315e1cf84b4bf6795450649b3a682b61dacac7833459cc97bdcdb"
+    },
+    {
+      "shuffle": true,
+      "batched_fetch": false,
+      "seconds": 8.044387829955667,
+      "batch_sha256": "3ea473739e7da353e8995a9e3724f5fdf9fd78dcccc7375f7c5bd3d1a4962256"
+    },
+    {
+      "shuffle": true,
+      "batched_fetch": true,
+      "seconds": 0.9837863100110553,
+      "batch_sha256": "3ea473739e7da353e8995a9e3724f5fdf9fd78dcccc7375f7c5bd3d1a4962256"
+    }
+  ],
+  "actual_IndexRows_implementation_verified": true,
+  "identical_batch_dtype_and_strides": true,
+  "full_training_validation_comparison": {
+    "epochs": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110
+    ],
+    "max_absolute_accuracy_difference": 0.0
+  }
+}

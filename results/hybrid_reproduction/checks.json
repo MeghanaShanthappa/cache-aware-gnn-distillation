@@ -1,0 +1,7 @@
+{
+  "optimizer_step_equivalence": true,
+  "gradient_equivalence": true,
+  "diagnostic_fairness_equivalence": true,
+  "cuda_dropout_output_and_gradient": true,
+  "cpu_rng_preserved_during_cuda_dropout": true
+}

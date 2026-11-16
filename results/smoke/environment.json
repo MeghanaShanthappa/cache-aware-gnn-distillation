@@ -1,0 +1,8 @@
+{
+  "torch": "2.9.1+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "source_sha": "94be4423aee12cdf4d4d098d369fe472aeedcbe7",
+  "protocol": "structural_adaptation_v1",
+  "configuration_sha256": "90cfb4d60c9a08167112ab3d0ff255f1fc8762d7993a3bc1fcf2ae91152a2666"
+}

@@ -1,0 +1,8 @@
+{
+  "rows": 26,
+  "dataset_seed_runs": 1,
+  "routing": "passed",
+  "coverage": "passed",
+  "split_disjointness": "passed",
+  "test_labels_used_for_selection": false
+}

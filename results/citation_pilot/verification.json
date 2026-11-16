@@ -1,0 +1,17 @@
+{
+  "rows": 390,
+  "dataset_seed_runs": 15,
+  "routing": "passed",
+  "coverage": "passed",
+  "split_disjointness": "passed",
+  "test_labels_used_for_selection": false,
+  "csv_json_consistency": "passed",
+  "per_seed_consistency": "passed",
+  "cache_memory_bounds": "passed",
+  "source_hashes": "passed",
+  "energy_value_and_gradient_equivalence": "passed",
+  "sage_function_and_gradient_equivalence": "passed",
+  "calibration_label_isolation": "passed",
+  "checkpoint_validation_nodes": 250,
+  "calibration_nodes": 250
+}

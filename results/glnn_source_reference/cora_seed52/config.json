@@ -1,0 +1,19 @@
+{
+  "seed": 52,
+  "device": "cpu",
+  "batch_size": 512,
+  "lamb": 0.0,
+  "max_epoch": 200,
+  "patience": 50,
+  "eval_interval": 1,
+  "norm_type": "none",
+  "dataset": "cora",
+  "feat_dim": 1433,
+  "label_dim": 7,
+  "num_layers": 2,
+  "hidden_dim": 128,
+  "learning_rate": 0.01,
+  "weight_decay": 0.005,
+  "dropout_ratio": 0.6,
+  "model_name": "MLP"
+}

@@ -1,0 +1,8 @@
+/var/tmp/work-mshanthappa/faith-cache-research/leaderboard_teacher.py:118: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  matrix = torch.sparse_csr_tensor(torch.as_tensor(a.indptr.astype(np.int64),device='cuda'),
+{"phase": "products_preprocessing", "feature_hop": 0}
+{"phase": "products_preprocessing", "feature_hop": 1}
+{"phase": "products_preprocessing", "feature_hop": 2}
+{"phase": "products_preprocessing", "feature_hop": 3}
+{"dataset": "ogbn-products", "seed": 42, "epoch": 1, "validation_accuracy": 0.12984436750411987, "best_validation_accuracy": 0.12984436750411987, "seconds": 1.0134458559914492}
+{"dataset": "ogbn-products", "seed": 42, "phase": "teacher_complete", "train": 0.14645372331142426, "valid": 0.13256873190402985, "test": 0.09423471242189407, "model_valid": 0.12984436750411987, "calibration": 0.13529321551322937}

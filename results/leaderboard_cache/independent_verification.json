@@ -1,0 +1,7 @@
+{
+  "rows": 26,
+  "quality_and_hit_values_verified": 130,
+  "budgets_verified": true,
+  "calibration_disjoint_from_model_selection": true,
+  "all_complete_rows_verified": true
+}

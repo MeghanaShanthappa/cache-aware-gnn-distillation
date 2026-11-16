@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "Cora",
+    "student": "kd",
+    "mean_benefit_cache_delta_pp": -0.8223652839660645,
+    "std_delta_pp": 1.8561281076214435,
+    "positive_seeds": 1,
+    "tied_seeds": 1
+  },
+  {
+    "dataset": "Cora",
+    "student": "structural",
+    "mean_benefit_cache_delta_pp": -0.3816866874694824,
+    "std_delta_pp": 0.49553515445819385,
+    "positive_seeds": 0,
+    "tied_seeds": 1
+  },
+  {
+    "dataset": "CiteSeer",
+    "student": "kd",
+    "mean_benefit_cache_delta_pp": 0.5739080905914307,
+    "std_delta_pp": 1.0046484235388713,
+    "positive_seeds": 3,
+    "tied_seeds": 0
+  },
+  {
+    "dataset": "CiteSeer",
+    "student": "structural",
+    "mean_benefit_cache_delta_pp": 0.2327895164489746,
+    "std_delta_pp": 2.506430184402101,
+    "positive_seeds": 3,
+    "tied_seeds": 0
+  },
+  {
+    "dataset": "PubMed",
+    "student": "kd",
+    "mean_benefit_cache_delta_pp": 0.6995248794555664,
+    "std_delta_pp": 4.575045682398045,
+    "positive_seeds": 3,
+    "tied_seeds": 1
+  },
+  {
+    "dataset": "PubMed",
+    "student": "structural",
+    "mean_benefit_cache_delta_pp": 0.2239978313446045,
+    "std_delta_pp": 0.4947417788338355,
+    "positive_seeds": 2,
+    "tied_seeds": 1
+  }
+]

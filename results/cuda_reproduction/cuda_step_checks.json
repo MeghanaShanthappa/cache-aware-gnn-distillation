@@ -1,0 +1,5 @@
+{
+  "cuda_loss_equivalence": true,
+  "cuda_gradient_equivalence": true,
+  "cuda_optimizer_step_equivalence": true
+}
