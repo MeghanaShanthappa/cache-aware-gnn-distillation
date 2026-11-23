@@ -96,11 +96,11 @@ The GIANT follow-up uses ordinary distillation: 0.2 times supervised cross entro
 
 ## Cache policies
 
-- **Frequency:** cache products with the highest smoothed historical request counts.
+- **Frequency cache — save the most requested answers.** Rank nodes by their smoothed historical request counts and store the teacher predictions for the highest-ranked nodes, up to the cache budget. For example, a mouse requested 1,000 times ranks above a keyboard requested 500 times. This policy aims to cover popular products, regardless of whether the teacher predicts them more accurately than the student.
 
-- **Disagreement:** rank by frequency multiplied by teacher–student KL divergence. Disagreement alone does not identify which model is correct.
+- **Disagreement cache — prioritise popular products where the models differ.** Rank nodes by request frequency multiplied by teacher–student KL divergence, which measures the difference between their class-probability distributions. For illustration, 1,000 requests multiplied by KL 0.01 gives a score of 10, while 500 requests multiplied by KL 0.20 gives a score of 100. The second product ranks higher despite fewer requests. Disagreement identifies a difference in predictions, but the student can still be the model that is correct.
 
-- **Benefit:** rank by frequency multiplied by nonnegative predicted teacher improvement over the student. The estimator uses prediction confidence, entropy, margins, agreement, and KL, with fixed ridge regularization.
+- **Benefit cache — prioritise estimated accuracy gains.** Rank nodes by request frequency multiplied by the nonnegative estimated improvement in correctness from using the teacher instead of the student. A fixed ridge-regression estimator uses prediction confidence, entropy, margins, model agreement, and KL; its calibration follows the validation protocol below and never uses test labels. For illustration, 1,000 requests with zero estimated improvement score 0, whereas 500 requests with estimated improvement 0.20 score 100. Only nodes with positive estimated benefit are eligible, so the policy may leave capacity unused. Under the 10% node-capacity limit, the GIANT runs used 4.0% of arxiv nodes and 3.2% of products nodes, as detailed in Important results. At inference, every policy returns saved teacher outputs on cache hits and runs the student on misses, without online teacher execution. These static-cache comparisons improve the combined system without changing the frozen student's weights.
 
 ## Joint training procedure
 
@@ -139,6 +139,7 @@ Earlier A40 rows use a two-layer, width-64 GCN teacher and MLP student, with fiv
 | ogbn-products | Earlier A40 | 71.63 ± 0.08 | 46.59 ± 0.08 | 49.08 ± 0.08 | 49.36 ± 0.09 | — |
 | ogbn-arxiv | GIANT A100 | 76.32 | 76.07 | 76.09 | 76.14 | 76.32 |
 | ogbn-products | GIANT A100 | 86.43 | 85.98 | 86.03 | 86.43 | 86.44 |
+| | | | | | | |
 
 **Teacher-level accuracy in the GIANT study.** Adding a limited cache of teacher predictions recovered nearly the entire teacher–student accuracy gap on both datasets, achieving approximately teacher-level standard test accuracy in these initial single-seed experiments. On arxiv, the teacher scored 76.32% and the student-plus-benefit-cache system scored 76.32%; on products, the corresponding values were 86.43% and 86.44%. The improvement belongs to the combined system: the frozen student's weights and standalone accuracy did not change.
 
@@ -211,4 +212,3 @@ The GIANT follow-up adds 26 evaluation rows across two datasets, one seed, and f
 - [FAITH paper](https://ojs.aaai.org/index.php/AAAI/article/view/39744)
 
 - [OGB dataset documentation](https://ogb.stanford.edu/docs/nodeprop/)
-
